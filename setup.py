@@ -4,3 +4,4 @@ if __name__ == '__main__':
       package_data={"schnapsen": ["py.typed", "bots/gui/template/*"]},
 
     )
+    
