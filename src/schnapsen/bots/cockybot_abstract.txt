@@ -1,0 +1,38 @@
+Abstract
+This research examines the performance of a new kind of Schnapsen bot, called
+“Cockybot”. It aims to explain how Cockybot’s performance compares against
+Bullybot’s and Rdeepbot’s.
+Cockybot has its name because it plays conservatively until it reaches 40 points and
+holds 2 trump cards. This means that it will try to avoid playing trump cards and high
+scoring cards, instead playing face cards and (high-scoring) non-trump cards as
+much as possible. It will follow this conservative strategy regardless of if it is leading
+the trick or not. However, a trump card or high scoring card will be played when it is
+certain that it will lead to winning the trick, which might occur when Cockybot is not
+the leader. As an example, when the leader plays a non-trump 10, Cockybot will play
+a trump card if it does not have a non-trump ace to beat that score, because it is
+obvious that it will lead to winning the trick. Besides this, Cockybot will make
+marriages and trump exchanges when they are possible. When 40 points and 2
+trump cards have been reached and the deck hasn’t been closed yet, Cockybot will
+start becoming cocky and close the deck. Then, it will aggressively lead with its
+highest scoring trump cards and its highest scoring non-trump cards once the trump
+cards have been exhausted. It will also immediately declare a marriage if it’s
+possible. When Cockybot is not leading the closed deck phase, it will instead stay
+conservative and play the lowest scoring card whenever its move is not forced by the
+Farbzwang (follow suit) and Stichzwang (win if possible) rules.
+The way that the comparison will be done is as follows. Each of the three bots will
+play 1000 matches against Randombot, where the amount of wins and losses is
+recorded. The seeds are also all recorded. Then, through slightly adjusting certain
+variables, its effects on the wins and losses is observed, which will help with
+discovering why Cockybot performs better or worse than Rdeepbot and Bullybot.
+The first variable that is adjusted is the amount of points at which Cockybot closes
+the deck and becomes cocky. The second variable that could be changed is the
+quality of the 2 trump cards. What that means is that instead of saying it should close
+the deck when it has any 2 trump cards, it can be changed to 2 trump cards where at
+least one is an ace or a ten. Since declaring a marriage immediately in the second
+phase is bold because it risks losing the lead, it could also be said that the marriage
+should be a lower priority and Cockybot should always prioritize exhausting the
+opponents’ trumps instead, to see the effects on the wins and losses. Ultimately, the
+changes will mostly depend on the results. For example, If one seed has Cockybot
+winning an abnormal amount of times, we could adjust the part of Cockybot that
+might cause that high win rate, and so we can figure out why it is performing the way
+it is and why that gives it an advantage over the other bots.

@@ -4,7 +4,7 @@ from schnapsen.bots import RandBot
 from schnapsen.game import SchnapsenGamePlayEngine
 import random
 
-class AssignmentBot(Bot):
+class CockyBot(Bot):
     """Your suit order is [SPADES, HEARTS, CLUBS, DIAMONDS], from lower suit to higher suit."""
 
     def get_move(self, perspective: PlayerPerspective, leader_move: Move | None) -> Move:
