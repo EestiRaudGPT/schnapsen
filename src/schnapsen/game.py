@@ -110,6 +110,18 @@ class Move(ABC):
         """Returns this same move but as a TrumpExchange."""
         raise AssertionError("as_trump_exchange called on a Move which is not a TrumpExchange. Check with is_trump_exchange first.")
 
+    def is_close_talon(self) -> bool:
+        """
+        Is this Move a close talon move?
+
+        :returns: a bool indicating whether this move is a close talon move
+        """
+        return False
+
+    def as_close_talon(self) -> CloseTalon:
+        """Returns this same move but as a CloseTalon."""
+        raise AssertionError("as_close_talon called on a Move which is not a CloseTalon. Check with is_close_talon first.")
+
     def __getattribute__(self, __name: str) -> Any:
         if __name == "cards":
             # We call the method to compute the card list
@@ -197,6 +209,49 @@ class TrumpExchange(Move):
         if not isinstance(__o, TrumpExchange):
             return False
         return self.jack == __o.jack
+
+
+
+@dataclass(frozen=True)
+class CloseTalon(Move):
+    """
+    A Move representing the action of closing the Talon.
+    When a player closes the Talon, the game phase switches to Phase 2 (GamePhase.TWO).
+    No more cards are drawn, and players must follow suit (Farbzwang) and try to win the trick (Stichzwang).
+    This move does not consume the turn; the player who closes the Talon remains the leader and must play a regular move immediately.
+    """
+
+    def is_close_talon(self) -> bool:
+        """
+        Returns True if this is a close talon move.
+        """
+        return True
+
+    def as_close_talon(self) -> CloseTalon:
+        """
+        Returns this same move but as a CloseTalon.
+        """
+        return self
+
+    def _cards(self) -> list[Card]:
+        '''
+        Returns an empty list, because closing the talon does not consume a card.
+        '''
+        return []
+
+    def __repr__(self) -> str:
+        '''
+        Returns a string representation of CloseTalon.
+        '''
+        return f"CloseTalon()"
+
+    def __eq__(self, __o: object) -> bool:
+        '''
+        Makes sure that two objects are both CloseTalon objects. Returns True if they are and False if they aren't.
+        '''
+        if not isinstance(__o, CloseTalon):
+            return False
+        return True
 
 
 @dataclass(frozen=True)
@@ -464,6 +519,14 @@ class Trick(ABC):
         """
 
     @abstractmethod
+    def is_close_talon(self) -> bool:
+        """
+        Returns True if this is a close talon trick.
+
+        :returns: True in case this was a close talon trick
+        """
+
+    @abstractmethod
     def as_partial(self) -> PartialTrick:
         """
         Returns the first part of this trick. Raises an Exceptption if this is not a Trick with two parts
@@ -487,6 +550,34 @@ class Trick(ABC):
         """
 
 
+
+@dataclass(frozen=True)
+class CloseTalonTrick(Trick):
+    """
+    A Trick in which the player closes the talon.
+    This is a special type of trick that signifies the state transition where the talon is closed.
+    """
+
+    close_talon: CloseTalon
+    """A close talon move by the leading player"""
+
+    def is_trump_exchange(self) -> bool:
+        """Returns False to indicate that this trick is not a trump exchange"""
+        return False
+
+    def is_close_talon(self) -> bool:
+        """Returns True if this is a close talon trick"""
+        return True
+
+    def as_partial(self) -> PartialTrick:
+        """ Returns the first part of this trick. Raises an Exceptption if this is not a Trick with two parts"""
+        raise Exception("A Close Talon Trick does not have a first part")
+
+    def _cards(self) -> Iterable[Card]:
+        """Get all cards used in this tick. This method should not be called directly."""
+        return []
+
+
 @dataclass(frozen=True)
 class ExchangeTrick(Trick):
     """
@@ -502,6 +593,10 @@ class ExchangeTrick(Trick):
     def is_trump_exchange(self) -> bool:
         """Returns True if this is a trump exchange"""
         return True
+
+    def is_close_talon(self) -> bool:
+        """Returns False to indicate that this trick is not a close talon trick"""
+        return False
 
     def as_partial(self) -> PartialTrick:
         """ Returns the first part of this trick. Raises an Exceptption if this is not a Trick with two parts"""
@@ -526,6 +621,10 @@ class PartialTrick:
         """Returns false to indicate that this trick is not a trump exchange"""
         return False
 
+    def is_close_talon(self) -> bool:
+        """Returns False to indicate that this trick is not a close talon trick"""
+        return False
+
     def __repr__(self) -> str:
         return f"PartialTrick(leader_move={self.leader_move})"
 
@@ -540,6 +639,10 @@ class RegularTrick(Trick, PartialTrick):
 
     def is_trump_exchange(self) -> bool:
         """Returns false to indicate that this trick is not a trump exchange"""
+        return False
+
+    def is_close_talon(self) -> bool:
+        """Returns False to indicate that this trick is not a close talon trick"""
         return False
 
     def as_partial(self) -> PartialTrick:
@@ -673,6 +776,8 @@ class GameState:
     """The talon, containing the cards not yet in the hand of the player and the trump card at the bottom"""
     previous: Optional[Previous]
     """The events which led to this GameState, or None, if this is the initial GameState (or previous tricks and states are unknown)"""
+    is_talon_closed: bool = False
+    """Is the talon closed? This is set to True if one of the players closes the talon"""
 
     def __getattribute__(self, __name: str) -> Any:
         if __name == "trump_suit":
@@ -692,6 +797,7 @@ class GameState:
             leader=self.leader.copy(),
             follower=self.follower.copy(),
             talon=self.talon.copy(),
+            is_talon_closed=self.is_talon_closed,
             previous=None
         )
         return new_state
@@ -709,6 +815,7 @@ class GameState:
             leader=self.leader.copy(),
             follower=self.follower.copy(),
             talon=self.talon.copy(),
+            is_talon_closed=self.is_talon_closed,
             previous=self.previous
         )
         new_state.leader.implementation = new_leader
@@ -720,7 +827,7 @@ class GameState:
 
         :returns: GamePhase.ONE or GamePahse.TWO indicating the current phase
         """
-        if self.talon.is_empty():
+        if self.talon.is_empty() or self.is_talon_closed:
             return GamePhase.TWO
         return GamePhase.ONE
 
@@ -1472,6 +1579,16 @@ class SchnapsenTrickImplementer(TrickImplementer):
             # The whole trick ends here.
             return next_game_state
 
+        elif leader_move.is_close_talon():
+            next_game_state = game_state.copy_for_next()
+            close_talon = cast(CloseTalon, leader_move)
+            #cast function tells IDE that leader_move is supposed to be instance of CloseTalon, it won't fail even if move is not CloseTalon
+            next_game_state.is_talon_closed = True
+            # remember the previous state
+            next_game_state.previous = Previous(game_state, CloseTalonTrick(close_talon), True)
+            # The whole trick ends here.
+            return next_game_state
+
         # We have a PartialTrick, ask the follower for its move
         leader_move = cast(Union[Marriage, RegularMove], leader_move)
         follower_move = self.get_follower_move(game_engine, game_state, leader_move)
@@ -1729,6 +1846,9 @@ class SchnapsenMoveValidator(MoveValidator):
             trump_jack = Card.get_card(Rank.JACK, game_state.trump_suit)
             if trump_jack in cards_in_hand:
                 valid_moves.append(TrumpExchange(trump_jack))
+        # close talon
+        if not game_state.talon.is_empty():
+            valid_moves.append(CloseTalon())
         # mariages
         for card in cards_in_hand.filter_rank(Rank.QUEEN):
             king_card = Card.get_card(Rank.KING, card.suit)
@@ -1756,6 +1876,8 @@ class SchnapsenMoveValidator(MoveValidator):
                 return False
             trump_move: TrumpExchange = cast(TrumpExchange, move)
             return trump_move.jack in cards_in_hand
+        if move.is_close_talon():
+            return not game_state.talon.is_empty() and not game_state.is_talon_closed
         # it has to be a regular move
         regular_move = cast(RegularMove, move)
         return regular_move.card in cards_in_hand
