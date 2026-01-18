@@ -7,7 +7,7 @@ import random
 class CockyBot(Bot):
     """
     CockyBot plays conservatively until it reaches 40 points and holds 2 trump cards.
-    Once these conditions are met, it switches to a 'Cocky' (aggressive) strategy.
+    Once these conditions are met, it switches to cocky mode.
     """
 
     def __init__(self, name: str | None = None) -> None:
@@ -20,26 +20,29 @@ class CockyBot(Bot):
         """
         Get the move for the Bot.
 
-        1. Check if we should become 'Cocky' (40 pts, 2 trumps).
+        1. Check if we should become cocky (40 pts, 2 trumps).
         2. If conditions are met and talon is open, Close Talon.
-        3. If we are 'Cocky' (or talon is closed), play aggressively.
+        3. If we are cocky (or talon is closed), play aggressively.
         4. Otherwise, play conservatively.
         """
-        if self._should_become_cocky(perspective):
-            if perspective.get_phase() == GamePhase.ONE:
+        if not perspective.am_i_leader():
+            return self._play_follow(perspective, leader_move)
+
+        if perspective.get_phase() == GamePhase.ONE:
+            if self._should_become_cocky(perspective):
                 return CloseTalon()
             else:
-                return self._play_aggressive_lead(perspective)
-        else:
-            return self._play_conservative_lead(perspective)
+                return self._play_conservative_lead(perspective)
+        
+        #This is only executed in the second phase of the game when we are leading.
+        return self._play_aggressive_lead(perspective)
             
 
     def _should_become_cocky(self, perspective: PlayerPerspective) -> bool:
         """
-        Check if the 'Cocky' conditions are met:
+        Check if the cocky conditions are met:
         - We have at least 40 points (direct + pending).
         - We have at least 2 trump cards in hand.
-        - The Talon is open (GamePhase.ONE).
         """
         my_score = perspective.get_my_score()
         total_score = my_score.direct_points + my_score.pending_points
@@ -50,55 +53,51 @@ class CockyBot(Bot):
 
     def _try_special_moves(self, perspective: PlayerPerspective) -> Move | None:
         """
-        Attempt to play a Trump Exchange or Marriage if available.
+        Attempt to play a trump exchange or marriage if available.
+        There are two for loops to ensure that the trump exchange has priority.
         """
         valid_moves = perspective.valid_moves()
-        # Priority: Exchange first (cheap/advantageous), then Marriage
         for move in valid_moves:
             if move.is_trump_exchange():
                 return move
         
         for move in valid_moves:
             if move.is_marriage():
-                # Prefer royal marriage? Abstract says "immediately declare marriage".
-                # Any marriage is good for points.
                 return move
         return None
 
     def _play_aggressive_lead(self, perspective: PlayerPerspective) -> Move:
         """
-        Aggressive Leading Strategy (Cocky Mode):
-        1. Declare Marriage if possible.
-        2. Lead with highest scoring Trump cards.
-        3. Lead with highest scoring Non-Trump cards.
+        Strategy:
+        1. Declare marriage if possible.
+        2. Lead with highest scoring trump cards.
+        3. Lead with highest scoring non-trump cards.
+
+        This is for the second phase of the game when we are leading.
         """
-        # 1. Marriage
+        # Marriage
         special_move = self._try_special_moves(perspective)
         if special_move and special_move.is_marriage():
             return special_move
             
         valid_moves = perspective.valid_moves()
-        # Filter regular moves
         regular_moves = [m.as_regular_move() for m in valid_moves if m.is_regular_move()]
         
         if not regular_moves:
-            # Should practically not happen if we check valid_moves, unless only special moves exist?
-            # valid_moves always has regular moves if hand not empty.
-            # If only trump exchange/close talon provided? Logic above handles special.
-            # Fallback to any valid
-            return valid_moves[0] if valid_moves else Move.CloseTalon() # Should not be empty
+            # Fallback to any valid move
+            return valid_moves[0] if valid_moves else Move.CloseTalon()
 
         trump_suit = perspective.get_trump_suit()
         
-        # Sort by points (high to low)
-        # 2. Highest Trumps
+        # Sort by points (descending)
+        # Highest trumps
         trumps = [m for m in regular_moves if m.card.suit == trump_suit]
         trumps.sort(key=lambda m: self._get_card_points(m.card), reverse=True)
         
         if trumps:
-            return trumps[0]
+            return trumps[0] #The first move in the list will always be the one with the highest points.
             
-        # 3. Highest Non-Trumps
+        # Highest non-trumps
         non_trumps = [m for m in regular_moves if m.card.suit != trump_suit]
         non_trumps.sort(key=lambda m: self._get_card_points(m.card), reverse=True)
         
@@ -115,7 +114,7 @@ class CockyBot(Bot):
         2. Play face cards (K, Q, J) or low cards first.
         3. Save high-scoring cards (Ace, Ten).
         """
-        # Try special first? Abstract says "Make marriages and trump exchanges when possible."
+        # Try special move first.
         special_move = self._try_special_moves(perspective)
         if special_move:
             return special_move
@@ -128,12 +127,12 @@ class CockyBot(Bot):
         
         # 2. Play face cards or low cards (Points < 10 basically, or sorted low to high)
         # Prioritize non-trumps
-        candidates = non_trumps if non_trumps else regular_moves
+        move_candidates = non_trumps if non_trumps else regular_moves
         
-        # Sort by points ascending (Low points first)
-        candidates.sort(key=lambda m: self._get_card_points(m.card))
+        # Sort by points ascending (low points first)
+        move_candidates.sort(key=lambda m: self._get_card_points(m.card))
         
-        return candidates[0]
+        return move_candidates[0]
 
     def _play_follow(self, perspective: PlayerPerspective, leader_move: Move) -> Move:
         """
@@ -153,20 +152,19 @@ class CockyBot(Bot):
         def get_points(move):
             return self._get_card_points(move.card)
 
-        # Sort by points ascending (Lowest card)
+        # Sort moves by points ascending.
         regular_moves.sort(key=get_points)
         
         phase = perspective.get_phase()
         
         if phase == GamePhase.TWO:
-            # Phase 2: Lowest card
+            # We always want to play the lowest card in phase 2.
             return regular_moves[0]
             
-        # Phase 1 Logic
-        # Determine leader's card
+        # Phase 1 logic
         if leader_move.is_regular_move():
             leader_card = leader_move.as_regular_move().card
-        else: # Marriage
+        else: # When leader's move is a marriage.
             leader_card = leader_move.as_marriage().underlying_regular_move().card
 
         trump_suit = perspective.get_trump_suit()
@@ -178,13 +176,13 @@ class CockyBot(Bot):
             card = move.card
             is_winner = False
             
-            # Check if wins
+            # Check if the card wins the trick.
             if card.suit == leader_card.suit:
-                # Same suit, must be higher rank/points to win
+                # Same suit, so check if the card has higher points.
                 if self._get_card_points(card) > self._get_card_points(leader_card):
                     is_winner = True
             elif card.suit == trump_suit:
-                # Trump always wins against non-trump
+                # A trump card always wins against a non-trump card.
                 if leader_card.suit != trump_suit:
                     is_winner = True
             
@@ -194,23 +192,22 @@ class CockyBot(Bot):
                 else:
                     winning_non_trumps.append(move)
         
-        # Priority 1: Lowest scoring card that wins (Non-Trump)
+        # The lowest scoring non-trump card that wins is tried first.
         if winning_non_trumps:
-            # Already sorted by points because regular_moves was sorted
+            # Already sorted by points ascending because regular_moves was sorted like that.
             return winning_non_trumps[0]
             
-        # Priority 2: Lowest scoring trump that wins
+        # The lowest scoring trump card that wins is tried second.
         if winning_trumps:
-            # Already sorted
             return winning_trumps[0]
             
-        # Priority 3: Lowest card (loss)
+        # The lowest card (loss) is tried third.
         return regular_moves[0]
 
 
     def _get_card_points(self, card: Card) -> int:
         """
-        Returns points for a card: A=11, 10=10, K=4, Q=3, J=2.
+        Returns points for a card.
         """
         map_points = {
             Rank.ACE: 11,

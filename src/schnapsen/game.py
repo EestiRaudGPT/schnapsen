@@ -1846,8 +1846,8 @@ class SchnapsenMoveValidator(MoveValidator):
             trump_jack = Card.get_card(Rank.JACK, game_state.trump_suit)
             if trump_jack in cards_in_hand:
                 valid_moves.append(TrumpExchange(trump_jack))
-        # close talon
-        if not game_state.talon.is_empty():
+        # close talon, which is only possible if the talon is not empty and not already closed.
+        if not game_state.talon.is_empty() and not game_state.is_talon_closed:
             valid_moves.append(CloseTalon())
         # mariages
         for card in cards_in_hand.filter_rank(Rank.QUEEN):
