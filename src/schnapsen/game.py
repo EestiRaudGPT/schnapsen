@@ -215,10 +215,10 @@ class TrumpExchange(Move):
 @dataclass(frozen=True)
 class CloseTalon(Move):
     """
-    A Move representing the action of closing the Talon.
-    When a player closes the Talon, the game phase switches to Phase 2 (GamePhase.TWO).
-    No more cards are drawn, and players must follow suit (Farbzwang) and try to win the trick (Stichzwang).
-    This move does not consume the turn; the player who closes the Talon remains the leader and must play a regular move immediately.
+    A Move for closing the talon.
+    When a player closes the talon, the game phase switches to Phase 2 (GamePhase.TWO).
+    No more cards are drawn, and players must follow suit (farbzwang) and try to win the trick (stichzwang).
+    This move does not consume the turn, so the player who closes the talon remains the leader and must play a regular move immediately.
     """
 
     def is_close_talon(self) -> bool:
@@ -570,7 +570,6 @@ class CloseTalonTrick(Trick):
         return True
 
     def as_partial(self) -> PartialTrick:
-        """ Returns the first part of this trick. Raises an Exceptption if this is not a Trick with two parts"""
         raise Exception("A Close Talon Trick does not have a first part")
 
     def _cards(self) -> Iterable[Card]:
@@ -1849,7 +1848,7 @@ class SchnapsenMoveValidator(MoveValidator):
         # close talon, which is only possible if the talon is not empty and not already closed.
         if not game_state.talon.is_empty() and not game_state.is_talon_closed:
             valid_moves.append(CloseTalon())
-        # mariages
+        # marriages
         for card in cards_in_hand.filter_rank(Rank.QUEEN):
             king_card = Card.get_card(Rank.KING, card.suit)
             if king_card in cards_in_hand:

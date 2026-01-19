@@ -7,6 +7,7 @@ import click
 from schnapsen.alternative_engines.ace_one_engine import AceOneGamePlayEngine
 
 from schnapsen.bots import MLDataBot, train_ML_model, MLPlayingBot, RandBot
+from schnapsen.bots.cockybot import CockyBot
 
 from schnapsen.bots.example_bot import ExampleBot
 
@@ -205,5 +206,171 @@ def game_ace_one() -> None:
         print(f"Game ended. Winner is {winner_id} with {game_points} points, score {score}")
 
 
+class ExperimentCockyBot(CockyBot):
+    '''
+    This bot adds to Cockybot by tracking its performance during the game.
+    '''
+    def __init__(self, name: str = "CockyBot") -> None:
+        super().__init__(name)
+        self.marriages_declared = 0
+        self.trump_exchanges_declared = 0
+        self.closed_talon = False
+        self.closure_points = 0
+        self.trumps_when_closing: list[str] = []
+        self.non_trumps_when_closing: list[str] = []
+        self.tricks_at_closure = 0
+        self.final_score = 0
+        self.final_won_cards_count = 0
+
+    def get_move(self, perspective: PlayerPerspective, leader_move: Optional[Move]) -> Move:
+        move = super().get_move(perspective, leader_move)
+        
+        if move.is_marriage():
+            self.marriages_declared += 1
+            
+        if move.is_trump_exchange():
+            self.trump_exchanges_declared += 1
+            
+        if move.is_close_talon():
+            self.closed_talon = True
+            score = perspective.get_my_score()
+            self.closure_points = score.direct_points + score.pending_points
+            
+            trump_suit = perspective.get_trump_suit()
+            self.trumps_when_closing = [str(c) for c in perspective.get_hand().get_cards() if c.suit == trump_suit]
+            self.non_trumps_when_closing = [str(c) for c in perspective.get_hand().get_cards() if c.suit != trump_suit]
+            
+            # The tricks won so far is just the number of won cards divided by 2.
+            self.tricks_at_closure = len(perspective.get_won_cards()) // 2
+            
+        return move
+
+    def notify_game_end(self, won: bool, perspective: PlayerPerspective) -> None:
+        '''
+        Overrides the method from the game engine, so that we can get the bot's final score and won cards count when the game ends
+        (this method is called by the game engine when the game ends)
+        '''
+        score = perspective.get_my_score()
+        self.final_score = score.direct_points + score.pending_points
+        self.final_won_cards_count = len(perspective.get_won_cards())
+
+
+class ExperimentRandBot(RandBot):
+    ''' 
+    This bot adds to RandBot by tracking its performance during the game.
+    '''
+    def __init__(self, rng: random.Random, name: str = "RandBot") -> None:
+        super().__init__(rng, name)
+        self.closed_talon = False
+        self.closure_points = 0
+        self.final_score = 0
+
+    def get_move(self, perspective: PlayerPerspective, leader_move: Optional[Move]) -> Move:
+        move = super().get_move(perspective, leader_move)
+        if move.is_close_talon():
+            self.closed_talon = True
+            score = perspective.get_my_score()
+            self.closure_points = score.direct_points + score.pending_points
+        return move
+
+    def notify_game_end(self, won: bool, perspective: PlayerPerspective) -> None:
+        score = perspective.get_my_score()
+        self.final_score = score.direct_points + score.pending_points
+
+
+@main.command()
+def experiment() -> None:
+    """Run CockyBot vs RandBot experiment (1000 games)"""
+    import csv
+    
+    engine = SchnapsenGamePlayEngine()
+    total_games = 1000
+    
+    # Define CSV fields
+    fieldnames = [
+        "Seed", "Match outcome", "Winner", "Loser", 
+        "Winner score", "Loser score", "Game points",
+        "Deck closed", "Closer", 
+        "Closure points", "Cockybot marriages",
+        "Cockybot trump exchanges",
+        "Cockybot won after closing", "Trumps when closing", 
+        "Non-trumps when closing", "Tricks won after closing"
+    ]
+    
+    output_file = 'experiment_results.csv'
+    print(f"Output will be saved to {output_file}")
+    
+    with open(output_file, 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        
+        for i in range(total_games):
+            seed = i
+            rng_game = random.Random(seed)
+            rng_bot = random.Random(seed + 20000)
+            #this makes sure that the rng used by randbot is different from the one used by the game.
+            #this is important because otherwise randbot's choices are linked to how the cards are dealt.
+            
+            bot_cocky = ExperimentCockyBot(name="CockyBot")
+            bot_rand = ExperimentRandBot(rng=rng_bot, name="RandBot")
+            
+            # Randomize starter
+            if i % 2 == 0:
+                leader, follower = bot_cocky, bot_rand
+            else:
+                leader, follower = bot_rand, bot_cocky
+                
+            winner, game_points, score = engine.play_game(leader, follower, rng_game)
+            
+            # Winner and loser
+            winner_name = str(winner)
+            loser_name = "RandBot" if winner == bot_cocky else "CockyBot"
+            
+            winner_score = bot_cocky.final_score if winner == bot_cocky else bot_rand.final_score
+            loser_score = bot_rand.final_score if winner == bot_cocky else bot_cocky.final_score
+            
+            # Deck closed?
+            deck_closed = bot_cocky.closed_talon or bot_rand.closed_talon
+            closer_identity = "None"
+            if bot_cocky.closed_talon:
+                closer_identity = "CockyBot"
+            elif bot_rand.closed_talon:
+                closer_identity = "RandBot"
+                
+            # Cockybot won after closing?
+            cockybot_won_after_closing = False
+            if bot_cocky.closed_talon:
+                if winner == bot_cocky:
+                    cockybot_won_after_closing = True
+            
+            # Tricks won by Cockybot after closing
+            tricks_won_after_closing = 0
+            if bot_cocky.closed_talon:
+                final_tricks = bot_cocky.final_won_cards_count // 2
+                tricks_won_after_closing = final_tricks - bot_cocky.tricks_at_closure
+
+            row = {
+                "Seed": seed,
+                "Match outcome": f"{winner_name} beat {loser_name}",
+                "Winner": winner_name,
+                "Loser": loser_name,
+                "Winner score": winner_score,
+                "Loser score": loser_score,
+                "Game points": game_points,
+                "Deck closed": deck_closed,
+                "Closer": closer_identity,
+                "Closure points": bot_cocky.closure_points if bot_cocky.closed_talon else (bot_rand.closure_points if bot_rand.closed_talon else "N/A"),
+                "Cockybot marriages": bot_cocky.marriages_declared,
+                "Cockybot trump exchanges": bot_cocky.trump_exchanges_declared,
+                "Cockybot won after closing": str(cockybot_won_after_closing),
+                "Trumps when closing": str(bot_cocky.trumps_when_closing) if bot_cocky.closed_talon else "N/A",
+                "Non-trumps when closing": str(bot_cocky.non_trumps_when_closing) if bot_cocky.closed_talon else "N/A",
+                "Tricks won after closing": str(tricks_won_after_closing) if bot_cocky.closed_talon else "N/A"
+            }
+            
+            writer.writerow(row)
+            
+    print("Experiment done")
+        
 if __name__ == "__main__":
     main()
