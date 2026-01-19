@@ -215,10 +215,16 @@ class TrumpExchange(Move):
 @dataclass(frozen=True)
 class CloseTalon(Move):
     """
-    A Move for closing the talon.
-    When a player closes the talon, the game phase switches to Phase 2 (GamePhase.TWO).
-    No more cards are drawn, and players must follow suit (farbzwang) and try to win the trick (stichzwang).
-    This move does not consume the turn, so the player who closes the talon remains the leader and must play a regular move immediately.
+    A specific Move attempting to close the talon.
+
+    This move represents the strategic decision to lock the game state. Upon execution:
+    1. The game immediately transitions to Phase 2 (GamePhase.TWO).
+    2. Players are forbidden from drawing any further cards from the talon.
+    3. Strict rules apply immediately: players must follow suit (Farbzwang) and must attempt to win the trick (Stichzwang).
+
+    Crucially, this move is a state transition only and does not consume the leader's turn.
+    The player who closes the talon remains the leader and must immediately play a card (RegularMove or Marriage)
+    in the same turn sequence.
     """
 
     def is_close_talon(self) -> bool:
@@ -554,8 +560,10 @@ class Trick(ABC):
 @dataclass(frozen=True)
 class CloseTalonTrick(Trick):
     """
-    A Trick in which the player closes the talon.
-    This is a special type of trick that signifies the state transition where the talon is closed.
+    A special structural 'Trick' representing the event of closing the talon.
+
+    Unlike regular tricks, this does not involve playing cards or winning points.
+    It is inserted into the game history to mark the exact point where the talon was closed.
     """
 
     close_talon: CloseTalon
@@ -776,7 +784,12 @@ class GameState:
     previous: Optional[Previous]
     """The events which led to this GameState, or None, if this is the initial GameState (or previous tricks and states are unknown)"""
     is_talon_closed: bool = False
-    """Is the talon closed? This is set to True if one of the players closes the talon"""
+    """
+    Indicates if the talon has been explicitly closed by a player.
+
+    If True, the game is forced into Phase 2 regardless of the number of cards remaining in the talon.
+    This triggers strict playback rules (Farbzwang, Stichzwang) and prevents further card drawing.
+    """
 
     def __getattribute__(self, __name: str) -> Any:
         if __name == "trump_suit":
@@ -1560,12 +1573,17 @@ class SchnapsenTrickImplementer(TrickImplementer):
     def play_trick_with_fixed_leader_move(self, game_engine: GamePlayEngine, game_state: GameState,
                                           leader_move: Move) -> GameState:
         """
-        Plays a trick with a fixed leader move, in order to determine the follower move. Potentially asks the folower for a move.
+        Executes a trick where the leader's move is already determined.
 
-        :param game_engine: (GamePlayEngine): The engine used to preform the underlying actions of the Trick.
-        :param game_state: (GameState): The state of the game before the trick is played. This state will not be modified.
-        :param leader_move: (Move): The move made by the leader of the trick.
-        :returns: (GameState): The GameState after the trick is completed.
+        This method handles distinct move types differently:
+        - TrumpExchange: Updates state, records history, and returns immediately (turn continues).
+        - CloseTalon: Updates `is_talon_closed`, records history, and returns immediately (turn continues).
+        - Marriage/RegularMove: Asks the follower for a move, completes the trick, updates scores, and draws cards (if applicable).
+
+        :param game_engine: The engine used to perform the trick actions.
+        :param game_state: The current game state (unmodified).
+        :param leader_move: The move the leader has chosen to play.
+        :returns: The new GameState resulting from the trick.
         """
         if leader_move.is_trump_exchange():
             next_game_state = game_state.copy_for_next()
@@ -1830,12 +1848,17 @@ class SchnapsenMoveValidator(MoveValidator):
 
     def get_legal_leader_moves(self, game_engine: GamePlayEngine, game_state: GameState) -> Iterable[Move]:
         """
-        Get all legal moves for the current leader of the game.
+        Computes the complete set of valid moves for the current leader.
 
-        :param game_engine: The engine which is playing the game
-        :param game_state: The current state of the game
+        This includes:
+        - All valid cards in hand (RegularMove).
+        - Marriages (Queen + King of same suit).
+        - Trump Exchange (Jack of trumps), if applicable.
+        - Close Talon, provided the talon is not empty and not already closed.
 
-        :returns: An iterable containing the current legal moves.
+        :param game_engine: The game engine instance.
+        :param game_state: The current state of the game.
+        :returns: An iterable of all legal Move objects.
         """
         # all cards in the hand can be played
         cards_in_hand = game_state.leader.hand
