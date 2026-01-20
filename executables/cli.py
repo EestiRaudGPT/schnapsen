@@ -8,6 +8,7 @@ from schnapsen.alternative_engines.ace_one_engine import AceOneGamePlayEngine
 
 from schnapsen.bots import MLDataBot, train_ML_model, MLPlayingBot, RandBot
 from schnapsen.bots.cockybot import CockyBot
+from schnapsen.bots.bully_bot import BullyBot
 
 from schnapsen.bots.example_bot import ExampleBot
 
@@ -278,6 +279,100 @@ class ExperimentRandBot(RandBot):
         self.final_score = score.direct_points + score.pending_points
 
 
+class ExperimentBullyBot(BullyBot):
+    '''
+    This bot adds to BullyBot by tracking its performance during the game.
+    '''
+    def __init__(self, rand: random.Random, name: Optional[str] = None) -> None:
+        super().__init__(rand, name)
+        self.marriages_declared = 0
+        self.trump_exchanges_declared = 0
+        self.closed_talon = False
+        self.closure_points = 0
+        self.trumps_when_closing: list[str] = []
+        self.non_trumps_when_closing: list[str] = []
+        self.tricks_at_closure = 0
+        self.final_score = 0
+        self.final_won_cards_count = 0
+
+    def get_move(self, perspective: PlayerPerspective, leader_move: Optional[Move]) -> Move:
+        move = super().get_move(perspective, leader_move)
+        
+        if move.is_marriage():
+            self.marriages_declared += 1
+            
+        if move.is_trump_exchange():
+            self.trump_exchanges_declared += 1
+            
+        if move.is_close_talon():
+            self.closed_talon = True
+            score = perspective.get_my_score()
+            self.closure_points = score.direct_points + score.pending_points
+            
+            trump_suit = perspective.get_trump_suit()
+            self.trumps_when_closing = [str(c) for c in perspective.get_hand().get_cards() if c.suit == trump_suit]
+            self.non_trumps_when_closing = [str(c) for c in perspective.get_hand().get_cards() if c.suit != trump_suit]
+            
+            self.tricks_at_closure = len(perspective.get_won_cards()) // 2
+            
+        return move
+
+    def notify_game_end(self, won: bool, perspective: PlayerPerspective) -> None:
+        '''
+        Overrides the method from the game engine, so that we can get the bot's final score and won cards count when the game ends
+        '''
+        score = perspective.get_my_score()
+        self.final_score = score.direct_points + score.pending_points
+        self.final_won_cards_count = len(perspective.get_won_cards())
+
+
+class ExperimentRDeepBot(RdeepBot):
+    '''
+    This bot adds to RdeepBot by tracking its performance during the game.
+    '''
+    def __init__(self, num_samples: int, depth: int, rand: random.Random, name: Optional[str] = None) -> None:
+        super().__init__(num_samples, depth, rand, name)
+        self.marriages_declared = 0
+        self.trump_exchanges_declared = 0
+        self.closed_talon = False
+        self.closure_points = 0
+        self.trumps_when_closing: list[str] = []
+        self.non_trumps_when_closing: list[str] = []
+        self.tricks_at_closure = 0
+        self.final_score = 0
+        self.final_won_cards_count = 0
+
+    def get_move(self, perspective: PlayerPerspective, leader_move: Optional[Move]) -> Move:
+        move = super().get_move(perspective, leader_move)
+        
+        if move.is_marriage():
+            self.marriages_declared += 1
+            
+        if move.is_trump_exchange():
+            self.trump_exchanges_declared += 1
+            
+        if move.is_close_talon():
+            self.closed_talon = True
+            score = perspective.get_my_score()
+            self.closure_points = score.direct_points + score.pending_points
+            
+            trump_suit = perspective.get_trump_suit()
+            self.trumps_when_closing = [str(c) for c in perspective.get_hand().get_cards() if c.suit == trump_suit]
+            self.non_trumps_when_closing = [str(c) for c in perspective.get_hand().get_cards() if c.suit != trump_suit]
+            
+            self.tricks_at_closure = len(perspective.get_won_cards()) // 2
+            
+        return move
+
+    def notify_game_end(self, won: bool, perspective: PlayerPerspective) -> None:
+        '''
+        Overrides the method from the game engine, so that we can get the bot's final score and won cards count when the game ends
+        '''
+        score = perspective.get_my_score()
+        self.final_score = score.direct_points + score.pending_points
+        self.final_won_cards_count = len(perspective.get_won_cards())
+
+
 @main.command()
 def experiment() -> None:
     """Run CockyBot vs RandBot experiment (1000 games)"""
@@ -371,6 +466,209 @@ def experiment() -> None:
             writer.writerow(row)
             
     print("Experiment done")
+
+
+@main.command()
+def bully_experiment() -> None:
+    """Run BullyBot vs RandBot experiment (1000 games)"""
+    import csv
+    
+    engine = SchnapsenGamePlayEngine()
+    total_games = 1000
+    
+    # Define CSV fields
+    fieldnames = [
+        "Seed", "Match outcome", "Winner", "Loser", 
+        "Winner score", "Loser score", "Game points",
+        "Deck closed", "Closer", 
+        "Closure points", "BullyBot marriages",
+        "BullyBot trump exchanges",
+        "BullyBot won after closing", "Trumps when closing", 
+        "Non-trumps when closing", "Tricks won after closing",
+        "BullyBot RNG Seed", "RandBot RNG Seed"
+    ]
+    
+    output_file = 'bully_experiment_results.csv'
+    print(f"Output will be saved to {output_file}")
+    
+    with open(output_file, 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        
+        for i in range(total_games):
+            seed = i
+            rng_game = random.Random(seed)
+            rand_bot_rng_seed = seed + 20000
+            bully_bot_rng_seed = seed + 30000
+            rng_bot = random.Random(rand_bot_rng_seed)
+            rng_bully = random.Random(bully_bot_rng_seed)
+            
+            bot_bully = ExperimentBullyBot(rand=rng_bully, name="BullyBot")
+            bot_rand = ExperimentRandBot(rng=rng_bot, name="RandBot")
+            
+            # Randomize starter
+            if i % 2 == 0:
+                leader, follower = bot_bully, bot_rand
+            else:
+                leader, follower = bot_rand, bot_bully
+                
+            winner, game_points, score = engine.play_game(leader, follower, rng_game)
+            
+            # Winner and loser
+            winner_name = str(winner)
+            loser_name = "RandBot" if winner == bot_bully else "BullyBot"
+            
+            winner_score = bot_bully.final_score if winner == bot_bully else bot_rand.final_score
+            loser_score = bot_rand.final_score if winner == bot_bully else bot_bully.final_score
+            
+            # Deck closed?
+            deck_closed = bot_bully.closed_talon or bot_rand.closed_talon
+            closer_identity = "None"
+            if bot_bully.closed_talon:
+                closer_identity = "BullyBot"
+            elif bot_rand.closed_talon:
+                closer_identity = "RandBot"
+                
+            # BullyBot won after closing?
+            bullybot_won_after_closing = False
+            if bot_bully.closed_talon:
+                if winner == bot_bully:
+                    bullybot_won_after_closing = True
+            
+            # Tricks won by BullyBot after closing
+            tricks_won_after_closing = 0
+            if bot_bully.closed_talon:
+                final_tricks = bot_bully.final_won_cards_count // 2
+                tricks_won_after_closing = final_tricks - bot_bully.tricks_at_closure
+
+            row = {
+                "Seed": seed,
+                "Match outcome": f"{winner_name} beat {loser_name}",
+                "Winner": winner_name,
+                "Loser": loser_name,
+                "Winner score": winner_score,
+                "Loser score": loser_score,
+                "Game points": game_points,
+                "Deck closed": deck_closed,
+                "Closer": closer_identity,
+                "Closure points": bot_bully.closure_points if bot_bully.closed_talon else (bot_rand.closure_points if bot_rand.closed_talon else "N/A"),
+                "BullyBot marriages": bot_bully.marriages_declared,
+                "BullyBot trump exchanges": bot_bully.trump_exchanges_declared,
+                "BullyBot won after closing": str(bullybot_won_after_closing),
+                "Trumps when closing": str(bot_bully.trumps_when_closing) if bot_bully.closed_talon else "N/A",
+                "Non-trumps when closing": str(bot_bully.non_trumps_when_closing) if bot_bully.closed_talon else "N/A",
+                "Tricks won after closing": str(tricks_won_after_closing) if bot_bully.closed_talon else "N/A",
+                "BullyBot RNG Seed": bully_bot_rng_seed,
+                "RandBot RNG Seed": rand_bot_rng_seed
+            }
+            
+            writer.writerow(row)
+            
+    print("BullyBot experiment done")
+
+
+@main.command()
+def rdeep_experiment() -> None:
+    """Run RDeepBot vs RandBot experiment (1000 games)"""
+    import csv
+    
+    engine = SchnapsenGamePlayEngine()
+    total_games = 1000
+    num_samples = 16
+    depth = 4
+    
+    # Define CSV fields
+    fieldnames = [
+        "Seed", "Match outcome", "Winner", "Loser", 
+        "Winner score", "Loser score", "Game points",
+        "Deck closed", "Closer", 
+        "Closure points", "RDeepBot marriages",
+        "RDeepBot trump exchanges",
+        "RDeepBot won after closing", "Trumps when closing", 
+        "Non-trumps when closing", "Tricks won after closing",
+        "RDeepBot Num Samples", "RDeepBot Depth",
+        "RDeepBot RNG Seed", "RandBot RNG Seed"
+    ]
+    
+    output_file = 'rdeep_experiment_results.csv'
+    print(f"Output will be saved to {output_file}")
+    
+    with open(output_file, 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        
+        for i in range(total_games):
+            seed = i
+            rng_game = random.Random(seed)
+            rand_bot_rng_seed = seed + 20000
+            rdeep_bot_rng_seed = seed + 40000
+            rng_bot = random.Random(rand_bot_rng_seed)
+            rng_rdeep = random.Random(rdeep_bot_rng_seed)
+            
+            bot_rdeep = ExperimentRDeepBot(num_samples=num_samples, depth=depth, rand=rng_rdeep, name="RDeepBot")
+            bot_rand = ExperimentRandBot(rng=rng_bot, name="RandBot")
+            
+            # Randomize starter
+            if i % 2 == 0:
+                leader, follower = bot_rdeep, bot_rand
+            else:
+                leader, follower = bot_rand, bot_rdeep
+                
+            winner, game_points, score = engine.play_game(leader, follower, rng_game)
+            
+            # Winner and loser
+            winner_name = str(winner)
+            loser_name = "RandBot" if winner == bot_rdeep else "RDeepBot"
+            
+            winner_score = bot_rdeep.final_score if winner == bot_rdeep else bot_rand.final_score
+            loser_score = bot_rand.final_score if winner == bot_rdeep else bot_rdeep.final_score
+            
+            # Deck closed?
+            deck_closed = bot_rdeep.closed_talon or bot_rand.closed_talon
+            closer_identity = "None"
+            if bot_rdeep.closed_talon:
+                closer_identity = "RDeepBot"
+            elif bot_rand.closed_talon:
+                closer_identity = "RandBot"
+                
+            # RDeepBot won after closing?
+            rdeepbot_won_after_closing = False
+            if bot_rdeep.closed_talon:
+                if winner == bot_rdeep:
+                    rdeepbot_won_after_closing = True
+            
+            # Tricks won by RDeepBot after closing
+            tricks_won_after_closing = 0
+            if bot_rdeep.closed_talon:
+                final_tricks = bot_rdeep.final_won_cards_count // 2
+                tricks_won_after_closing = final_tricks - bot_rdeep.tricks_at_closure
+
+            row = {
+                "Seed": seed,
+                "Match outcome": f"{winner_name} beat {loser_name}",
+                "Winner": winner_name,
+                "Loser": loser_name,
+                "Winner score": winner_score,
+                "Loser score": loser_score,
+                "Game points": game_points,
+                "Deck closed": deck_closed,
+                "Closer": closer_identity,
+                "Closure points": bot_rdeep.closure_points if bot_rdeep.closed_talon else (bot_rand.closure_points if bot_rand.closed_talon else "N/A"),
+                "RDeepBot marriages": bot_rdeep.marriages_declared,
+                "RDeepBot trump exchanges": bot_rdeep.trump_exchanges_declared,
+                "RDeepBot won after closing": str(rdeepbot_won_after_closing),
+                "Trumps when closing": str(bot_rdeep.trumps_when_closing) if bot_rdeep.closed_talon else "N/A",
+                "Non-trumps when closing": str(bot_rdeep.non_trumps_when_closing) if bot_rdeep.closed_talon else "N/A",
+                "Tricks won after closing": str(tricks_won_after_closing) if bot_rdeep.closed_talon else "N/A",
+                "RDeepBot Num Samples": num_samples,
+                "RDeepBot Depth": depth,
+                "RDeepBot RNG Seed": rdeep_bot_rng_seed,
+                "RandBot RNG Seed": rand_bot_rng_seed
+            }
+            
+            writer.writerow(row)
+            
+    print("RDeepBot experiment done")
         
 if __name__ == "__main__":
     main()
