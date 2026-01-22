@@ -1864,7 +1864,7 @@ class SchnapsenMoveValidator(MoveValidator):
         cards_in_hand = game_state.leader.hand
         valid_moves: list[Move] = [RegularMove(card) for card in cards_in_hand]
         # trump exchanges
-        if not game_state.talon.is_empty():
+        if not game_state.talon.is_empty() and not game_state.is_talon_closed:
             trump_jack = Card.get_card(Rank.JACK, game_state.trump_suit)
             if trump_jack in cards_in_hand:
                 valid_moves.append(TrumpExchange(trump_jack))
@@ -1894,7 +1894,7 @@ class SchnapsenMoveValidator(MoveValidator):
             # we do not have to check whether they are the same suit because of the implementation of Marriage
             return marriage_move.queen_card in cards_in_hand and marriage_move.king_card in cards_in_hand
         if move.is_trump_exchange():
-            if game_state.talon.is_empty():
+            if game_state.talon.is_empty() or game_state.is_talon_closed:
                 return False
             trump_move: TrumpExchange = cast(TrumpExchange, move)
             return trump_move.jack in cards_in_hand
