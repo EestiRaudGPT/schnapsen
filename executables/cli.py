@@ -404,13 +404,13 @@ def cocky_experiment() -> None:
         "Seed", "Match outcome", "Winner", "Loser", 
         "Winner score", "Loser score", "Game points",
         "Deck closed", "Closer", 
-        "Closure points", "Cockybot marriages",
-        "Cockybot trump exchanges",
-        "Cockybot won after closing", "Trumps when closing", 
+        "Closure points", "CockyBot marriages",
+        "CockyBot trump exchanges",
+        "CockyBot won after closing", "Trumps when closing", 
         "Non-trumps when closing", "Tricks won after closing", "RandBot RNG Seed"
     ]
     
-    output_file = 'cockyexperiment_results.csv'
+    output_file = 'cocky_experiment_results.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:
@@ -491,9 +491,9 @@ def cocky_experiment() -> None:
                 "Deck closed": deck_closed,
                 "Closer": closer_identity,
                 "Closure points": bot_cocky.closure_points if bot_cocky.closed_talon else (bot_rand.closure_points if bot_rand.closed_talon else "N/A"),
-                "Cockybot marriages": bot_cocky.marriages_declared,
-                "Cockybot trump exchanges": bot_cocky.trump_exchanges_declared,
-                "Cockybot won after closing": str(cockybot_won_after_closing),
+                "CockyBot marriages": bot_cocky.marriages_declared,
+                "CockyBot trump exchanges": bot_cocky.trump_exchanges_declared,
+                "CockyBot won after closing": str(cockybot_won_after_closing),
                 "Trumps when closing": str(bot_cocky.trumps_when_closing) if bot_cocky.closed_talon else "N/A",
                 "Non-trumps when closing": str(bot_cocky.non_trumps_when_closing) if bot_cocky.closed_talon else "N/A",
                 "Tricks won after closing": str(tricks_won_after_closing) if bot_cocky.closed_talon else "N/A",
