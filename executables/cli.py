@@ -389,7 +389,7 @@ def experiment() -> None:
         "Closure points", "Cockybot marriages",
         "Cockybot trump exchanges",
         "Cockybot won after closing", "Trumps when closing", 
-        "Non-trumps when closing", "Tricks won after closing"
+        "Non-trumps when closing", "Tricks won after closing", "RandBot RNG Seed"
     ]
     
     output_file = 'experiment_results.csv'
@@ -402,12 +402,13 @@ def experiment() -> None:
         for i in range(total_games):
             seed = i
             rng_game = random.Random(seed)
-            rng_bot = random.Random(seed + 20000)
+            rand_bot_rng_seed = seed + 20000
+            rng_randbot = random.Random(rand_bot_rng_seed)
             #this makes sure that the rng used by randbot is different from the one used by the game.
             #this is important because otherwise randbot's choices are linked to how the cards are dealt.
             
             bot_cocky = ExperimentCockyBot(name="CockyBot")
-            bot_rand = ExperimentRandBot(rng=rng_bot, name="RandBot")
+            bot_rand = ExperimentRandBot(rng=rng_randbot, name="RandBot")
             
             # Randomize starter
             if i % 2 == 0:
@@ -460,7 +461,8 @@ def experiment() -> None:
                 "Cockybot won after closing": str(cockybot_won_after_closing),
                 "Trumps when closing": str(bot_cocky.trumps_when_closing) if bot_cocky.closed_talon else "N/A",
                 "Non-trumps when closing": str(bot_cocky.non_trumps_when_closing) if bot_cocky.closed_talon else "N/A",
-                "Tricks won after closing": str(tricks_won_after_closing) if bot_cocky.closed_talon else "N/A"
+                "Tricks won after closing": str(tricks_won_after_closing) if bot_cocky.closed_talon else "N/A",
+                "RandBot RNG Seed": rand_bot_rng_seed
             }
             
             writer.writerow(row)
@@ -500,11 +502,11 @@ def bully_experiment() -> None:
             rng_game = random.Random(seed)
             rand_bot_rng_seed = seed + 20000
             bully_bot_rng_seed = seed + 30000
-            rng_bot = random.Random(rand_bot_rng_seed)
+            rng_randbot = random.Random(rand_bot_rng_seed)
             rng_bully = random.Random(bully_bot_rng_seed)
             
             bot_bully = ExperimentBullyBot(rand=rng_bully, name="BullyBot")
-            bot_rand = ExperimentRandBot(rng=rng_bot, name="RandBot")
+            bot_rand = ExperimentRandBot(rng=rng_randbot, name="RandBot")
             
             # Randomize starter
             if i % 2 == 0:
@@ -574,8 +576,8 @@ def rdeep_experiment() -> None:
     
     engine = SchnapsenGamePlayEngine()
     total_games = 1000
-    num_samples = 16
-    depth = 4
+    rdeep_num_samples = 12
+    rdeep_depth = 5
     
     # Define CSV fields
     fieldnames = [
@@ -602,11 +604,11 @@ def rdeep_experiment() -> None:
             rng_game = random.Random(seed)
             rand_bot_rng_seed = seed + 20000
             rdeep_bot_rng_seed = seed + 40000
-            rng_bot = random.Random(rand_bot_rng_seed)
-            rng_rdeep = random.Random(rdeep_bot_rng_seed)
+            rng_randbot = random.Random(rand_bot_rng_seed)
+            rng_rdeepbot = random.Random(rdeep_bot_rng_seed)
             
-            bot_rdeep = ExperimentRDeepBot(num_samples=num_samples, depth=depth, rand=rng_rdeep, name="RDeepBot")
-            bot_rand = ExperimentRandBot(rng=rng_bot, name="RandBot")
+            bot_rdeep = ExperimentRDeepBot(num_samples=rdeep_num_samples, depth=rdeep_depth, rand=rng_rdeepbot, name="RDeepBot")
+            bot_rand = ExperimentRandBot(rng=rng_randbot, name="RandBot")
             
             # Randomize starter
             if i % 2 == 0:
@@ -660,8 +662,8 @@ def rdeep_experiment() -> None:
                 "Trumps when closing": str(bot_rdeep.trumps_when_closing) if bot_rdeep.closed_talon else "N/A",
                 "Non-trumps when closing": str(bot_rdeep.non_trumps_when_closing) if bot_rdeep.closed_talon else "N/A",
                 "Tricks won after closing": str(tricks_won_after_closing) if bot_rdeep.closed_talon else "N/A",
-                "RDeepBot Num Samples": num_samples,
-                "RDeepBot Depth": depth,
+                "RDeepBot Num Samples": rdeep_num_samples,
+                "RDeepBot Depth": rdeep_depth,
                 "RDeepBot RNG Seed": rdeep_bot_rng_seed,
                 "RandBot RNG Seed": rand_bot_rng_seed
             }
