@@ -1643,7 +1643,7 @@ class SchnapsenTrickImplementer(TrickImplementer):
 
         # important: the winner takes the first card of the talon, the loser the second one.
         # this also ensures that the loser of the last trick of the first phase gets the face up trump
-        if not next_game_state.talon.is_empty():
+        if not next_game_state.talon.is_empty() and not next_game_state.is_talon_closed:
             drawn = next_game_state.talon.draw_cards(2)
             next_game_state.leader.hand.add(drawn[0])
             next_game_state.follower.hand.add(drawn[1])
