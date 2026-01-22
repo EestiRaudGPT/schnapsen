@@ -2111,6 +2111,45 @@ class SchnapsenTrickScorer(TrickScorer):
             raise AssertionError("Would declare the follower winner, but this should never happen in the current implementation")
         elif game_state.are_all_cards_played():
             return game_state.leader, 1
+        elif game_state.is_talon_closed and game_state.leader.hand.is_empty() and game_state.follower.hand.is_empty():
+            #We don't use are_all_cards_played here, because that will only return true if the talon is also empty which does not have to be the case when talon is closed.
+
+            # Find who closed the talon
+            closer_is_current_leader = True 
+            prev_state = game_state.previous
+            
+            # Walk back to find the CloseTalon move
+            while prev_state:
+                if prev_state.trick.is_close_talon():
+                    break
+                
+                # if the leader was not the leader in the previous state, the closer is the follower
+                if not prev_state.leader_remained_leader:
+                    closer_is_current_leader = False
+                
+                prev_state = prev_state.state.previous
+            
+            else:
+                raise AssertionError("Talon is closed but could not find CloseTalon move in history.")
+
+            # Identify Winner (The Opponent of the Closer)
+            # If closer is current leader, winner is current follower
+            # If closer is not current leader, winner is current leader
+            if closer_is_current_leader:
+                winner = game_state.follower
+            else:
+                winner = game_state.leader
+
+            # In the previous state which is the CloseTalon move, the non-closer is the follower            
+            non_closer_at_closure = prev_state.state.follower
+
+            if len(non_closer_at_closure.won_cards) == 0:
+                points = 3
+            else:
+                points = 2
+            
+            return winner, points
+
         else:
             return None
 
