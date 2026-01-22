@@ -1,0 +1,1001 @@
+Seed,Match outcome,Winner,Loser,Winner score,Loser score,Game points,Deck closed,Closer,Closure points,RDeepBot marriages,RDeepBot trump exchanges,RDeepBot won after closing,Trumps when closing,Non-trumps when closing,Tricks won after closing,RDeepBot Num Samples,RDeepBot Depth,RDeepBot RNG Seed,RandBot RNG Seed
+0,RDeepBot beat RandBot,RDeepBot,RandBot,69,47,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40000,20000
+1,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,True,RDeepBot,28,0,1,True,['Card.ACE_HEARTS'],"['Card.JACK_CLUBS', 'Card.QUEEN_CLUBS', 'Card.JACK_SPADES', 'Card.ACE_SPADES']",3,12,5,40001,20001
+2,RDeepBot beat RandBot,RDeepBot,RandBot,67,15,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40002,20002
+3,RDeepBot beat RandBot,RDeepBot,RandBot,72,19,2,True,RDeepBot,14,0,0,True,"['Card.JACK_CLUBS', 'Card.ACE_CLUBS']","['Card.KING_SPADES', 'Card.JACK_SPADES', 'Card.ACE_SPADES']",5,12,5,40003,20003
+4,RDeepBot beat RandBot,RDeepBot,RandBot,77,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40004,20004
+5,RDeepBot beat RandBot,RDeepBot,RandBot,33,28,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40005,20005
+6,RDeepBot beat RandBot,RDeepBot,RandBot,70,7,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40006,20006
+7,RandBot beat RDeepBot,RandBot,RDeepBot,64,56,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40007,20007
+8,RDeepBot beat RandBot,RDeepBot,RandBot,81,28,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40008,20008
+9,RDeepBot beat RandBot,RDeepBot,RandBot,74,22,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40009,20009
+10,RDeepBot beat RandBot,RDeepBot,RandBot,69,5,2,True,RandBot,5,0,0,False,N/A,N/A,N/A,12,5,40010,20010
+11,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40011,20011
+12,RDeepBot beat RandBot,RDeepBot,RandBot,67,21,2,True,RandBot,21,1,0,False,N/A,N/A,N/A,12,5,40012,20012
+13,RDeepBot beat RandBot,RDeepBot,RandBot,53,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40013,20013
+14,RDeepBot beat RandBot,RDeepBot,RandBot,69,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40014,20014
+15,RDeepBot beat RandBot,RDeepBot,RandBot,71,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40015,20015
+16,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40016,20016
+17,RDeepBot beat RandBot,RDeepBot,RandBot,46,24,3,True,RDeepBot,14,0,0,True,[],"['Card.QUEEN_CLUBS', 'Card.ACE_SPADES', 'Card.TEN_HEARTS', 'Card.JACK_HEARTS', 'Card.TEN_CLUBS']",3,12,5,40017,20017
+18,RDeepBot beat RandBot,RDeepBot,RandBot,48,28,3,True,RDeepBot,14,0,0,True,"['Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']","['Card.ACE_DIAMONDS', 'Card.KING_SPADES', 'Card.KING_HEARTS']",3,12,5,40018,20018
+19,RandBot beat RDeepBot,RandBot,RDeepBot,40,49,3,True,RDeepBot,29,0,0,False,[],"['Card.KING_CLUBS', 'Card.KING_SPADES', 'Card.ACE_DIAMONDS', 'Card.ACE_CLUBS', 'Card.TEN_CLUBS']",2,12,5,40019,20019
+20,RandBot beat RDeepBot,RandBot,RDeepBot,6,58,3,True,RDeepBot,0,0,0,False,[],"['Card.ACE_CLUBS', 'Card.ACE_SPADES', 'Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.JACK_DIAMONDS']",4,12,5,40020,20020
+21,RDeepBot beat RandBot,RDeepBot,RandBot,67,7,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40021,20021
+22,RandBot beat RDeepBot,RandBot,RDeepBot,48,39,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40022,20022
+23,RDeepBot beat RandBot,RDeepBot,RandBot,69,14,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40023,20023
+24,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,True,RDeepBot,0,0,0,True,"['Card.QUEEN_SPADES', 'Card.ACE_SPADES']","['Card.ACE_CLUBS', 'Card.KING_CLUBS', 'Card.ACE_HEARTS']",5,12,5,40024,20024
+25,RDeepBot beat RandBot,RDeepBot,RandBot,68,21,2,True,RDeepBot,33,0,1,True,"['Card.ACE_SPADES', 'Card.TEN_SPADES']","['Card.KING_CLUBS', 'Card.QUEEN_HEARTS', 'Card.ACE_CLUBS']",2,12,5,40025,20025
+26,RDeepBot beat RandBot,RDeepBot,RandBot,86,0,3,False,None,N/A,2,1,False,N/A,N/A,N/A,12,5,40026,20026
+27,RandBot beat RDeepBot,RandBot,RDeepBot,74,15,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40027,20027
+28,RDeepBot beat RandBot,RDeepBot,RandBot,81,0,3,True,RDeepBot,14,0,0,True,"['Card.JACK_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_DIAMONDS', 'Card.ACE_SPADES', 'Card.ACE_DIAMONDS']",5,12,5,40028,20028
+29,RDeepBot beat RandBot,RDeepBot,RandBot,69,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40029,20029
+30,RDeepBot beat RandBot,RDeepBot,RandBot,73,14,2,True,RDeepBot,13,0,0,True,"['Card.JACK_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.TEN_HEARTS', 'Card.ACE_HEARTS', 'Card.KING_HEARTS']",4,12,5,40030,20030
+31,RDeepBot beat RandBot,RDeepBot,RandBot,76,12,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40031,20031
+32,RandBot beat RDeepBot,RandBot,RDeepBot,45,40,3,True,RDeepBot,27,0,0,False,['Card.QUEEN_HEARTS'],"['Card.JACK_SPADES', 'Card.TEN_DIAMONDS', 'Card.TEN_CLUBS', 'Card.QUEEN_SPADES']",1,12,5,40032,20032
+33,RDeepBot beat RandBot,RDeepBot,RandBot,62,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40033,20033
+34,RDeepBot beat RandBot,RDeepBot,RandBot,76,12,3,True,RDeepBot,13,0,0,True,['Card.ACE_DIAMONDS'],"['Card.TEN_HEARTS', 'Card.TEN_CLUBS', 'Card.KING_SPADES', 'Card.TEN_SPADES']",4,12,5,40034,20034
+35,RDeepBot beat RandBot,RDeepBot,RandBot,100,20,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40035,20035
+36,RDeepBot beat RandBot,RDeepBot,RandBot,66,27,2,True,RandBot,14,1,0,False,N/A,N/A,N/A,12,5,40036,20036
+37,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40037,20037
+38,RDeepBot beat RandBot,RDeepBot,RandBot,78,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40038,20038
+39,RandBot beat RDeepBot,RandBot,RDeepBot,31,49,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,12,5,40039,20039
+40,RandBot beat RDeepBot,RandBot,RDeepBot,65,55,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40040,20040
+41,RDeepBot beat RandBot,RDeepBot,RandBot,46,14,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40041,20041
+42,RDeepBot beat RandBot,RDeepBot,RandBot,79,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40042,20042
+43,RDeepBot beat RandBot,RDeepBot,RandBot,78,41,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40043,20043
+44,RDeepBot beat RandBot,RDeepBot,RandBot,76,42,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40044,20044
+45,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,True,RDeepBot,13,0,0,True,"['Card.ACE_CLUBS', 'Card.KING_CLUBS']","['Card.TEN_HEARTS', 'Card.ACE_SPADES', 'Card.KING_SPADES']",5,12,5,40045,20045
+46,RDeepBot beat RandBot,RDeepBot,RandBot,68,6,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40046,20046
+47,RandBot beat RDeepBot,RandBot,RDeepBot,19,32,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40047,20047
+48,RDeepBot beat RandBot,RDeepBot,RandBot,52,13,3,True,RDeepBot,0,0,0,True,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.TEN_CLUBS', 'Card.JACK_CLUBS', 'Card.KING_CLUBS']",4,12,5,40048,20048
+49,RDeepBot beat RandBot,RDeepBot,RandBot,69,13,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40049,20049
+50,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40050,20050
+51,RDeepBot beat RandBot,RDeepBot,RandBot,86,0,3,True,RDeepBot,28,0,0,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.JACK_SPADES', 'Card.ACE_SPADES', 'Card.KING_SPADES']",5,12,5,40051,20051
+52,RDeepBot beat RandBot,RDeepBot,RandBot,85,0,3,True,RDeepBot,20,0,1,True,['Card.ACE_CLUBS'],"['Card.TEN_DIAMONDS', 'Card.JACK_SPADES', 'Card.ACE_DIAMONDS', 'Card.ACE_SPADES']",4,12,5,40052,20052
+53,RDeepBot beat RandBot,RDeepBot,RandBot,101,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40053,20053
+54,RDeepBot beat RandBot,RDeepBot,RandBot,84,42,1,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40054,20054
+55,RDeepBot beat RandBot,RDeepBot,RandBot,26,40,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40055,20055
+56,RDeepBot beat RandBot,RDeepBot,RandBot,87,33,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40056,20056
+57,RDeepBot beat RandBot,RDeepBot,RandBot,75,29,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40057,20057
+58,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,True,RDeepBot,6,0,1,True,['Card.TEN_DIAMONDS'],"['Card.TEN_CLUBS', 'Card.JACK_HEARTS', 'Card.TEN_SPADES', 'Card.ACE_HEARTS']",4,12,5,40058,20058
+59,RDeepBot beat RandBot,RDeepBot,RandBot,75,18,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40059,20059
+60,RDeepBot beat RandBot,RDeepBot,RandBot,46,7,3,True,RDeepBot,0,0,0,True,[],"['Card.ACE_SPADES', 'Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.TEN_HEARTS', 'Card.KING_HEARTS']",4,12,5,40060,20060
+61,RDeepBot beat RandBot,RDeepBot,RandBot,60,36,3,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40061,20061
+62,RDeepBot beat RandBot,RDeepBot,RandBot,80,14,2,True,RDeepBot,18,0,0,True,['Card.ACE_DIAMONDS'],"['Card.QUEEN_CLUBS', 'Card.TEN_HEARTS', 'Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']",4,12,5,40062,20062
+63,RDeepBot beat RandBot,RDeepBot,RandBot,73,7,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40063,20063
+64,RandBot beat RDeepBot,RandBot,RDeepBot,48,21,3,True,RDeepBot,0,0,0,False,['Card.QUEEN_DIAMONDS'],"['Card.ACE_CLUBS', 'Card.JACK_CLUBS', 'Card.TEN_SPADES', 'Card.QUEEN_HEARTS']",1,12,5,40064,20064
+65,RDeepBot beat RandBot,RDeepBot,RandBot,74,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40065,20065
+66,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,5,0,1,False,"['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS', 'Card.KING_HEARTS']","['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']",-1,12,5,40066,20066
+67,RDeepBot beat RandBot,RDeepBot,RandBot,66,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40067,20067
+68,RDeepBot beat RandBot,RDeepBot,RandBot,82,32,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40068,20068
+69,RDeepBot beat RandBot,RDeepBot,RandBot,68,14,2,True,RDeepBot,55,1,0,True,[],"['Card.ACE_DIAMONDS', 'Card.ACE_CLUBS', 'Card.QUEEN_CLUBS', 'Card.TEN_SPADES', 'Card.KING_DIAMONDS']",1,12,5,40069,20069
+70,RDeepBot beat RandBot,RDeepBot,RandBot,75,11,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40070,20070
+71,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40071,20071
+72,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40072,20072
+73,RDeepBot beat RandBot,RDeepBot,RandBot,89,20,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40073,20073
+74,RDeepBot beat RandBot,RDeepBot,RandBot,100,35,1,False,None,N/A,2,1,False,N/A,N/A,N/A,12,5,40074,20074
+75,RDeepBot beat RandBot,RDeepBot,RandBot,80,15,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40075,20075
+76,RDeepBot beat RandBot,RDeepBot,RandBot,74,45,2,True,RandBot,20,0,0,False,N/A,N/A,N/A,12,5,40076,20076
+77,RDeepBot beat RandBot,RDeepBot,RandBot,69,32,2,True,RDeepBot,15,0,1,True,['Card.TEN_CLUBS'],"['Card.TEN_DIAMONDS', 'Card.JACK_HEARTS', 'Card.KING_HEARTS', 'Card.ACE_DIAMONDS']",4,12,5,40077,20077
+78,RDeepBot beat RandBot,RDeepBot,RandBot,20,0,2,True,RandBot,15,1,0,False,N/A,N/A,N/A,12,5,40078,20078
+79,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40079,20079
+80,RDeepBot beat RandBot,RDeepBot,RandBot,89,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40080,20080
+81,RDeepBot beat RandBot,RDeepBot,RandBot,68,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40081,20081
+82,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40082,20082
+83,RDeepBot beat RandBot,RDeepBot,RandBot,78,15,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40083,20083
+84,RandBot beat RDeepBot,RandBot,RDeepBot,67,55,2,True,RandBot,21,1,0,False,N/A,N/A,N/A,12,5,40084,20084
+85,RDeepBot beat RandBot,RDeepBot,RandBot,67,53,1,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40085,20085
+86,RandBot beat RDeepBot,RandBot,RDeepBot,73,49,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40086,20086
+87,RDeepBot beat RandBot,RDeepBot,RandBot,83,7,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40087,20087
+88,RandBot beat RDeepBot,RandBot,RDeepBot,55,62,1,True,RandBot,15,1,0,False,N/A,N/A,N/A,12,5,40088,20088
+89,RDeepBot beat RandBot,RDeepBot,RandBot,78,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40089,20089
+90,RandBot beat RDeepBot,RandBot,RDeepBot,67,14,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,12,5,40090,20090
+91,RDeepBot beat RandBot,RDeepBot,RandBot,69,5,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40091,20091
+92,RDeepBot beat RandBot,RDeepBot,RandBot,80,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40092,20092
+93,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40093,20093
+94,RandBot beat RDeepBot,RandBot,RDeepBot,48,62,1,True,RandBot,14,1,1,False,N/A,N/A,N/A,12,5,40094,20094
+95,RDeepBot beat RandBot,RDeepBot,RandBot,59,54,2,True,RandBot,27,0,0,False,N/A,N/A,N/A,12,5,40095,20095
+96,RDeepBot beat RandBot,RDeepBot,RandBot,60,60,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40096,20096
+97,RandBot beat RDeepBot,RandBot,RDeepBot,56,27,3,True,RDeepBot,14,0,0,False,['Card.JACK_CLUBS'],"['Card.JACK_SPADES', 'Card.ACE_SPADES', 'Card.QUEEN_DIAMONDS', 'Card.ACE_HEARTS']",1,12,5,40097,20097
+98,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40098,20098
+99,RDeepBot beat RandBot,RDeepBot,RandBot,76,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40099,20099
+100,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40100,20100
+101,RDeepBot beat RandBot,RDeepBot,RandBot,70,12,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40101,20101
+102,RDeepBot beat RandBot,RDeepBot,RandBot,74,33,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40102,20102
+103,RDeepBot beat RandBot,RDeepBot,RandBot,66,41,1,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40103,20103
+104,RDeepBot beat RandBot,RDeepBot,RandBot,66,48,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40104,20104
+105,RDeepBot beat RandBot,RDeepBot,RandBot,79,20,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40105,20105
+106,RDeepBot beat RandBot,RDeepBot,RandBot,68,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40106,20106
+107,RDeepBot beat RandBot,RDeepBot,RandBot,48,4,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40107,20107
+108,RandBot beat RDeepBot,RandBot,RDeepBot,44,19,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,12,5,40108,20108
+109,RDeepBot beat RandBot,RDeepBot,RandBot,82,53,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40109,20109
+110,RDeepBot beat RandBot,RDeepBot,RandBot,100,54,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40110,20110
+111,RDeepBot beat RandBot,RDeepBot,RandBot,67,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40111,20111
+112,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40112,20112
+113,RDeepBot beat RandBot,RDeepBot,RandBot,67,19,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40113,20113
+114,RDeepBot beat RandBot,RDeepBot,RandBot,70,14,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40114,20114
+115,RandBot beat RDeepBot,RandBot,RDeepBot,66,40,2,True,RandBot,6,1,0,False,N/A,N/A,N/A,12,5,40115,20115
+116,RDeepBot beat RandBot,RDeepBot,RandBot,83,27,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40116,20116
+117,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,True,RDeepBot,27,0,0,True,['Card.TEN_CLUBS'],"['Card.ACE_SPADES', 'Card.JACK_SPADES', 'Card.ACE_DIAMONDS', 'Card.JACK_DIAMONDS']",4,12,5,40117,20117
+118,RDeepBot beat RandBot,RDeepBot,RandBot,74,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40118,20118
+119,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40119,20119
+120,RDeepBot beat RandBot,RDeepBot,RandBot,81,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40120,20120
+121,RDeepBot beat RandBot,RDeepBot,RandBot,53,15,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40121,20121
+122,RandBot beat RDeepBot,RandBot,RDeepBot,66,46,1,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40122,20122
+123,RandBot beat RDeepBot,RandBot,RDeepBot,80,22,2,True,RandBot,53,0,0,False,N/A,N/A,N/A,12,5,40123,20123
+124,RandBot beat RDeepBot,RandBot,RDeepBot,55,26,3,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40124,20124
+125,RandBot beat RDeepBot,RandBot,RDeepBot,45,13,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40125,20125
+126,RDeepBot beat RandBot,RDeepBot,RandBot,71,21,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40126,20126
+127,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40127,20127
+128,RDeepBot beat RandBot,RDeepBot,RandBot,68,52,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40128,20128
+129,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,True,RDeepBot,6,0,0,True,['Card.ACE_DIAMONDS'],"['Card.QUEEN_SPADES', 'Card.ACE_SPADES', 'Card.KING_CLUBS', 'Card.ACE_CLUBS']",5,12,5,40129,20129
+130,RDeepBot beat RandBot,RDeepBot,RandBot,36,25,3,True,RandBot,7,0,0,False,N/A,N/A,N/A,12,5,40130,20130
+131,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,True,RDeepBot,61,0,0,True,[],"['Card.TEN_HEARTS', 'Card.KING_DIAMONDS', 'Card.JACK_CLUBS', 'Card.ACE_HEARTS', 'Card.KING_HEARTS']",1,12,5,40131,20131
+132,RandBot beat RDeepBot,RandBot,RDeepBot,72,35,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40132,20132
+133,RDeepBot beat RandBot,RDeepBot,RandBot,68,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40133,20133
+134,RDeepBot beat RandBot,RDeepBot,RandBot,82,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40134,20134
+135,RandBot beat RDeepBot,RandBot,RDeepBot,66,41,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40135,20135
+136,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,True,RDeepBot,0,0,1,True,"['Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.QUEEN_SPADES', 'Card.ACE_HEARTS', 'Card.ACE_SPADES']",5,12,5,40136,20136
+137,RDeepBot beat RandBot,RDeepBot,RandBot,67,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40137,20137
+138,RDeepBot beat RandBot,RDeepBot,RandBot,66,41,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40138,20138
+139,RDeepBot beat RandBot,RDeepBot,RandBot,68,64,2,True,RandBot,14,1,0,False,N/A,N/A,N/A,12,5,40139,20139
+140,RandBot beat RDeepBot,RandBot,RDeepBot,84,62,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40140,20140
+141,RDeepBot beat RandBot,RDeepBot,RandBot,70,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40141,20141
+142,RDeepBot beat RandBot,RDeepBot,RandBot,75,5,2,True,RandBot,5,0,0,False,N/A,N/A,N/A,12,5,40142,20142
+143,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40143,20143
+144,RDeepBot beat RandBot,RDeepBot,RandBot,67,20,2,True,RandBot,20,0,0,False,N/A,N/A,N/A,12,5,40144,20144
+145,RDeepBot beat RandBot,RDeepBot,RandBot,83,5,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40145,20145
+146,RDeepBot beat RandBot,RDeepBot,RandBot,52,40,2,True,RandBot,27,0,0,False,N/A,N/A,N/A,12,5,40146,20146
+147,RDeepBot beat RandBot,RDeepBot,RandBot,67,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40147,20147
+148,RDeepBot beat RandBot,RDeepBot,RandBot,59,20,2,True,RandBot,20,0,1,False,N/A,N/A,N/A,12,5,40148,20148
+149,RandBot beat RDeepBot,RandBot,RDeepBot,71,49,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40149,20149
+150,RDeepBot beat RandBot,RDeepBot,RandBot,68,15,2,True,RandBot,15,0,0,False,N/A,N/A,N/A,12,5,40150,20150
+151,RDeepBot beat RandBot,RDeepBot,RandBot,64,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40151,20151
+152,RDeepBot beat RandBot,RDeepBot,RandBot,82,57,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40152,20152
+153,RDeepBot beat RandBot,RDeepBot,RandBot,70,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40153,20153
+154,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40154,20154
+155,RDeepBot beat RandBot,RDeepBot,RandBot,73,20,2,True,RDeepBot,61,1,0,True,[],"['Card.JACK_SPADES', 'Card.TEN_HEARTS', 'Card.QUEEN_CLUBS', 'Card.TEN_CLUBS', 'Card.ACE_CLUBS']",1,12,5,40155,20155
+156,RDeepBot beat RandBot,RDeepBot,RandBot,77,39,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40156,20156
+157,RandBot beat RDeepBot,RandBot,RDeepBot,67,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40157,20157
+158,RDeepBot beat RandBot,RDeepBot,RandBot,71,0,3,True,RDeepBot,0,0,1,True,"['Card.ACE_CLUBS', 'Card.KING_CLUBS']","['Card.TEN_DIAMONDS', 'Card.ACE_SPADES', 'Card.ACE_HEARTS']",5,12,5,40158,20158
+159,RDeepBot beat RandBot,RDeepBot,RandBot,52,15,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40159,20159
+160,RDeepBot beat RandBot,RDeepBot,RandBot,74,48,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40160,20160
+161,RDeepBot beat RandBot,RDeepBot,RandBot,83,17,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40161,20161
+162,RDeepBot beat RandBot,RDeepBot,RandBot,59,55,2,True,RandBot,42,0,0,False,N/A,N/A,N/A,12,5,40162,20162
+163,RDeepBot beat RandBot,RDeepBot,RandBot,75,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40163,20163
+164,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,5,0,0,False,"['Card.ACE_HEARTS', 'Card.JACK_HEARTS']","['Card.JACK_CLUBS', 'Card.QUEEN_SPADES', 'Card.TEN_SPADES']",-1,12,5,40164,20164
+165,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40165,20165
+166,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,True,RDeepBot,21,0,0,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.ACE_SPADES', 'Card.QUEEN_HEARTS']",4,12,5,40166,20166
+167,RDeepBot beat RandBot,RDeepBot,RandBot,88,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40167,20167
+168,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,True,RDeepBot,0,1,0,True,"['Card.KING_HEARTS', 'Card.ACE_HEARTS']","['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS', 'Card.KING_CLUBS']",5,12,5,40168,20168
+169,RDeepBot beat RandBot,RDeepBot,RandBot,69,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40169,20169
+170,RDeepBot beat RandBot,RDeepBot,RandBot,70,13,3,True,RDeepBot,40,0,0,True,['Card.KING_SPADES'],"['Card.JACK_HEARTS', 'Card.QUEEN_HEARTS', 'Card.ACE_HEARTS', 'Card.TEN_HEARTS']",2,12,5,40170,20170
+171,RandBot beat RDeepBot,RandBot,RDeepBot,24,35,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40171,20171
+172,RandBot beat RDeepBot,RandBot,RDeepBot,65,28,3,True,RandBot,27,0,0,False,N/A,N/A,N/A,12,5,40172,20172
+173,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40173,20173
+174,RandBot beat RDeepBot,RandBot,RDeepBot,73,60,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40174,20174
+175,RDeepBot beat RandBot,RDeepBot,RandBot,70,45,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40175,20175
+176,RandBot beat RDeepBot,RandBot,RDeepBot,66,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40176,20176
+177,RandBot beat RDeepBot,RandBot,RDeepBot,70,37,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40177,20177
+178,RandBot beat RDeepBot,RandBot,RDeepBot,67,33,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40178,20178
+179,RDeepBot beat RandBot,RDeepBot,RandBot,66,41,2,True,RandBot,27,1,0,False,N/A,N/A,N/A,12,5,40179,20179
+180,RDeepBot beat RandBot,RDeepBot,RandBot,62,58,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40180,20180
+181,RDeepBot beat RandBot,RDeepBot,RandBot,68,33,2,True,RandBot,18,1,0,False,N/A,N/A,N/A,12,5,40181,20181
+182,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40182,20182
+183,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40183,20183
+184,RDeepBot beat RandBot,RDeepBot,RandBot,69,14,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40184,20184
+185,RDeepBot beat RandBot,RDeepBot,RandBot,65,15,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,12,5,40185,20185
+186,RandBot beat RDeepBot,RandBot,RDeepBot,68,40,2,True,RandBot,28,0,0,False,N/A,N/A,N/A,12,5,40186,20186
+187,RDeepBot beat RandBot,RDeepBot,RandBot,66,54,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40187,20187
+188,RDeepBot beat RandBot,RDeepBot,RandBot,80,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40188,20188
+189,RandBot beat RDeepBot,RandBot,RDeepBot,69,60,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40189,20189
+190,RDeepBot beat RandBot,RDeepBot,RandBot,78,32,3,True,RandBot,12,0,0,False,N/A,N/A,N/A,12,5,40190,20190
+191,RDeepBot beat RandBot,RDeepBot,RandBot,62,51,2,True,RDeepBot,15,0,0,True,['Card.TEN_DIAMONDS'],"['Card.JACK_CLUBS', 'Card.TEN_SPADES', 'Card.JACK_SPADES', 'Card.ACE_HEARTS']",3,12,5,40191,20191
+192,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40192,20192
+193,RandBot beat RDeepBot,RandBot,RDeepBot,39,34,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,12,5,40193,20193
+194,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40194,20194
+195,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40195,20195
+196,RandBot beat RDeepBot,RandBot,RDeepBot,72,57,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40196,20196
+197,RDeepBot beat RandBot,RDeepBot,RandBot,85,35,1,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40197,20197
+198,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40198,20198
+199,RDeepBot beat RandBot,RDeepBot,RandBot,84,20,3,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40199,20199
+200,RDeepBot beat RandBot,RDeepBot,RandBot,68,14,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40200,20200
+201,RDeepBot beat RandBot,RDeepBot,RandBot,70,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40201,20201
+202,RandBot beat RDeepBot,RandBot,RDeepBot,59,61,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40202,20202
+203,RDeepBot beat RandBot,RDeepBot,RandBot,66,47,1,True,RDeepBot,13,0,0,True,['Card.JACK_HEARTS'],"['Card.QUEEN_DIAMONDS', 'Card.TEN_SPADES', 'Card.ACE_CLUBS', 'Card.QUEEN_CLUBS']",4,12,5,40203,20203
+204,RDeepBot beat RandBot,RDeepBot,RandBot,70,0,3,True,RDeepBot,14,0,1,True,['Card.ACE_SPADES'],"['Card.QUEEN_DIAMONDS', 'Card.JACK_HEARTS', 'Card.ACE_DIAMONDS', 'Card.ACE_CLUBS']",3,12,5,40204,20204
+205,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40205,20205
+206,RDeepBot beat RandBot,RDeepBot,RandBot,68,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40206,20206
+207,RDeepBot beat RandBot,RDeepBot,RandBot,70,14,2,True,RDeepBot,36,0,0,True,"['Card.ACE_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.TEN_HEARTS', 'Card.JACK_SPADES', 'Card.KING_HEARTS']",2,12,5,40207,20207
+208,RDeepBot beat RandBot,RDeepBot,RandBot,83,21,2,True,RandBot,21,0,1,False,N/A,N/A,N/A,12,5,40208,20208
+209,RandBot beat RDeepBot,RandBot,RDeepBot,72,61,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40209,20209
+210,RDeepBot beat RandBot,RDeepBot,RandBot,83,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40210,20210
+211,RDeepBot beat RandBot,RDeepBot,RandBot,21,55,3,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40211,20211
+212,RDeepBot beat RandBot,RDeepBot,RandBot,79,61,1,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40212,20212
+213,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40213,20213
+214,RDeepBot beat RandBot,RDeepBot,RandBot,75,33,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40214,20214
+215,RDeepBot beat RandBot,RDeepBot,RandBot,80,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40215,20215
+216,RDeepBot beat RandBot,RDeepBot,RandBot,75,7,3,True,RDeepBot,20,0,0,True,[],"['Card.QUEEN_SPADES', 'Card.KING_SPADES', 'Card.TEN_HEARTS', 'Card.ACE_SPADES', 'Card.ACE_HEARTS']",4,12,5,40216,20216
+217,RDeepBot beat RandBot,RDeepBot,RandBot,82,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40217,20217
+218,RDeepBot beat RandBot,RDeepBot,RandBot,67,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40218,20218
+219,RDeepBot beat RandBot,RDeepBot,RandBot,68,22,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40219,20219
+220,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,14,0,0,False,"['Card.ACE_CLUBS', 'Card.JACK_CLUBS']","['Card.ACE_HEARTS', 'Card.JACK_HEARTS', 'Card.KING_DIAMONDS']",-1,12,5,40220,20220
+221,RandBot beat RDeepBot,RandBot,RDeepBot,66,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40221,20221
+222,RandBot beat RDeepBot,RandBot,RDeepBot,66,48,2,True,RandBot,49,0,0,False,N/A,N/A,N/A,12,5,40222,20222
+223,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40223,20223
+224,RDeepBot beat RandBot,RDeepBot,RandBot,99,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40224,20224
+225,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40225,20225
+226,RDeepBot beat RandBot,RDeepBot,RandBot,74,13,2,True,RDeepBot,27,0,0,True,['Card.ACE_DIAMONDS'],"['Card.TEN_HEARTS', 'Card.KING_SPADES', 'Card.KING_CLUBS', 'Card.ACE_SPADES']",4,12,5,40226,20226
+227,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40227,20227
+228,RDeepBot beat RandBot,RDeepBot,RandBot,74,39,2,True,RandBot,39,0,0,False,N/A,N/A,N/A,12,5,40228,20228
+229,RDeepBot beat RandBot,RDeepBot,RandBot,68,8,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40229,20229
+230,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40230,20230
+231,RDeepBot beat RandBot,RDeepBot,RandBot,75,47,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40231,20231
+232,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,0,0,0,False,"['Card.JACK_CLUBS', 'Card.ACE_CLUBS']","['Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS']",0,12,5,40232,20232
+233,RDeepBot beat RandBot,RDeepBot,RandBot,74,46,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40233,20233
+234,RDeepBot beat RandBot,RDeepBot,RandBot,80,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40234,20234
+235,RDeepBot beat RandBot,RDeepBot,RandBot,40,34,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40235,20235
+236,RDeepBot beat RandBot,RDeepBot,RandBot,69,25,2,True,RandBot,4,0,0,False,N/A,N/A,N/A,12,5,40236,20236
+237,RDeepBot beat RandBot,RDeepBot,RandBot,48,41,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40237,20237
+238,RDeepBot beat RandBot,RDeepBot,RandBot,72,48,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40238,20238
+239,RDeepBot beat RandBot,RDeepBot,RandBot,68,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40239,20239
+240,RDeepBot beat RandBot,RDeepBot,RandBot,69,8,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40240,20240
+241,RandBot beat RDeepBot,RandBot,RDeepBot,69,45,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40241,20241
+242,RDeepBot beat RandBot,RDeepBot,RandBot,66,22,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40242,20242
+243,RDeepBot beat RandBot,RDeepBot,RandBot,21,29,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40243,20243
+244,RandBot beat RDeepBot,RandBot,RDeepBot,71,34,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40244,20244
+245,RDeepBot beat RandBot,RDeepBot,RandBot,54,6,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40245,20245
+246,RDeepBot beat RandBot,RDeepBot,RandBot,72,0,3,True,RDeepBot,0,0,0,True,"['Card.TEN_HEARTS', 'Card.ACE_HEARTS']","['Card.TEN_SPADES', 'Card.ACE_SPADES', 'Card.TEN_CLUBS']",5,12,5,40246,20246
+247,RDeepBot beat RandBot,RDeepBot,RandBot,54,15,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40247,20247
+248,RandBot beat RDeepBot,RandBot,RDeepBot,68,60,1,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40248,20248
+249,RDeepBot beat RandBot,RDeepBot,RandBot,68,22,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40249,20249
+250,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40250,20250
+251,RDeepBot beat RandBot,RDeepBot,RandBot,68,33,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40251,20251
+252,RDeepBot beat RandBot,RDeepBot,RandBot,72,14,2,True,RDeepBot,29,0,0,True,['Card.KING_DIAMONDS'],"['Card.QUEEN_SPADES', 'Card.ACE_SPADES', 'Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']",3,12,5,40252,20252
+253,RandBot beat RDeepBot,RandBot,RDeepBot,73,42,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40253,20253
+254,RDeepBot beat RandBot,RDeepBot,RandBot,78,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40254,20254
+255,RDeepBot beat RandBot,RDeepBot,RandBot,66,28,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40255,20255
+256,RDeepBot beat RandBot,RDeepBot,RandBot,75,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40256,20256
+257,RDeepBot beat RandBot,RDeepBot,RandBot,69,38,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40257,20257
+258,RDeepBot beat RandBot,RDeepBot,RandBot,71,13,2,True,RandBot,13,1,0,False,N/A,N/A,N/A,12,5,40258,20258
+259,RDeepBot beat RandBot,RDeepBot,RandBot,84,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40259,20259
+260,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40260,20260
+261,RandBot beat RDeepBot,RandBot,RDeepBot,40,49,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40261,20261
+262,RDeepBot beat RandBot,RDeepBot,RandBot,69,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40262,20262
+263,RandBot beat RDeepBot,RandBot,RDeepBot,60,5,3,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40263,20263
+264,RDeepBot beat RandBot,RDeepBot,RandBot,61,13,3,True,RDeepBot,8,0,0,True,['Card.QUEEN_DIAMONDS'],"['Card.TEN_CLUBS', 'Card.ACE_HEARTS', 'Card.QUEEN_HEARTS', 'Card.ACE_SPADES']",4,12,5,40264,20264
+265,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40265,20265
+266,RandBot beat RDeepBot,RandBot,RDeepBot,68,46,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40266,20266
+267,RDeepBot beat RandBot,RDeepBot,RandBot,26,35,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40267,20267
+268,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40268,20268
+269,RDeepBot beat RandBot,RDeepBot,RandBot,74,39,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40269,20269
+270,RandBot beat RDeepBot,RandBot,RDeepBot,80,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40270,20270
+271,RandBot beat RDeepBot,RandBot,RDeepBot,36,40,3,True,RandBot,15,0,0,False,N/A,N/A,N/A,12,5,40271,20271
+272,RDeepBot beat RandBot,RDeepBot,RandBot,75,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40272,20272
+273,RDeepBot beat RandBot,RDeepBot,RandBot,0,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40273,20273
+274,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40274,20274
+275,RandBot beat RDeepBot,RandBot,RDeepBot,42,33,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,12,5,40275,20275
+276,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40276,20276
+277,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,True,RDeepBot,61,0,1,True,['Card.QUEEN_HEARTS'],"['Card.KING_DIAMONDS', 'Card.TEN_SPADES', 'Card.ACE_CLUBS', 'Card.KING_CLUBS']",1,12,5,40277,20277
+278,RandBot beat RDeepBot,RandBot,RDeepBot,68,60,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40278,20278
+279,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40279,20279
+280,RDeepBot beat RandBot,RDeepBot,RandBot,46,21,3,True,RDeepBot,14,0,0,True,['Card.KING_CLUBS'],"['Card.KING_DIAMONDS', 'Card.ACE_HEARTS', 'Card.KING_SPADES', 'Card.TEN_HEARTS']",3,12,5,40280,20280
+281,RDeepBot beat RandBot,RDeepBot,RandBot,67,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40281,20281
+282,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40282,20282
+283,RDeepBot beat RandBot,RDeepBot,RandBot,75,34,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40283,20283
+284,RandBot beat RDeepBot,RandBot,RDeepBot,71,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40284,20284
+285,RDeepBot beat RandBot,RDeepBot,RandBot,51,13,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,12,5,40285,20285
+286,RandBot beat RDeepBot,RandBot,RDeepBot,39,44,3,True,RDeepBot,14,0,0,False,['Card.ACE_DIAMONDS'],"['Card.ACE_SPADES', 'Card.JACK_HEARTS', 'Card.KING_CLUBS', 'Card.JACK_CLUBS']",2,12,5,40286,20286
+287,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40287,20287
+288,RDeepBot beat RandBot,RDeepBot,RandBot,75,34,2,True,RandBot,14,0,1,False,N/A,N/A,N/A,12,5,40288,20288
+289,RDeepBot beat RandBot,RDeepBot,RandBot,86,0,3,True,RDeepBot,38,0,0,True,['Card.ACE_CLUBS'],"['Card.QUEEN_HEARTS', 'Card.TEN_SPADES', 'Card.KING_SPADES', 'Card.ACE_SPADES']",3,12,5,40289,20289
+290,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40290,20290
+291,RandBot beat RDeepBot,RandBot,RDeepBot,61,54,1,True,RandBot,20,0,0,False,N/A,N/A,N/A,12,5,40291,20291
+292,RandBot beat RDeepBot,RandBot,RDeepBot,69,45,1,True,RandBot,27,1,0,False,N/A,N/A,N/A,12,5,40292,20292
+293,RDeepBot beat RandBot,RDeepBot,RandBot,76,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40293,20293
+294,RDeepBot beat RandBot,RDeepBot,RandBot,69,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40294,20294
+295,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40295,20295
+296,RDeepBot beat RandBot,RDeepBot,RandBot,68,7,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40296,20296
+297,RDeepBot beat RandBot,RDeepBot,RandBot,76,59,2,True,RandBot,46,0,0,False,N/A,N/A,N/A,12,5,40297,20297
+298,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40298,20298
+299,RDeepBot beat RandBot,RDeepBot,RandBot,67,28,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40299,20299
+300,RDeepBot beat RandBot,RDeepBot,RandBot,76,39,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40300,20300
+301,RDeepBot beat RandBot,RDeepBot,RandBot,58,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40301,20301
+302,RDeepBot beat RandBot,RDeepBot,RandBot,76,5,2,True,RandBot,5,1,0,False,N/A,N/A,N/A,12,5,40302,20302
+303,RandBot beat RDeepBot,RandBot,RDeepBot,46,26,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40303,20303
+304,RDeepBot beat RandBot,RDeepBot,RandBot,75,8,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40304,20304
+305,RDeepBot beat RandBot,RDeepBot,RandBot,82,8,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40305,20305
+306,RDeepBot beat RandBot,RDeepBot,RandBot,62,40,2,True,RandBot,21,0,1,False,N/A,N/A,N/A,12,5,40306,20306
+307,RDeepBot beat RandBot,RDeepBot,RandBot,72,42,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40307,20307
+308,RandBot beat RDeepBot,RandBot,RDeepBot,78,28,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40308,20308
+309,RDeepBot beat RandBot,RDeepBot,RandBot,72,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40309,20309
+310,RDeepBot beat RandBot,RDeepBot,RandBot,69,13,2,True,RDeepBot,28,0,0,True,['Card.ACE_DIAMONDS'],"['Card.QUEEN_HEARTS', 'Card.QUEEN_SPADES', 'Card.ACE_CLUBS', 'Card.ACE_HEARTS']",3,12,5,40310,20310
+311,RandBot beat RDeepBot,RandBot,RDeepBot,32,13,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40311,20311
+312,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,14,0,0,False,['Card.KING_HEARTS'],"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS', 'Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']",-1,12,5,40312,20312
+313,RDeepBot beat RandBot,RDeepBot,RandBot,69,5,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40313,20313
+314,RDeepBot beat RandBot,RDeepBot,RandBot,68,7,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40314,20314
+315,RandBot beat RDeepBot,RandBot,RDeepBot,43,52,2,True,RandBot,7,0,0,False,N/A,N/A,N/A,12,5,40315,20315
+316,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,0,0,0,False,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.ACE_SPADES', 'Card.QUEEN_SPADES', 'Card.ACE_CLUBS']",0,12,5,40316,20316
+317,RandBot beat RDeepBot,RandBot,RDeepBot,66,60,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40317,20317
+318,RDeepBot beat RandBot,RDeepBot,RandBot,71,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40318,20318
+319,RDeepBot beat RandBot,RDeepBot,RandBot,73,21,2,True,RDeepBot,38,0,0,True,['Card.KING_CLUBS'],"['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.KING_SPADES']",3,12,5,40319,20319
+320,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40320,20320
+321,RandBot beat RDeepBot,RandBot,RDeepBot,66,54,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40321,20321
+322,RDeepBot beat RandBot,RDeepBot,RandBot,82,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40322,20322
+323,RDeepBot beat RandBot,RDeepBot,RandBot,86,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40323,20323
+324,RDeepBot beat RandBot,RDeepBot,RandBot,74,46,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40324,20324
+325,RDeepBot beat RandBot,RDeepBot,RandBot,70,5,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40325,20325
+326,RandBot beat RDeepBot,RandBot,RDeepBot,68,52,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40326,20326
+327,RDeepBot beat RandBot,RDeepBot,RandBot,72,48,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40327,20327
+328,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40328,20328
+329,RDeepBot beat RandBot,RDeepBot,RandBot,77,25,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40329,20329
+330,RDeepBot beat RandBot,RDeepBot,RandBot,75,33,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40330,20330
+331,RandBot beat RDeepBot,RandBot,RDeepBot,96,0,3,True,RandBot,49,0,0,False,N/A,N/A,N/A,12,5,40331,20331
+332,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40332,20332
+333,RDeepBot beat RandBot,RDeepBot,RandBot,73,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40333,20333
+334,RDeepBot beat RandBot,RDeepBot,RandBot,67,31,2,True,RandBot,12,0,0,False,N/A,N/A,N/A,12,5,40334,20334
+335,RDeepBot beat RandBot,RDeepBot,RandBot,60,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40335,20335
+336,RDeepBot beat RandBot,RDeepBot,RandBot,55,65,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40336,20336
+337,RDeepBot beat RandBot,RDeepBot,RandBot,68,6,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40337,20337
+338,RDeepBot beat RandBot,RDeepBot,RandBot,87,0,3,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40338,20338
+339,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40339,20339
+340,RDeepBot beat RandBot,RDeepBot,RandBot,69,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40340,20340
+341,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40341,20341
+342,RDeepBot beat RandBot,RDeepBot,RandBot,72,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40342,20342
+343,RDeepBot beat RandBot,RDeepBot,RandBot,77,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40343,20343
+344,RandBot beat RDeepBot,RandBot,RDeepBot,68,47,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40344,20344
+345,RDeepBot beat RandBot,RDeepBot,RandBot,69,53,1,True,RDeepBot,15,0,0,True,[],"['Card.QUEEN_HEARTS', 'Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS', 'Card.TEN_HEARTS', 'Card.TEN_SPADES']",4,12,5,40345,20345
+346,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40346,20346
+347,RDeepBot beat RandBot,RDeepBot,RandBot,54,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40347,20347
+348,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40348,20348
+349,RandBot beat RDeepBot,RandBot,RDeepBot,78,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40349,20349
+350,RDeepBot beat RandBot,RDeepBot,RandBot,84,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40350,20350
+351,RDeepBot beat RandBot,RDeepBot,RandBot,35,47,2,True,RDeepBot,15,0,0,True,[],"['Card.KING_SPADES', 'Card.QUEEN_HEARTS', 'Card.TEN_SPADES', 'Card.QUEEN_CLUBS', 'Card.ACE_HEARTS']",2,12,5,40351,20351
+352,RDeepBot beat RandBot,RDeepBot,RandBot,56,51,2,True,RandBot,11,0,1,False,N/A,N/A,N/A,12,5,40352,20352
+353,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,True,RDeepBot,25,0,1,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.ACE_DIAMONDS', 'Card.KING_CLUBS', 'Card.ACE_CLUBS']",3,12,5,40353,20353
+354,RandBot beat RDeepBot,RandBot,RDeepBot,66,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40354,20354
+355,RDeepBot beat RandBot,RDeepBot,RandBot,41,33,3,True,RDeepBot,7,0,0,True,[],"['Card.QUEEN_DIAMONDS', 'Card.QUEEN_SPADES', 'Card.ACE_HEARTS', 'Card.ACE_SPADES', 'Card.JACK_DIAMONDS']",2,12,5,40355,20355
+356,RandBot beat RDeepBot,RandBot,RDeepBot,61,59,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40356,20356
+357,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40357,20357
+358,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40358,20358
+359,RDeepBot beat RandBot,RDeepBot,RandBot,74,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40359,20359
+360,RDeepBot beat RandBot,RDeepBot,RandBot,88,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40360,20360
+361,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40361,20361
+362,RDeepBot beat RandBot,RDeepBot,RandBot,67,7,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40362,20362
+363,RDeepBot beat RandBot,RDeepBot,RandBot,71,63,2,True,RandBot,34,1,0,False,N/A,N/A,N/A,12,5,40363,20363
+364,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40364,20364
+365,RandBot beat RDeepBot,RandBot,RDeepBot,29,28,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40365,20365
+366,RDeepBot beat RandBot,RDeepBot,RandBot,73,15,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40366,20366
+367,RDeepBot beat RandBot,RDeepBot,RandBot,54,15,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40367,20367
+368,RDeepBot beat RandBot,RDeepBot,RandBot,110,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40368,20368
+369,RDeepBot beat RandBot,RDeepBot,RandBot,60,60,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40369,20369
+370,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,7,0,0,False,['Card.QUEEN_HEARTS'],"['Card.ACE_DIAMONDS', 'Card.ACE_SPADES', 'Card.JACK_CLUBS', 'Card.KING_SPADES']",-1,12,5,40370,20370
+371,RDeepBot beat RandBot,RDeepBot,RandBot,70,13,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40371,20371
+372,RDeepBot beat RandBot,RDeepBot,RandBot,75,12,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40372,20372
+373,RandBot beat RDeepBot,RandBot,RDeepBot,75,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40373,20373
+374,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40374,20374
+375,RDeepBot beat RandBot,RDeepBot,RandBot,66,54,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40375,20375
+376,RDeepBot beat RandBot,RDeepBot,RandBot,53,14,3,True,RDeepBot,0,0,0,True,"['Card.TEN_SPADES', 'Card.QUEEN_SPADES']","['Card.TEN_DIAMONDS', 'Card.ACE_HEARTS', 'Card.QUEEN_DIAMONDS']",4,12,5,40376,20376
+377,RandBot beat RDeepBot,RandBot,RDeepBot,65,28,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40377,20377
+378,RDeepBot beat RandBot,RDeepBot,RandBot,71,0,3,True,RDeepBot,6,0,0,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.JACK_DIAMONDS', 'Card.TEN_SPADES', 'Card.ACE_DIAMONDS']",5,12,5,40378,20378
+379,RandBot beat RDeepBot,RandBot,RDeepBot,66,54,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40379,20379
+380,RDeepBot beat RandBot,RDeepBot,RandBot,79,41,1,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40380,20380
+381,RandBot beat RDeepBot,RandBot,RDeepBot,67,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40381,20381
+382,RDeepBot beat RandBot,RDeepBot,RandBot,75,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40382,20382
+383,RDeepBot beat RandBot,RDeepBot,RandBot,103,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40383,20383
+384,RDeepBot beat RandBot,RDeepBot,RandBot,82,33,1,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40384,20384
+385,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40385,20385
+386,RandBot beat RDeepBot,RandBot,RDeepBot,13,54,3,True,RDeepBot,5,0,1,False,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.KING_CLUBS', 'Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']",4,12,5,40386,20386
+387,RDeepBot beat RandBot,RDeepBot,RandBot,74,46,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40387,20387
+388,RDeepBot beat RandBot,RDeepBot,RandBot,61,25,3,True,RDeepBot,22,0,0,True,"['Card.JACK_SPADES', 'Card.TEN_SPADES']","['Card.ACE_CLUBS', 'Card.TEN_CLUBS', 'Card.JACK_HEARTS']",3,12,5,40388,20388
+389,RDeepBot beat RandBot,RDeepBot,RandBot,68,39,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40389,20389
+390,RDeepBot beat RandBot,RDeepBot,RandBot,69,5,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40390,20390
+391,RDeepBot beat RandBot,RDeepBot,RandBot,72,48,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40391,20391
+392,RDeepBot beat RandBot,RDeepBot,RandBot,73,54,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40392,20392
+393,RDeepBot beat RandBot,RDeepBot,RandBot,74,28,2,True,RDeepBot,42,0,0,True,[],"['Card.TEN_CLUBS', 'Card.TEN_DIAMONDS', 'Card.TEN_HEARTS', 'Card.KING_HEARTS', 'Card.JACK_HEARTS']",3,12,5,40393,20393
+394,RDeepBot beat RandBot,RDeepBot,RandBot,73,28,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40394,20394
+395,RandBot beat RDeepBot,RandBot,RDeepBot,62,21,3,True,RDeepBot,21,0,0,False,['Card.TEN_SPADES'],"['Card.JACK_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.QUEEN_CLUBS']",0,12,5,40395,20395
+396,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40396,20396
+397,RDeepBot beat RandBot,RDeepBot,RandBot,66,19,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40397,20397
+398,RDeepBot beat RandBot,RDeepBot,RandBot,86,35,1,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40398,20398
+399,RDeepBot beat RandBot,RDeepBot,RandBot,70,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40399,20399
+400,RDeepBot beat RandBot,RDeepBot,RandBot,39,31,3,True,RandBot,12,0,0,False,N/A,N/A,N/A,12,5,40400,20400
+401,RDeepBot beat RandBot,RDeepBot,RandBot,33,47,3,True,RandBot,20,0,0,False,N/A,N/A,N/A,12,5,40401,20401
+402,RDeepBot beat RandBot,RDeepBot,RandBot,67,15,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40402,20402
+403,RDeepBot beat RandBot,RDeepBot,RandBot,74,20,2,True,RDeepBot,47,0,0,True,['Card.JACK_CLUBS'],"['Card.TEN_HEARTS', 'Card.ACE_SPADES', 'Card.JACK_DIAMONDS', 'Card.KING_SPADES']",2,12,5,40403,20403
+404,RDeepBot beat RandBot,RDeepBot,RandBot,73,34,2,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40404,20404
+405,RDeepBot beat RandBot,RDeepBot,RandBot,76,6,2,True,RDeepBot,15,0,0,True,['Card.ACE_HEARTS'],"['Card.QUEEN_SPADES', 'Card.TEN_DIAMONDS', 'Card.TEN_CLUBS', 'Card.ACE_CLUBS']",4,12,5,40405,20405
+406,RDeepBot beat RandBot,RDeepBot,RandBot,75,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40406,20406
+407,RDeepBot beat RandBot,RDeepBot,RandBot,78,0,3,True,RDeepBot,26,0,0,True,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.JACK_CLUBS', 'Card.TEN_CLUBS', 'Card.KING_CLUBS']",5,12,5,40407,20407
+408,RDeepBot beat RandBot,RDeepBot,RandBot,82,8,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40408,20408
+409,RandBot beat RDeepBot,RandBot,RDeepBot,69,0,3,True,RandBot,27,0,0,False,N/A,N/A,N/A,12,5,40409,20409
+410,RDeepBot beat RandBot,RDeepBot,RandBot,59,61,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40410,20410
+411,RDeepBot beat RandBot,RDeepBot,RandBot,70,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40411,20411
+412,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40412,20412
+413,RDeepBot beat RandBot,RDeepBot,RandBot,66,12,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40413,20413
+414,RDeepBot beat RandBot,RDeepBot,RandBot,82,4,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40414,20414
+415,RDeepBot beat RandBot,RDeepBot,RandBot,66,48,2,True,RandBot,41,0,0,False,N/A,N/A,N/A,12,5,40415,20415
+416,RDeepBot beat RandBot,RDeepBot,RandBot,81,30,2,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40416,20416
+417,RDeepBot beat RandBot,RDeepBot,RandBot,69,14,3,True,RDeepBot,14,1,1,True,['Card.ACE_DIAMONDS'],"['Card.TEN_HEARTS', 'Card.QUEEN_CLUBS', 'Card.KING_CLUBS', 'Card.ACE_SPADES']",2,12,5,40417,20417
+418,RDeepBot beat RandBot,RDeepBot,RandBot,73,21,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40418,20418
+419,RDeepBot beat RandBot,RDeepBot,RandBot,78,12,3,True,RDeepBot,31,0,0,True,"['Card.KING_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.KING_SPADES', 'Card.TEN_SPADES', 'Card.ACE_CLUBS']",3,12,5,40419,20419
+420,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40420,20420
+421,RDeepBot beat RandBot,RDeepBot,RandBot,68,20,2,True,RDeepBot,15,0,0,True,[],"['Card.ACE_HEARTS', 'Card.TEN_SPADES', 'Card.QUEEN_HEARTS', 'Card.TEN_HEARTS', 'Card.ACE_CLUBS']",4,12,5,40421,20421
+422,RDeepBot beat RandBot,RDeepBot,RandBot,73,41,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40422,20422
+423,RDeepBot beat RandBot,RDeepBot,RandBot,83,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40423,20423
+424,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40424,20424
+425,RandBot beat RDeepBot,RandBot,RDeepBot,79,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40425,20425
+426,RDeepBot beat RandBot,RDeepBot,RandBot,77,25,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40426,20426
+427,RDeepBot beat RandBot,RDeepBot,RandBot,68,6,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40427,20427
+428,RDeepBot beat RandBot,RDeepBot,RandBot,58,62,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40428,20428
+429,RDeepBot beat RandBot,RDeepBot,RandBot,83,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40429,20429
+430,RDeepBot beat RandBot,RDeepBot,RandBot,67,12,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40430,20430
+431,RDeepBot beat RandBot,RDeepBot,RandBot,80,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40431,20431
+432,RDeepBot beat RandBot,RDeepBot,RandBot,67,35,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40432,20432
+433,RDeepBot beat RandBot,RDeepBot,RandBot,42,27,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40433,20433
+434,RDeepBot beat RandBot,RDeepBot,RandBot,75,45,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40434,20434
+435,RDeepBot beat RandBot,RDeepBot,RandBot,94,40,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40435,20435
+436,RDeepBot beat RandBot,RDeepBot,RandBot,67,13,2,True,RandBot,13,1,0,False,N/A,N/A,N/A,12,5,40436,20436
+437,RDeepBot beat RandBot,RDeepBot,RandBot,67,28,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40437,20437
+438,RDeepBot beat RandBot,RDeepBot,RandBot,67,46,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40438,20438
+439,RDeepBot beat RandBot,RDeepBot,RandBot,77,20,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40439,20439
+440,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40440,20440
+441,RDeepBot beat RandBot,RDeepBot,RandBot,80,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40441,20441
+442,RDeepBot beat RandBot,RDeepBot,RandBot,73,8,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40442,20442
+443,RDeepBot beat RandBot,RDeepBot,RandBot,83,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40443,20443
+444,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,5,0,0,False,"['Card.JACK_CLUBS', 'Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.KING_HEARTS', 'Card.TEN_HEARTS']",-1,12,5,40444,20444
+445,RDeepBot beat RandBot,RDeepBot,RandBot,76,14,2,True,RandBot,14,0,1,False,N/A,N/A,N/A,12,5,40445,20445
+446,RDeepBot beat RandBot,RDeepBot,RandBot,72,48,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40446,20446
+447,RDeepBot beat RandBot,RDeepBot,RandBot,82,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40447,20447
+448,RandBot beat RDeepBot,RandBot,RDeepBot,62,58,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40448,20448
+449,RandBot beat RDeepBot,RandBot,RDeepBot,70,50,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40449,20449
+450,RDeepBot beat RandBot,RDeepBot,RandBot,75,5,2,True,RandBot,5,1,0,False,N/A,N/A,N/A,12,5,40450,20450
+451,RandBot beat RDeepBot,RandBot,RDeepBot,47,15,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40451,20451
+452,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40452,20452
+453,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40453,20453
+454,RandBot beat RDeepBot,RandBot,RDeepBot,44,24,3,True,RandBot,15,0,0,False,N/A,N/A,N/A,12,5,40454,20454
+455,RDeepBot beat RandBot,RDeepBot,RandBot,73,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40455,20455
+456,RDeepBot beat RandBot,RDeepBot,RandBot,67,5,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40456,20456
+457,RDeepBot beat RandBot,RDeepBot,RandBot,81,0,3,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40457,20457
+458,RDeepBot beat RandBot,RDeepBot,RandBot,74,13,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40458,20458
+459,RDeepBot beat RandBot,RDeepBot,RandBot,75,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40459,20459
+460,RDeepBot beat RandBot,RDeepBot,RandBot,66,29,2,True,RandBot,29,1,0,False,N/A,N/A,N/A,12,5,40460,20460
+461,RandBot beat RDeepBot,RandBot,RDeepBot,67,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40461,20461
+462,RDeepBot beat RandBot,RDeepBot,RandBot,78,4,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40462,20462
+463,RDeepBot beat RandBot,RDeepBot,RandBot,77,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40463,20463
+464,RDeepBot beat RandBot,RDeepBot,RandBot,80,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40464,20464
+465,RDeepBot beat RandBot,RDeepBot,RandBot,59,61,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40465,20465
+466,RDeepBot beat RandBot,RDeepBot,RandBot,72,22,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40466,20466
+467,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40467,20467
+468,RDeepBot beat RandBot,RDeepBot,RandBot,79,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40468,20468
+469,RDeepBot beat RandBot,RDeepBot,RandBot,68,13,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40469,20469
+470,RDeepBot beat RandBot,RDeepBot,RandBot,67,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40470,20470
+471,RDeepBot beat RandBot,RDeepBot,RandBot,79,61,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40471,20471
+472,RDeepBot beat RandBot,RDeepBot,RandBot,73,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40472,20472
+473,RandBot beat RDeepBot,RandBot,RDeepBot,64,56,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40473,20473
+474,RDeepBot beat RandBot,RDeepBot,RandBot,54,38,2,True,RandBot,13,0,0,False,N/A,N/A,N/A,12,5,40474,20474
+475,RandBot beat RDeepBot,RandBot,RDeepBot,64,35,2,True,RandBot,20,0,0,False,N/A,N/A,N/A,12,5,40475,20475
+476,RDeepBot beat RandBot,RDeepBot,RandBot,68,15,2,True,RDeepBot,39,1,0,True,['Card.ACE_DIAMONDS'],"['Card.ACE_CLUBS', 'Card.QUEEN_HEARTS', 'Card.JACK_CLUBS', 'Card.TEN_SPADES']",2,12,5,40476,20476
+477,RandBot beat RDeepBot,RandBot,RDeepBot,69,36,1,True,RandBot,14,1,0,False,N/A,N/A,N/A,12,5,40477,20477
+478,RDeepBot beat RandBot,RDeepBot,RandBot,83,40,2,True,RandBot,27,2,0,False,N/A,N/A,N/A,12,5,40478,20478
+479,RDeepBot beat RandBot,RDeepBot,RandBot,72,6,3,True,RDeepBot,12,0,0,True,['Card.ACE_SPADES'],"['Card.JACK_DIAMONDS', 'Card.ACE_CLUBS', 'Card.JACK_CLUBS', 'Card.ACE_DIAMONDS']",4,12,5,40479,20479
+480,RandBot beat RDeepBot,RandBot,RDeepBot,69,37,1,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40480,20480
+481,RDeepBot beat RandBot,RDeepBot,RandBot,70,34,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40481,20481
+482,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40482,20482
+483,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40483,20483
+484,RDeepBot beat RandBot,RDeepBot,RandBot,82,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40484,20484
+485,RDeepBot beat RandBot,RDeepBot,RandBot,81,14,2,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40485,20485
+486,RDeepBot beat RandBot,RDeepBot,RandBot,21,54,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40486,20486
+487,RDeepBot beat RandBot,RDeepBot,RandBot,66,22,2,True,RDeepBot,13,0,0,True,['Card.JACK_DIAMONDS'],"['Card.ACE_SPADES', 'Card.ACE_CLUBS', 'Card.KING_CLUBS', 'Card.TEN_CLUBS']",4,12,5,40487,20487
+488,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40488,20488
+489,RandBot beat RDeepBot,RandBot,RDeepBot,73,28,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40489,20489
+490,RDeepBot beat RandBot,RDeepBot,RandBot,68,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40490,20490
+491,RandBot beat RDeepBot,RandBot,RDeepBot,48,28,3,True,RDeepBot,7,0,0,False,[],"['Card.ACE_HEARTS', 'Card.ACE_CLUBS', 'Card.ACE_SPADES', 'Card.QUEEN_SPADES', 'Card.KING_CLUBS']",1,12,5,40491,20491
+492,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40492,20492
+493,RDeepBot beat RandBot,RDeepBot,RandBot,54,20,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40493,20493
+494,RDeepBot beat RandBot,RDeepBot,RandBot,71,31,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40494,20494
+495,RDeepBot beat RandBot,RDeepBot,RandBot,70,13,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40495,20495
+496,RDeepBot beat RandBot,RDeepBot,RandBot,79,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40496,20496
+497,RDeepBot beat RandBot,RDeepBot,RandBot,66,28,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40497,20497
+498,RDeepBot beat RandBot,RDeepBot,RandBot,88,12,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40498,20498
+499,RDeepBot beat RandBot,RDeepBot,RandBot,81,5,2,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40499,20499
+500,RDeepBot beat RandBot,RDeepBot,RandBot,26,45,2,True,RandBot,13,0,0,False,N/A,N/A,N/A,12,5,40500,20500
+501,RDeepBot beat RandBot,RDeepBot,RandBot,72,0,3,True,RDeepBot,32,0,0,True,['Card.TEN_CLUBS'],"['Card.ACE_HEARTS', 'Card.KING_SPADES', 'Card.ACE_SPADES', 'Card.KING_HEARTS']",3,12,5,40501,20501
+502,RandBot beat RDeepBot,RandBot,RDeepBot,73,46,1,True,RandBot,36,1,0,False,N/A,N/A,N/A,12,5,40502,20502
+503,RandBot beat RDeepBot,RandBot,RDeepBot,78,42,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40503,20503
+504,RandBot beat RDeepBot,RandBot,RDeepBot,76,30,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40504,20504
+505,RandBot beat RDeepBot,RandBot,RDeepBot,53,5,3,True,RandBot,12,0,0,False,N/A,N/A,N/A,12,5,40505,20505
+506,RDeepBot beat RandBot,RDeepBot,RandBot,73,22,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40506,20506
+507,RandBot beat RDeepBot,RandBot,RDeepBot,21,41,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40507,20507
+508,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,True,RDeepBot,0,0,0,True,"['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.JACK_HEARTS', 'Card.ACE_CLUBS', 'Card.ACE_SPADES']",5,12,5,40508,20508
+509,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40509,20509
+510,RDeepBot beat RandBot,RDeepBot,RandBot,79,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40510,20510
+511,RDeepBot beat RandBot,RDeepBot,RandBot,71,49,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40511,20511
+512,RDeepBot beat RandBot,RDeepBot,RandBot,76,14,2,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40512,20512
+513,RandBot beat RDeepBot,RandBot,RDeepBot,41,34,3,True,RandBot,8,0,0,False,N/A,N/A,N/A,12,5,40513,20513
+514,RDeepBot beat RandBot,RDeepBot,RandBot,68,41,2,True,RandBot,15,1,0,False,N/A,N/A,N/A,12,5,40514,20514
+515,RDeepBot beat RandBot,RDeepBot,RandBot,83,4,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40515,20515
+516,RDeepBot beat RandBot,RDeepBot,RandBot,70,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40516,20516
+517,RandBot beat RDeepBot,RandBot,RDeepBot,72,34,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40517,20517
+518,RandBot beat RDeepBot,RandBot,RDeepBot,70,26,2,True,RandBot,42,1,0,False,N/A,N/A,N/A,12,5,40518,20518
+519,RandBot beat RDeepBot,RandBot,RDeepBot,81,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40519,20519
+520,RDeepBot beat RandBot,RDeepBot,RandBot,68,29,2,True,RandBot,29,1,0,False,N/A,N/A,N/A,12,5,40520,20520
+521,RDeepBot beat RandBot,RDeepBot,RandBot,81,35,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40521,20521
+522,RandBot beat RDeepBot,RandBot,RDeepBot,58,62,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40522,20522
+523,RDeepBot beat RandBot,RDeepBot,RandBot,60,60,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40523,20523
+524,RDeepBot beat RandBot,RDeepBot,RandBot,54,15,3,True,RDeepBot,0,0,0,True,"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']","['Card.TEN_SPADES', 'Card.KING_SPADES', 'Card.ACE_DIAMONDS']",4,12,5,40524,20524
+525,RDeepBot beat RandBot,RDeepBot,RandBot,77,17,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40525,20525
+526,RDeepBot beat RandBot,RDeepBot,RandBot,51,14,3,True,RDeepBot,6,0,0,True,"['Card.TEN_HEARTS', 'Card.KING_HEARTS']","['Card.TEN_SPADES', 'Card.QUEEN_DIAMONDS', 'Card.TEN_CLUBS']",4,12,5,40526,20526
+527,RandBot beat RDeepBot,RandBot,RDeepBot,74,61,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40527,20527
+528,RandBot beat RDeepBot,RandBot,RDeepBot,40,33,3,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40528,20528
+529,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40529,20529
+530,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,True,RDeepBot,0,0,0,True,"['Card.ACE_SPADES', 'Card.TEN_SPADES', 'Card.QUEEN_SPADES']","['Card.ACE_DIAMONDS', 'Card.ACE_CLUBS']",5,12,5,40530,20530
+531,RDeepBot beat RandBot,RDeepBot,RandBot,64,15,3,True,RDeepBot,17,0,0,True,"['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_DIAMONDS', 'Card.KING_DIAMONDS', 'Card.KING_SPADES']",4,12,5,40531,20531
+532,RDeepBot beat RandBot,RDeepBot,RandBot,66,21,2,True,RDeepBot,27,0,0,True,"['Card.ACE_CLUBS', 'Card.KING_CLUBS']","['Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.QUEEN_SPADES']",3,12,5,40532,20532
+533,RDeepBot beat RandBot,RDeepBot,RandBot,86,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40533,20533
+534,RDeepBot beat RandBot,RDeepBot,RandBot,88,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40534,20534
+535,RandBot beat RDeepBot,RandBot,RDeepBot,80,31,2,True,RandBot,27,1,0,False,N/A,N/A,N/A,12,5,40535,20535
+536,RDeepBot beat RandBot,RDeepBot,RandBot,76,25,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40536,20536
+537,RDeepBot beat RandBot,RDeepBot,RandBot,59,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40537,20537
+538,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40538,20538
+539,RDeepBot beat RandBot,RDeepBot,RandBot,0,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40539,20539
+540,RDeepBot beat RandBot,RDeepBot,RandBot,78,28,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40540,20540
+541,RDeepBot beat RandBot,RDeepBot,RandBot,58,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40541,20541
+542,RDeepBot beat RandBot,RDeepBot,RandBot,63,57,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40542,20542
+543,RDeepBot beat RandBot,RDeepBot,RandBot,70,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40543,20543
+544,RDeepBot beat RandBot,RDeepBot,RandBot,68,8,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40544,20544
+545,RDeepBot beat RandBot,RDeepBot,RandBot,74,6,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,12,5,40545,20545
+546,RandBot beat RDeepBot,RandBot,RDeepBot,74,41,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40546,20546
+547,RDeepBot beat RandBot,RDeepBot,RandBot,35,54,3,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40547,20547
+548,RDeepBot beat RandBot,RDeepBot,RandBot,68,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40548,20548
+549,RDeepBot beat RandBot,RDeepBot,RandBot,71,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40549,20549
+550,RDeepBot beat RandBot,RDeepBot,RandBot,68,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40550,20550
+551,RDeepBot beat RandBot,RDeepBot,RandBot,46,15,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40551,20551
+552,RDeepBot beat RandBot,RDeepBot,RandBot,67,14,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40552,20552
+553,RDeepBot beat RandBot,RDeepBot,RandBot,70,5,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40553,20553
+554,RandBot beat RDeepBot,RandBot,RDeepBot,21,57,3,True,RDeepBot,0,0,0,False,"['Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.TEN_CLUBS', 'Card.TEN_HEARTS', 'Card.ACE_SPADES']",4,12,5,40554,20554
+555,RDeepBot beat RandBot,RDeepBot,RandBot,67,14,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40555,20555
+556,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40556,20556
+557,RandBot beat RDeepBot,RandBot,RDeepBot,69,32,2,True,RandBot,7,0,0,False,N/A,N/A,N/A,12,5,40557,20557
+558,RandBot beat RDeepBot,RandBot,RDeepBot,60,39,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,12,5,40558,20558
+559,RDeepBot beat RandBot,RDeepBot,RandBot,71,49,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40559,20559
+560,RDeepBot beat RandBot,RDeepBot,RandBot,69,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40560,20560
+561,RDeepBot beat RandBot,RDeepBot,RandBot,20,27,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40561,20561
+562,RDeepBot beat RandBot,RDeepBot,RandBot,76,4,3,True,RDeepBot,18,0,0,True,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.ACE_CLUBS', 'Card.KING_CLUBS', 'Card.JACK_CLUBS']",4,12,5,40562,20562
+563,RDeepBot beat RandBot,RDeepBot,RandBot,68,7,2,True,RandBot,7,0,1,False,N/A,N/A,N/A,12,5,40563,20563
+564,RDeepBot beat RandBot,RDeepBot,RandBot,72,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40564,20564
+565,RDeepBot beat RandBot,RDeepBot,RandBot,75,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40565,20565
+566,RandBot beat RDeepBot,RandBot,RDeepBot,67,25,2,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40566,20566
+567,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,True,RDeepBot,28,0,1,True,"['Card.TEN_HEARTS', 'Card.ACE_HEARTS']","['Card.TEN_CLUBS', 'Card.QUEEN_DIAMONDS', 'Card.KING_SPADES']",3,12,5,40567,20567
+568,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40568,20568
+569,RDeepBot beat RandBot,RDeepBot,RandBot,80,42,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40569,20569
+570,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,True,RDeepBot,0,0,0,True,['Card.TEN_HEARTS'],"['Card.QUEEN_SPADES', 'Card.TEN_SPADES', 'Card.ACE_SPADES', 'Card.ACE_DIAMONDS']",5,12,5,40570,20570
+571,RDeepBot beat RandBot,RDeepBot,RandBot,73,33,1,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40571,20571
+572,RDeepBot beat RandBot,RDeepBot,RandBot,66,14,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40572,20572
+573,RDeepBot beat RandBot,RDeepBot,RandBot,67,6,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40573,20573
+574,RDeepBot beat RandBot,RDeepBot,RandBot,81,14,2,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40574,20574
+575,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40575,20575
+576,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,0,0,0,False,['Card.ACE_DIAMONDS'],"['Card.KING_SPADES', 'Card.QUEEN_SPADES', 'Card.ACE_CLUBS', 'Card.ACE_SPADES']",0,12,5,40576,20576
+577,RDeepBot beat RandBot,RDeepBot,RandBot,81,0,3,True,RDeepBot,21,0,0,True,['Card.TEN_SPADES'],"['Card.TEN_DIAMONDS', 'Card.JACK_DIAMONDS', 'Card.ACE_HEARTS', 'Card.ACE_DIAMONDS']",4,12,5,40577,20577
+578,RandBot beat RDeepBot,RandBot,RDeepBot,19,63,3,True,RDeepBot,15,0,0,False,['Card.QUEEN_CLUBS'],"['Card.JACK_DIAMONDS', 'Card.TEN_HEARTS', 'Card.ACE_HEARTS', 'Card.ACE_DIAMONDS']",3,12,5,40578,20578
+579,RDeepBot beat RandBot,RDeepBot,RandBot,69,12,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40579,20579
+580,RDeepBot beat RandBot,RDeepBot,RandBot,87,14,2,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40580,20580
+581,RDeepBot beat RandBot,RDeepBot,RandBot,76,38,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40581,20581
+582,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,True,RDeepBot,48,0,0,True,[],"['Card.ACE_HEARTS', 'Card.JACK_DIAMONDS', 'Card.KING_SPADES', 'Card.ACE_DIAMONDS', 'Card.ACE_SPADES']",1,12,5,40582,20582
+583,RDeepBot beat RandBot,RDeepBot,RandBot,78,6,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,12,5,40583,20583
+584,RDeepBot beat RandBot,RDeepBot,RandBot,74,26,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40584,20584
+585,RDeepBot beat RandBot,RDeepBot,RandBot,59,13,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40585,20585
+586,RandBot beat RDeepBot,RandBot,RDeepBot,63,57,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40586,20586
+587,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,True,RDeepBot,14,0,0,True,[],"['Card.JACK_HEARTS', 'Card.ACE_HEARTS', 'Card.TEN_DIAMONDS', 'Card.ACE_CLUBS', 'Card.QUEEN_CLUBS']",4,12,5,40587,20587
+588,RDeepBot beat RandBot,RDeepBot,RandBot,81,41,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40588,20588
+589,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40589,20589
+590,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40590,20590
+591,RDeepBot beat RandBot,RDeepBot,RandBot,87,32,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40591,20591
+592,RDeepBot beat RandBot,RDeepBot,RandBot,67,21,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40592,20592
+593,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40593,20593
+594,RDeepBot beat RandBot,RDeepBot,RandBot,70,31,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40594,20594
+595,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40595,20595
+596,RandBot beat RDeepBot,RandBot,RDeepBot,66,15,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40596,20596
+597,RDeepBot beat RandBot,RDeepBot,RandBot,80,31,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40597,20597
+598,RDeepBot beat RandBot,RDeepBot,RandBot,67,35,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40598,20598
+599,RDeepBot beat RandBot,RDeepBot,RandBot,83,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40599,20599
+600,RandBot beat RDeepBot,RandBot,RDeepBot,14,58,3,True,RDeepBot,13,0,1,False,['Card.TEN_CLUBS'],"['Card.KING_SPADES', 'Card.KING_HEARTS', 'Card.ACE_DIAMONDS', 'Card.JACK_HEARTS']",4,12,5,40600,20600
+601,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40601,20601
+602,RDeepBot beat RandBot,RDeepBot,RandBot,81,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40602,20602
+603,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,True,RDeepBot,25,0,0,True,"['Card.KING_CLUBS', 'Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.ACE_HEARTS', 'Card.QUEEN_DIAMONDS']",3,12,5,40603,20603
+604,RDeepBot beat RandBot,RDeepBot,RandBot,72,14,2,True,RDeepBot,12,0,0,True,"['Card.JACK_HEARTS', 'Card.ACE_HEARTS']","['Card.KING_DIAMONDS', 'Card.ACE_CLUBS', 'Card.KING_CLUBS']",4,12,5,40604,20604
+605,RDeepBot beat RandBot,RDeepBot,RandBot,76,54,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40605,20605
+606,RandBot beat RDeepBot,RandBot,RDeepBot,66,28,2,True,RandBot,20,0,0,False,N/A,N/A,N/A,12,5,40606,20606
+607,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,True,RDeepBot,61,1,0,True,[],"['Card.KING_CLUBS', 'Card.JACK_CLUBS', 'Card.QUEEN_SPADES', 'Card.TEN_CLUBS', 'Card.ACE_SPADES']",1,12,5,40607,20607
+608,RDeepBot beat RandBot,RDeepBot,RandBot,79,28,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40608,20608
+609,RDeepBot beat RandBot,RDeepBot,RandBot,0,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40609,20609
+610,RDeepBot beat RandBot,RDeepBot,RandBot,72,8,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40610,20610
+611,RandBot beat RDeepBot,RandBot,RDeepBot,20,34,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40611,20611
+612,RDeepBot beat RandBot,RDeepBot,RandBot,82,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40612,20612
+613,RDeepBot beat RandBot,RDeepBot,RandBot,45,62,2,True,RandBot,26,0,1,False,N/A,N/A,N/A,12,5,40613,20613
+614,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40614,20614
+615,RDeepBot beat RandBot,RDeepBot,RandBot,73,14,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40615,20615
+616,RDeepBot beat RandBot,RDeepBot,RandBot,75,25,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40616,20616
+617,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40617,20617
+618,RDeepBot beat RandBot,RDeepBot,RandBot,77,11,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40618,20618
+619,RandBot beat RDeepBot,RandBot,RDeepBot,55,34,2,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40619,20619
+620,RDeepBot beat RandBot,RDeepBot,RandBot,79,41,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40620,20620
+621,RDeepBot beat RandBot,RDeepBot,RandBot,39,21,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40621,20621
+622,RDeepBot beat RandBot,RDeepBot,RandBot,72,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40622,20622
+623,RDeepBot beat RandBot,RDeepBot,RandBot,83,5,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40623,20623
+624,RDeepBot beat RandBot,RDeepBot,RandBot,61,46,2,True,RandBot,20,1,0,False,N/A,N/A,N/A,12,5,40624,20624
+625,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40625,20625
+626,RandBot beat RDeepBot,RandBot,RDeepBot,12,57,3,True,RDeepBot,0,0,0,False,['Card.ACE_SPADES'],"['Card.ACE_DIAMONDS', 'Card.ACE_CLUBS', 'Card.JACK_DIAMONDS', 'Card.QUEEN_DIAMONDS']",3,12,5,40626,20626
+627,RDeepBot beat RandBot,RDeepBot,RandBot,75,15,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40627,20627
+628,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40628,20628
+629,RandBot beat RDeepBot,RandBot,RDeepBot,29,42,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40629,20629
+630,RDeepBot beat RandBot,RDeepBot,RandBot,49,19,3,True,RDeepBot,0,0,1,True,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.JACK_HEARTS', 'Card.ACE_DIAMONDS', 'Card.KING_CLUBS']",3,12,5,40630,20630
+631,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,True,RDeepBot,27,0,0,True,['Card.TEN_CLUBS'],"['Card.JACK_HEARTS', 'Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.ACE_SPADES']",3,12,5,40631,20631
+632,RDeepBot beat RandBot,RDeepBot,RandBot,79,0,3,True,RDeepBot,14,0,0,True,"['Card.TEN_SPADES', 'Card.JACK_SPADES', 'Card.ACE_SPADES']","['Card.JACK_DIAMONDS', 'Card.TEN_DIAMONDS']",5,12,5,40632,20632
+633,RDeepBot beat RandBot,RDeepBot,RandBot,67,26,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40633,20633
+634,RDeepBot beat RandBot,RDeepBot,RandBot,70,13,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40634,20634
+635,RDeepBot beat RandBot,RDeepBot,RandBot,69,18,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40635,20635
+636,RDeepBot beat RandBot,RDeepBot,RandBot,76,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40636,20636
+637,RDeepBot beat RandBot,RDeepBot,RandBot,48,39,3,True,RDeepBot,28,0,0,True,['Card.QUEEN_DIAMONDS'],"['Card.TEN_SPADES', 'Card.KING_SPADES', 'Card.KING_HEARTS', 'Card.JACK_SPADES']",2,12,5,40637,20637
+638,RDeepBot beat RandBot,RDeepBot,RandBot,49,33,3,True,RDeepBot,0,0,0,True,['Card.QUEEN_CLUBS'],"['Card.JACK_SPADES', 'Card.TEN_SPADES', 'Card.ACE_SPADES', 'Card.ACE_HEARTS']",3,12,5,40638,20638
+639,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,True,RDeepBot,14,0,1,True,"['Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.KING_CLUBS', 'Card.QUEEN_CLUBS']",4,12,5,40639,20639
+640,RandBot beat RDeepBot,RandBot,RDeepBot,75,45,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40640,20640
+641,RDeepBot beat RandBot,RDeepBot,RandBot,74,20,2,True,RDeepBot,15,0,0,True,"['Card.JACK_SPADES', 'Card.ACE_SPADES']","['Card.KING_CLUBS', 'Card.ACE_HEARTS', 'Card.TEN_DIAMONDS']",5,12,5,40641,20641
+642,RDeepBot beat RandBot,RDeepBot,RandBot,70,25,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40642,20642
+643,RDeepBot beat RandBot,RDeepBot,RandBot,68,29,2,True,RandBot,29,0,0,False,N/A,N/A,N/A,12,5,40643,20643
+644,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40644,20644
+645,RDeepBot beat RandBot,RDeepBot,RandBot,73,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40645,20645
+646,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40646,20646
+647,RandBot beat RDeepBot,RandBot,RDeepBot,53,39,3,True,RandBot,28,0,0,False,N/A,N/A,N/A,12,5,40647,20647
+648,RandBot beat RDeepBot,RandBot,RDeepBot,70,20,2,True,RandBot,41,1,0,False,N/A,N/A,N/A,12,5,40648,20648
+649,RDeepBot beat RandBot,RDeepBot,RandBot,60,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40649,20649
+650,RDeepBot beat RandBot,RDeepBot,RandBot,100,43,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40650,20650
+651,RDeepBot beat RandBot,RDeepBot,RandBot,73,41,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40651,20651
+652,RDeepBot beat RandBot,RDeepBot,RandBot,74,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40652,20652
+653,RDeepBot beat RandBot,RDeepBot,RandBot,77,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40653,20653
+654,RDeepBot beat RandBot,RDeepBot,RandBot,74,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40654,20654
+655,RDeepBot beat RandBot,RDeepBot,RandBot,67,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40655,20655
+656,RDeepBot beat RandBot,RDeepBot,RandBot,73,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40656,20656
+657,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40657,20657
+658,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40658,20658
+659,RDeepBot beat RandBot,RDeepBot,RandBot,68,41,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40659,20659
+660,RandBot beat RDeepBot,RandBot,RDeepBot,61,22,3,True,RandBot,12,0,0,False,N/A,N/A,N/A,12,5,40660,20660
+661,RDeepBot beat RandBot,RDeepBot,RandBot,26,34,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40661,20661
+662,RandBot beat RDeepBot,RandBot,RDeepBot,68,14,2,True,RandBot,28,0,0,False,N/A,N/A,N/A,12,5,40662,20662
+663,RDeepBot beat RandBot,RDeepBot,RandBot,82,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40663,20663
+664,RDeepBot beat RandBot,RDeepBot,RandBot,85,35,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40664,20664
+665,RandBot beat RDeepBot,RandBot,RDeepBot,27,24,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40665,20665
+666,RDeepBot beat RandBot,RDeepBot,RandBot,75,21,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40666,20666
+667,RDeepBot beat RandBot,RDeepBot,RandBot,66,6,2,True,RDeepBot,6,0,0,True,['Card.KING_HEARTS'],"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS', 'Card.TEN_CLUBS', 'Card.ACE_DIAMONDS']",5,12,5,40667,20667
+668,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,True,RDeepBot,7,0,1,True,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.ACE_HEARTS', 'Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']",5,12,5,40668,20668
+669,RDeepBot beat RandBot,RDeepBot,RandBot,70,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40669,20669
+670,RandBot beat RDeepBot,RandBot,RDeepBot,76,44,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40670,20670
+671,RDeepBot beat RandBot,RDeepBot,RandBot,62,42,2,True,RandBot,14,1,0,False,N/A,N/A,N/A,12,5,40671,20671
+672,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40672,20672
+673,RDeepBot beat RandBot,RDeepBot,RandBot,78,35,2,True,RandBot,22,1,0,False,N/A,N/A,N/A,12,5,40673,20673
+674,RDeepBot beat RandBot,RDeepBot,RandBot,80,60,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40674,20674
+675,RandBot beat RDeepBot,RandBot,RDeepBot,13,53,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40675,20675
+676,RDeepBot beat RandBot,RDeepBot,RandBot,75,13,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40676,20676
+677,RDeepBot beat RandBot,RDeepBot,RandBot,80,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40677,20677
+678,RandBot beat RDeepBot,RandBot,RDeepBot,21,54,3,True,RDeepBot,0,0,0,False,['Card.ACE_HEARTS'],"['Card.TEN_SPADES', 'Card.TEN_CLUBS', 'Card.ACE_DIAMONDS', 'Card.ACE_SPADES']",4,12,5,40678,20678
+679,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,True,RDeepBot,20,0,1,True,"['Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.TEN_HEARTS', 'Card.ACE_SPADES']",3,12,5,40679,20679
+680,RDeepBot beat RandBot,RDeepBot,RandBot,86,30,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40680,20680
+681,RDeepBot beat RandBot,RDeepBot,RandBot,69,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40681,20681
+682,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40682,20682
+683,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40683,20683
+684,RDeepBot beat RandBot,RDeepBot,RandBot,19,46,3,True,RandBot,5,0,0,False,N/A,N/A,N/A,12,5,40684,20684
+685,RandBot beat RDeepBot,RandBot,RDeepBot,68,52,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40685,20685
+686,RDeepBot beat RandBot,RDeepBot,RandBot,72,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40686,20686
+687,RDeepBot beat RandBot,RDeepBot,RandBot,89,21,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40687,20687
+688,RDeepBot beat RandBot,RDeepBot,RandBot,73,34,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40688,20688
+689,RDeepBot beat RandBot,RDeepBot,RandBot,77,13,2,True,RandBot,13,0,0,False,N/A,N/A,N/A,12,5,40689,20689
+690,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,True,RDeepBot,12,0,0,True,['Card.TEN_SPADES'],"['Card.KING_DIAMONDS', 'Card.TEN_CLUBS', 'Card.KING_CLUBS', 'Card.ACE_DIAMONDS']",4,12,5,40690,20690
+691,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40691,20691
+692,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40692,20692
+693,RDeepBot beat RandBot,RDeepBot,RandBot,82,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40693,20693
+694,RandBot beat RDeepBot,RandBot,RDeepBot,74,40,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40694,20694
+695,RDeepBot beat RandBot,RDeepBot,RandBot,73,21,2,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40695,20695
+696,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40696,20696
+697,RDeepBot beat RandBot,RDeepBot,RandBot,73,13,2,True,RandBot,13,0,0,False,N/A,N/A,N/A,12,5,40697,20697
+698,RDeepBot beat RandBot,RDeepBot,RandBot,44,8,3,True,RDeepBot,0,0,0,True,['Card.JACK_SPADES'],"['Card.QUEEN_HEARTS', 'Card.KING_DIAMONDS', 'Card.ACE_CLUBS', 'Card.ACE_DIAMONDS']",4,12,5,40698,20698
+699,RandBot beat RDeepBot,RandBot,RDeepBot,59,61,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40699,20699
+700,RDeepBot beat RandBot,RDeepBot,RandBot,82,14,2,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40700,20700
+701,RandBot beat RDeepBot,RandBot,RDeepBot,45,40,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,12,5,40701,20701
+702,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40702,20702
+703,RandBot beat RDeepBot,RandBot,RDeepBot,56,14,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40703,20703
+704,RDeepBot beat RandBot,RDeepBot,RandBot,76,44,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40704,20704
+705,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40705,20705
+706,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40706,20706
+707,RDeepBot beat RandBot,RDeepBot,RandBot,73,34,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40707,20707
+708,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40708,20708
+709,RDeepBot beat RandBot,RDeepBot,RandBot,41,25,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40709,20709
+710,RandBot beat RDeepBot,RandBot,RDeepBot,20,47,3,True,RDeepBot,20,0,1,False,['Card.KING_SPADES'],"['Card.KING_CLUBS', 'Card.KING_HEARTS', 'Card.ACE_CLUBS', 'Card.JACK_DIAMONDS']",3,12,5,40710,20710
+711,RDeepBot beat RandBot,RDeepBot,RandBot,77,37,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40711,20711
+712,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,0,0,0,False,"['Card.JACK_CLUBS', 'Card.TEN_CLUBS']","['Card.ACE_DIAMONDS', 'Card.KING_SPADES', 'Card.KING_DIAMONDS']",0,12,5,40712,20712
+713,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40713,20713
+714,RDeepBot beat RandBot,RDeepBot,RandBot,68,11,2,True,RandBot,5,0,0,False,N/A,N/A,N/A,12,5,40714,20714
+715,RandBot beat RDeepBot,RandBot,RDeepBot,59,54,1,True,RandBot,6,0,0,False,N/A,N/A,N/A,12,5,40715,20715
+716,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,True,RDeepBot,5,0,0,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.ACE_DIAMONDS', 'Card.QUEEN_SPADES']",5,12,5,40716,20716
+717,RDeepBot beat RandBot,RDeepBot,RandBot,69,12,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40717,20717
+718,RandBot beat RDeepBot,RandBot,RDeepBot,24,29,3,True,RDeepBot,0,0,0,False,['Card.ACE_CLUBS'],"['Card.JACK_HEARTS', 'Card.KING_HEARTS', 'Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']",2,12,5,40718,20718
+719,RDeepBot beat RandBot,RDeepBot,RandBot,65,55,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40719,20719
+720,RDeepBot beat RandBot,RDeepBot,RandBot,88,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40720,20720
+721,RDeepBot beat RandBot,RDeepBot,RandBot,68,28,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40721,20721
+722,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40722,20722
+723,RDeepBot beat RandBot,RDeepBot,RandBot,86,41,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40723,20723
+724,RDeepBot beat RandBot,RDeepBot,RandBot,54,52,2,True,RandBot,18,0,0,False,N/A,N/A,N/A,12,5,40724,20724
+725,RDeepBot beat RandBot,RDeepBot,RandBot,83,29,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40725,20725
+726,RDeepBot beat RandBot,RDeepBot,RandBot,39,34,3,True,RDeepBot,0,0,0,True,"['Card.QUEEN_CLUBS', 'Card.JACK_CLUBS']","['Card.TEN_HEARTS', 'Card.JACK_DIAMONDS', 'Card.ACE_DIAMONDS']",3,12,5,40726,20726
+727,RDeepBot beat RandBot,RDeepBot,RandBot,96,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40727,20727
+728,RandBot beat RDeepBot,RandBot,RDeepBot,69,26,2,True,RandBot,14,1,0,False,N/A,N/A,N/A,12,5,40728,20728
+729,RDeepBot beat RandBot,RDeepBot,RandBot,79,41,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40729,20729
+730,RandBot beat RDeepBot,RandBot,RDeepBot,60,59,1,True,RandBot,20,1,0,False,N/A,N/A,N/A,12,5,40730,20730
+731,RDeepBot beat RandBot,RDeepBot,RandBot,26,48,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40731,20731
+732,RandBot beat RDeepBot,RandBot,RDeepBot,70,44,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40732,20732
+733,RDeepBot beat RandBot,RDeepBot,RandBot,75,31,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40733,20733
+734,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40734,20734
+735,RDeepBot beat RandBot,RDeepBot,RandBot,42,57,2,True,RandBot,25,0,0,False,N/A,N/A,N/A,12,5,40735,20735
+736,RDeepBot beat RandBot,RDeepBot,RandBot,70,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40736,20736
+737,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40737,20737
+738,RDeepBot beat RandBot,RDeepBot,RandBot,67,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40738,20738
+739,RDeepBot beat RandBot,RDeepBot,RandBot,69,7,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40739,20739
+740,RandBot beat RDeepBot,RandBot,RDeepBot,55,24,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40740,20740
+741,RDeepBot beat RandBot,RDeepBot,RandBot,67,28,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40741,20741
+742,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40742,20742
+743,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,True,RDeepBot,13,0,0,True,['Card.TEN_CLUBS'],"['Card.KING_HEARTS', 'Card.QUEEN_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.ACE_HEARTS']",4,12,5,40743,20743
+744,RDeepBot beat RandBot,RDeepBot,RandBot,74,6,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40744,20744
+745,RandBot beat RDeepBot,RandBot,RDeepBot,60,60,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40745,20745
+746,RDeepBot beat RandBot,RDeepBot,RandBot,77,43,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40746,20746
+747,RandBot beat RDeepBot,RandBot,RDeepBot,13,31,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40747,20747
+748,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,True,RDeepBot,0,0,0,True,"['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.QUEEN_SPADES', 'Card.TEN_CLUBS']",5,12,5,40748,20748
+749,RDeepBot beat RandBot,RDeepBot,RandBot,74,7,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40749,20749
+750,RandBot beat RDeepBot,RandBot,RDeepBot,68,66,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40750,20750
+751,RandBot beat RDeepBot,RandBot,RDeepBot,57,7,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40751,20751
+752,RandBot beat RDeepBot,RandBot,RDeepBot,74,5,3,True,RandBot,35,0,0,False,N/A,N/A,N/A,12,5,40752,20752
+753,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40753,20753
+754,RandBot beat RDeepBot,RandBot,RDeepBot,73,43,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40754,20754
+755,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40755,20755
+756,RDeepBot beat RandBot,RDeepBot,RandBot,77,10,2,True,RandBot,10,0,1,False,N/A,N/A,N/A,12,5,40756,20756
+757,RandBot beat RDeepBot,RandBot,RDeepBot,71,0,3,True,RandBot,4,0,0,False,N/A,N/A,N/A,12,5,40757,20757
+758,RDeepBot beat RandBot,RDeepBot,RandBot,62,14,3,True,RDeepBot,0,0,0,True,"['Card.TEN_SPADES', 'Card.ACE_SPADES']","['Card.QUEEN_HEARTS', 'Card.ACE_CLUBS', 'Card.KING_CLUBS']",4,12,5,40758,20758
+759,RDeepBot beat RandBot,RDeepBot,RandBot,79,28,2,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40759,20759
+760,RDeepBot beat RandBot,RDeepBot,RandBot,70,21,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40760,20760
+761,RDeepBot beat RandBot,RDeepBot,RandBot,79,28,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40761,20761
+762,RDeepBot beat RandBot,RDeepBot,RandBot,75,52,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40762,20762
+763,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,True,RDeepBot,7,0,0,True,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.ACE_CLUBS', 'Card.ACE_SPADES', 'Card.JACK_CLUBS']",5,12,5,40763,20763
+764,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40764,20764
+765,RDeepBot beat RandBot,RDeepBot,RandBot,67,20,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40765,20765
+766,RDeepBot beat RandBot,RDeepBot,RandBot,72,34,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40766,20766
+767,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40767,20767
+768,RDeepBot beat RandBot,RDeepBot,RandBot,66,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40768,20768
+769,RandBot beat RDeepBot,RandBot,RDeepBot,58,62,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40769,20769
+770,RDeepBot beat RandBot,RDeepBot,RandBot,76,11,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40770,20770
+771,RDeepBot beat RandBot,RDeepBot,RandBot,68,26,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40771,20771
+772,RandBot beat RDeepBot,RandBot,RDeepBot,76,45,2,True,RandBot,19,1,0,False,N/A,N/A,N/A,12,5,40772,20772
+773,RDeepBot beat RandBot,RDeepBot,RandBot,54,21,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40773,20773
+774,RandBot beat RDeepBot,RandBot,RDeepBot,47,27,3,True,RandBot,15,0,0,False,N/A,N/A,N/A,12,5,40774,20774
+775,RDeepBot beat RandBot,RDeepBot,RandBot,62,58,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40775,20775
+776,RDeepBot beat RandBot,RDeepBot,RandBot,72,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40776,20776
+777,RDeepBot beat RandBot,RDeepBot,RandBot,75,24,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40777,20777
+778,RDeepBot beat RandBot,RDeepBot,RandBot,72,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40778,20778
+779,RDeepBot beat RandBot,RDeepBot,RandBot,72,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40779,20779
+780,RDeepBot beat RandBot,RDeepBot,RandBot,75,8,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40780,20780
+781,RDeepBot beat RandBot,RDeepBot,RandBot,47,12,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40781,20781
+782,RDeepBot beat RandBot,RDeepBot,RandBot,63,6,3,True,RDeepBot,0,0,0,True,"['Card.JACK_HEARTS', 'Card.QUEEN_HEARTS']","['Card.QUEEN_CLUBS', 'Card.ACE_DIAMONDS', 'Card.ACE_SPADES']",4,12,5,40782,20782
+783,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,True,RDeepBot,40,0,0,True,[],"['Card.KING_HEARTS', 'Card.JACK_SPADES', 'Card.ACE_CLUBS', 'Card.TEN_HEARTS', 'Card.ACE_SPADES']",2,12,5,40783,20783
+784,RDeepBot beat RandBot,RDeepBot,RandBot,76,21,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40784,20784
+785,RandBot beat RDeepBot,RandBot,RDeepBot,33,47,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,12,5,40785,20785
+786,RDeepBot beat RandBot,RDeepBot,RandBot,73,28,2,True,RandBot,15,0,0,False,N/A,N/A,N/A,12,5,40786,20786
+787,RDeepBot beat RandBot,RDeepBot,RandBot,71,29,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,12,5,40787,20787
+788,RDeepBot beat RandBot,RDeepBot,RandBot,84,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40788,20788
+789,RandBot beat RDeepBot,RandBot,RDeepBot,66,35,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40789,20789
+790,RandBot beat RDeepBot,RandBot,RDeepBot,59,61,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40790,20790
+791,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40791,20791
+792,RDeepBot beat RandBot,RDeepBot,RandBot,76,8,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40792,20792
+793,RandBot beat RDeepBot,RandBot,RDeepBot,29,7,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40793,20793
+794,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40794,20794
+795,RDeepBot beat RandBot,RDeepBot,RandBot,58,7,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,12,5,40795,20795
+796,RDeepBot beat RandBot,RDeepBot,RandBot,81,39,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40796,20796
+797,RDeepBot beat RandBot,RDeepBot,RandBot,79,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40797,20797
+798,RDeepBot beat RandBot,RDeepBot,RandBot,76,46,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40798,20798
+799,RandBot beat RDeepBot,RandBot,RDeepBot,77,21,2,True,RandBot,29,0,0,False,N/A,N/A,N/A,12,5,40799,20799
+800,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40800,20800
+801,RDeepBot beat RandBot,RDeepBot,RandBot,39,19,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40801,20801
+802,RDeepBot beat RandBot,RDeepBot,RandBot,78,56,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40802,20802
+803,RDeepBot beat RandBot,RDeepBot,RandBot,71,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40803,20803
+804,RDeepBot beat RandBot,RDeepBot,RandBot,87,22,2,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40804,20804
+805,RDeepBot beat RandBot,RDeepBot,RandBot,72,48,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40805,20805
+806,RDeepBot beat RandBot,RDeepBot,RandBot,70,50,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40806,20806
+807,RDeepBot beat RandBot,RDeepBot,RandBot,69,19,2,True,RandBot,12,0,0,False,N/A,N/A,N/A,12,5,40807,20807
+808,RDeepBot beat RandBot,RDeepBot,RandBot,66,14,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40808,20808
+809,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40809,20809
+810,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40810,20810
+811,RDeepBot beat RandBot,RDeepBot,RandBot,47,27,3,True,RandBot,15,0,0,False,N/A,N/A,N/A,12,5,40811,20811
+812,RDeepBot beat RandBot,RDeepBot,RandBot,66,13,2,True,RandBot,13,1,0,False,N/A,N/A,N/A,12,5,40812,20812
+813,RDeepBot beat RandBot,RDeepBot,RandBot,0,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40813,20813
+814,RandBot beat RDeepBot,RandBot,RDeepBot,71,49,1,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40814,20814
+815,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40815,20815
+816,RDeepBot beat RandBot,RDeepBot,RandBot,73,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40816,20816
+817,RDeepBot beat RandBot,RDeepBot,RandBot,17,28,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40817,20817
+818,RDeepBot beat RandBot,RDeepBot,RandBot,76,14,2,True,RDeepBot,35,0,0,True,['Card.ACE_DIAMONDS'],"['Card.JACK_CLUBS', 'Card.ACE_SPADES', 'Card.JACK_HEARTS', 'Card.TEN_CLUBS']",2,12,5,40818,20818
+819,RDeepBot beat RandBot,RDeepBot,RandBot,66,50,2,True,RandBot,21,1,0,False,N/A,N/A,N/A,12,5,40819,20819
+820,RDeepBot beat RandBot,RDeepBot,RandBot,81,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40820,20820
+821,RDeepBot beat RandBot,RDeepBot,RandBot,68,21,2,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40821,20821
+822,RDeepBot beat RandBot,RDeepBot,RandBot,71,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40822,20822
+823,RandBot beat RDeepBot,RandBot,RDeepBot,47,33,3,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40823,20823
+824,RDeepBot beat RandBot,RDeepBot,RandBot,75,14,2,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40824,20824
+825,RandBot beat RDeepBot,RandBot,RDeepBot,15,47,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40825,20825
+826,RDeepBot beat RandBot,RDeepBot,RandBot,69,51,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40826,20826
+827,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40827,20827
+828,RDeepBot beat RandBot,RDeepBot,RandBot,67,28,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40828,20828
+829,RDeepBot beat RandBot,RDeepBot,RandBot,69,29,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40829,20829
+830,RDeepBot beat RandBot,RDeepBot,RandBot,72,50,1,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40830,20830
+831,RDeepBot beat RandBot,RDeepBot,RandBot,78,15,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,12,5,40831,20831
+832,RDeepBot beat RandBot,RDeepBot,RandBot,52,55,2,True,RandBot,35,0,0,False,N/A,N/A,N/A,12,5,40832,20832
+833,RDeepBot beat RandBot,RDeepBot,RandBot,65,55,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40833,20833
+834,RDeepBot beat RandBot,RDeepBot,RandBot,73,27,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40834,20834
+835,RandBot beat RDeepBot,RandBot,RDeepBot,75,14,3,True,RandBot,41,0,0,False,N/A,N/A,N/A,12,5,40835,20835
+836,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40836,20836
+837,RDeepBot beat RandBot,RDeepBot,RandBot,76,4,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40837,20837
+838,RDeepBot beat RandBot,RDeepBot,RandBot,74,13,2,True,RDeepBot,35,0,0,True,[],"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS', 'Card.QUEEN_SPADES', 'Card.TEN_CLUBS', 'Card.ACE_CLUBS']",3,12,5,40838,20838
+839,RDeepBot beat RandBot,RDeepBot,RandBot,54,26,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40839,20839
+840,RDeepBot beat RandBot,RDeepBot,RandBot,67,33,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40840,20840
+841,RDeepBot beat RandBot,RDeepBot,RandBot,76,44,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40841,20841
+842,RDeepBot beat RandBot,RDeepBot,RandBot,78,38,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40842,20842
+843,RDeepBot beat RandBot,RDeepBot,RandBot,70,0,3,True,RDeepBot,41,0,0,True,['Card.JACK_DIAMONDS'],"['Card.QUEEN_SPADES', 'Card.ACE_SPADES', 'Card.QUEEN_CLUBS', 'Card.ACE_HEARTS']",2,12,5,40843,20843
+844,RDeepBot beat RandBot,RDeepBot,RandBot,74,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40844,20844
+845,RandBot beat RDeepBot,RandBot,RDeepBot,65,14,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,12,5,40845,20845
+846,RDeepBot beat RandBot,RDeepBot,RandBot,83,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40846,20846
+847,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40847,20847
+848,RDeepBot beat RandBot,RDeepBot,RandBot,68,52,1,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40848,20848
+849,RDeepBot beat RandBot,RDeepBot,RandBot,66,59,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40849,20849
+850,RDeepBot beat RandBot,RDeepBot,RandBot,80,33,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40850,20850
+851,RDeepBot beat RandBot,RDeepBot,RandBot,75,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40851,20851
+852,RDeepBot beat RandBot,RDeepBot,RandBot,40,12,3,True,RDeepBot,0,0,0,True,['Card.QUEEN_DIAMONDS'],"['Card.JACK_HEARTS', 'Card.KING_HEARTS', 'Card.TEN_CLUBS', 'Card.ACE_HEARTS']",4,12,5,40852,20852
+853,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40853,20853
+854,RDeepBot beat RandBot,RDeepBot,RandBot,75,33,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40854,20854
+855,RandBot beat RDeepBot,RandBot,RDeepBot,66,21,3,True,RandBot,48,0,0,False,N/A,N/A,N/A,12,5,40855,20855
+856,RDeepBot beat RandBot,RDeepBot,RandBot,66,29,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40856,20856
+857,RDeepBot beat RandBot,RDeepBot,RandBot,69,33,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40857,20857
+858,RandBot beat RDeepBot,RandBot,RDeepBot,57,42,1,True,RandBot,13,0,0,False,N/A,N/A,N/A,12,5,40858,20858
+859,RandBot beat RDeepBot,RandBot,RDeepBot,19,32,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40859,20859
+860,RDeepBot beat RandBot,RDeepBot,RandBot,83,30,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40860,20860
+861,RDeepBot beat RandBot,RDeepBot,RandBot,94,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40861,20861
+862,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,0,0,0,False,['Card.ACE_DIAMONDS'],"['Card.JACK_HEARTS', 'Card.ACE_CLUBS', 'Card.ACE_SPADES', 'Card.JACK_CLUBS']",0,12,5,40862,20862
+863,RDeepBot beat RandBot,RDeepBot,RandBot,77,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40863,20863
+864,RDeepBot beat RandBot,RDeepBot,RandBot,49,33,3,True,RDeepBot,0,0,0,True,"['Card.KING_CLUBS', 'Card.JACK_CLUBS']","['Card.TEN_DIAMONDS', 'Card.TEN_SPADES', 'Card.ACE_DIAMONDS']",3,12,5,40864,20864
+865,RDeepBot beat RandBot,RDeepBot,RandBot,88,20,2,True,RandBot,15,1,0,False,N/A,N/A,N/A,12,5,40865,20865
+866,RDeepBot beat RandBot,RDeepBot,RandBot,62,58,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40866,20866
+867,RandBot beat RDeepBot,RandBot,RDeepBot,60,25,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40867,20867
+868,RDeepBot beat RandBot,RDeepBot,RandBot,69,26,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40868,20868
+869,RDeepBot beat RandBot,RDeepBot,RandBot,68,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40869,20869
+870,RDeepBot beat RandBot,RDeepBot,RandBot,66,36,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40870,20870
+871,RDeepBot beat RandBot,RDeepBot,RandBot,39,26,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40871,20871
+872,RDeepBot beat RandBot,RDeepBot,RandBot,85,35,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40872,20872
+873,RDeepBot beat RandBot,RDeepBot,RandBot,66,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40873,20873
+874,RDeepBot beat RandBot,RDeepBot,RandBot,74,14,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40874,20874
+875,RandBot beat RDeepBot,RandBot,RDeepBot,37,45,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,12,5,40875,20875
+876,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40876,20876
+877,RandBot beat RDeepBot,RandBot,RDeepBot,57,63,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40877,20877
+878,RDeepBot beat RandBot,RDeepBot,RandBot,82,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40878,20878
+879,RDeepBot beat RandBot,RDeepBot,RandBot,59,14,3,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40879,20879
+880,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40880,20880
+881,RDeepBot beat RandBot,RDeepBot,RandBot,81,18,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40881,20881
+882,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40882,20882
+883,RDeepBot beat RandBot,RDeepBot,RandBot,75,18,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40883,20883
+884,RDeepBot beat RandBot,RDeepBot,RandBot,62,14,3,True,RDeepBot,0,0,0,True,['Card.TEN_HEARTS'],"['Card.KING_DIAMONDS', 'Card.QUEEN_SPADES', 'Card.TEN_SPADES', 'Card.ACE_DIAMONDS']",4,12,5,40884,20884
+885,RDeepBot beat RandBot,RDeepBot,RandBot,51,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40885,20885
+886,RDeepBot beat RandBot,RDeepBot,RandBot,70,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40886,20886
+887,RDeepBot beat RandBot,RDeepBot,RandBot,67,35,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40887,20887
+888,RDeepBot beat RandBot,RDeepBot,RandBot,76,53,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40888,20888
+889,RDeepBot beat RandBot,RDeepBot,RandBot,69,12,3,True,RDeepBot,13,0,1,True,['Card.ACE_DIAMONDS'],"['Card.ACE_SPADES', 'Card.ACE_HEARTS', 'Card.JACK_SPADES', 'Card.KING_SPADES']",4,12,5,40889,20889
+890,RandBot beat RDeepBot,RandBot,RDeepBot,64,56,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40890,20890
+891,RandBot beat RDeepBot,RandBot,RDeepBot,55,65,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40891,20891
+892,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40892,20892
+893,RandBot beat RDeepBot,RandBot,RDeepBot,66,56,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40893,20893
+894,RDeepBot beat RandBot,RDeepBot,RandBot,76,12,3,True,RDeepBot,20,0,0,True,"['Card.TEN_SPADES', 'Card.JACK_SPADES']","['Card.KING_CLUBS', 'Card.ACE_DIAMONDS', 'Card.JACK_CLUBS']",4,12,5,40894,20894
+895,RDeepBot beat RandBot,RDeepBot,RandBot,71,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40895,20895
+896,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,True,RDeepBot,34,0,0,True,['Card.ACE_CLUBS'],"['Card.KING_DIAMONDS', 'Card.QUEEN_SPADES', 'Card.QUEEN_HEARTS', 'Card.TEN_SPADES']",3,12,5,40896,20896
+897,RDeepBot beat RandBot,RDeepBot,RandBot,74,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40897,20897
+898,RandBot beat RDeepBot,RandBot,RDeepBot,53,21,3,True,RandBot,14,0,0,False,N/A,N/A,N/A,12,5,40898,20898
+899,RDeepBot beat RandBot,RDeepBot,RandBot,82,6,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40899,20899
+900,RDeepBot beat RandBot,RDeepBot,RandBot,82,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40900,20900
+901,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40901,20901
+902,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40902,20902
+903,RDeepBot beat RandBot,RDeepBot,RandBot,67,21,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40903,20903
+904,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40904,20904
+905,RDeepBot beat RandBot,RDeepBot,RandBot,75,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40905,20905
+906,RandBot beat RDeepBot,RandBot,RDeepBot,47,20,3,True,RDeepBot,0,0,0,False,[],"['Card.JACK_SPADES', 'Card.ACE_CLUBS', 'Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS', 'Card.TEN_SPADES']",2,12,5,40906,20906
+907,RDeepBot beat RandBot,RDeepBot,RandBot,74,20,2,True,RDeepBot,31,0,0,True,['Card.ACE_SPADES'],"['Card.KING_DIAMONDS', 'Card.JACK_CLUBS', 'Card.KING_CLUBS', 'Card.ACE_CLUBS']",3,12,5,40907,20907
+908,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,True,RDeepBot,15,0,1,True,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.QUEEN_DIAMONDS', 'Card.TEN_CLUBS', 'Card.TEN_SPADES']",4,12,5,40908,20908
+909,RDeepBot beat RandBot,RDeepBot,RandBot,33,25,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40909,20909
+910,RandBot beat RDeepBot,RandBot,RDeepBot,71,47,1,True,RandBot,25,1,0,False,N/A,N/A,N/A,12,5,40910,20910
+911,RDeepBot beat RandBot,RDeepBot,RandBot,7,36,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40911,20911
+912,RDeepBot beat RandBot,RDeepBot,RandBot,70,0,3,True,RDeepBot,0,0,0,True,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.ACE_HEARTS', 'Card.ACE_SPADES']",5,12,5,40912,20912
+913,RDeepBot beat RandBot,RDeepBot,RandBot,68,7,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40913,20913
+914,RDeepBot beat RandBot,RDeepBot,RandBot,68,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40914,20914
+915,RDeepBot beat RandBot,RDeepBot,RandBot,68,21,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40915,20915
+916,RandBot beat RDeepBot,RandBot,RDeepBot,54,53,2,True,RandBot,21,0,0,False,N/A,N/A,N/A,12,5,40916,20916
+917,RDeepBot beat RandBot,RDeepBot,RandBot,76,52,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40917,20917
+918,RDeepBot beat RandBot,RDeepBot,RandBot,82,13,2,True,RandBot,13,0,1,False,N/A,N/A,N/A,12,5,40918,20918
+919,RDeepBot beat RandBot,RDeepBot,RandBot,77,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40919,20919
+920,RDeepBot beat RandBot,RDeepBot,RandBot,74,46,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40920,20920
+921,RandBot beat RDeepBot,RandBot,RDeepBot,62,53,2,True,RandBot,14,1,0,False,N/A,N/A,N/A,12,5,40921,20921
+922,RDeepBot beat RandBot,RDeepBot,RandBot,66,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40922,20922
+923,RDeepBot beat RandBot,RDeepBot,RandBot,52,14,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40923,20923
+924,RDeepBot beat RandBot,RDeepBot,RandBot,72,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40924,20924
+925,RDeepBot beat RandBot,RDeepBot,RandBot,82,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40925,20925
+926,RDeepBot beat RandBot,RDeepBot,RandBot,76,5,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40926,20926
+927,RandBot beat RDeepBot,RandBot,RDeepBot,66,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40927,20927
+928,RDeepBot beat RandBot,RDeepBot,RandBot,68,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40928,20928
+929,RandBot beat RDeepBot,RandBot,RDeepBot,26,51,3,True,RDeepBot,5,0,0,False,"['Card.TEN_CLUBS', 'Card.JACK_CLUBS']","['Card.ACE_DIAMONDS', 'Card.TEN_SPADES', 'Card.JACK_SPADES']",3,12,5,40929,20929
+930,RDeepBot beat RandBot,RDeepBot,RandBot,70,13,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40930,20930
+931,RDeepBot beat RandBot,RDeepBot,RandBot,79,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40931,20931
+932,RDeepBot beat RandBot,RDeepBot,RandBot,69,12,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40932,20932
+933,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40933,20933
+934,RDeepBot beat RandBot,RDeepBot,RandBot,79,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40934,20934
+935,RDeepBot beat RandBot,RDeepBot,RandBot,77,5,2,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40935,20935
+936,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,True,RDeepBot,13,0,1,True,"['Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.TEN_CLUBS', 'Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS']",4,12,5,40936,20936
+937,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40937,20937
+938,RDeepBot beat RandBot,RDeepBot,RandBot,74,15,3,True,RDeepBot,15,0,0,True,['Card.TEN_SPADES'],"['Card.TEN_HEARTS', 'Card.TEN_DIAMONDS', 'Card.JACK_HEARTS', 'Card.KING_HEARTS']",4,12,5,40938,20938
+939,RDeepBot beat RandBot,RDeepBot,RandBot,84,4,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40939,20939
+940,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40940,20940
+941,RandBot beat RDeepBot,RandBot,RDeepBot,69,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40941,20941
+942,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40942,20942
+943,RandBot beat RDeepBot,RandBot,RDeepBot,17,60,3,True,RDeepBot,20,0,0,False,[],"['Card.QUEEN_HEARTS', 'Card.ACE_CLUBS', 'Card.QUEEN_CLUBS', 'Card.JACK_SPADES', 'Card.TEN_SPADES']",3,12,5,40943,20943
+944,RDeepBot beat RandBot,RDeepBot,RandBot,71,0,3,True,RDeepBot,21,0,0,True,['Card.KING_HEARTS'],"['Card.KING_SPADES', 'Card.JACK_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.ACE_CLUBS']",3,12,5,40944,20944
+945,RandBot beat RDeepBot,RandBot,RDeepBot,65,55,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40945,20945
+946,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40946,20946
+947,RDeepBot beat RandBot,RDeepBot,RandBot,47,28,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40947,20947
+948,RandBot beat RDeepBot,RandBot,RDeepBot,25,36,3,True,RDeepBot,0,0,0,False,[],"['Card.KING_CLUBS', 'Card.TEN_CLUBS', 'Card.QUEEN_HEARTS', 'Card.ACE_SPADES', 'Card.ACE_HEARTS']",2,12,5,40948,20948
+949,RDeepBot beat RandBot,RDeepBot,RandBot,67,22,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40949,20949
+950,RDeepBot beat RandBot,RDeepBot,RandBot,75,19,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40950,20950
+951,RDeepBot beat RandBot,RDeepBot,RandBot,76,33,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40951,20951
+952,RandBot beat RDeepBot,RandBot,RDeepBot,26,34,3,True,RDeepBot,0,0,0,False,['Card.ACE_HEARTS'],"['Card.JACK_DIAMONDS', 'Card.JACK_SPADES', 'Card.ACE_CLUBS', 'Card.QUEEN_DIAMONDS']",2,12,5,40952,20952
+953,RandBot beat RDeepBot,RandBot,RDeepBot,67,24,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40953,20953
+954,RDeepBot beat RandBot,RDeepBot,RandBot,75,15,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40954,20954
+955,RDeepBot beat RandBot,RDeepBot,RandBot,68,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40955,20955
+956,RDeepBot beat RandBot,RDeepBot,RandBot,82,5,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40956,20956
+957,RDeepBot beat RandBot,RDeepBot,RandBot,59,81,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40957,20957
+958,RDeepBot beat RandBot,RDeepBot,RandBot,73,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40958,20958
+959,RDeepBot beat RandBot,RDeepBot,RandBot,80,45,1,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40959,20959
+960,RDeepBot beat RandBot,RDeepBot,RandBot,77,21,2,True,RDeepBot,30,0,0,True,['Card.ACE_SPADES'],"['Card.KING_CLUBS', 'Card.TEN_CLUBS', 'Card.ACE_DIAMONDS', 'Card.QUEEN_HEARTS']",3,12,5,40960,20960
+961,RDeepBot beat RandBot,RDeepBot,RandBot,67,6,2,True,RDeepBot,27,0,0,True,[],"['Card.KING_SPADES', 'Card.ACE_CLUBS', 'Card.ACE_HEARTS', 'Card.KING_HEARTS', 'Card.ACE_SPADES']",4,12,5,40961,20961
+962,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40962,20962
+963,RDeepBot beat RandBot,RDeepBot,RandBot,78,42,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40963,20963
+964,RDeepBot beat RandBot,RDeepBot,RandBot,84,21,2,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40964,20964
+965,RDeepBot beat RandBot,RDeepBot,RandBot,83,0,3,False,None,N/A,1,1,False,N/A,N/A,N/A,12,5,40965,20965
+966,RDeepBot beat RandBot,RDeepBot,RandBot,77,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40966,20966
+967,RDeepBot beat RandBot,RDeepBot,RandBot,74,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40967,20967
+968,RandBot beat RDeepBot,RandBot,RDeepBot,68,34,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40968,20968
+969,RandBot beat RDeepBot,RandBot,RDeepBot,65,55,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40969,20969
+970,RandBot beat RDeepBot,RandBot,RDeepBot,33,45,2,True,RandBot,13,0,0,False,N/A,N/A,N/A,12,5,40970,20970
+971,RDeepBot beat RandBot,RDeepBot,RandBot,54,39,2,True,RandBot,18,0,0,False,N/A,N/A,N/A,12,5,40971,20971
+972,RDeepBot beat RandBot,RDeepBot,RandBot,74,46,1,False,None,N/A,0,1,False,N/A,N/A,N/A,12,5,40972,20972
+973,RDeepBot beat RandBot,RDeepBot,RandBot,73,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40973,20973
+974,RDeepBot beat RandBot,RDeepBot,RandBot,71,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40974,20974
+975,RDeepBot beat RandBot,RDeepBot,RandBot,76,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40975,20975
+976,RDeepBot beat RandBot,RDeepBot,RandBot,56,26,3,True,RandBot,5,0,0,False,N/A,N/A,N/A,12,5,40976,20976
+977,RDeepBot beat RandBot,RDeepBot,RandBot,68,0,3,True,RDeepBot,13,0,0,True,['Card.ACE_HEARTS'],"['Card.TEN_CLUBS', 'Card.QUEEN_CLUBS', 'Card.JACK_CLUBS', 'Card.TEN_SPADES']",4,12,5,40977,20977
+978,RDeepBot beat RandBot,RDeepBot,RandBot,67,0,3,True,RDeepBot,18,0,1,True,"['Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.QUEEN_SPADES', 'Card.JACK_SPADES']",3,12,5,40978,20978
+979,RDeepBot beat RandBot,RDeepBot,RandBot,49,33,3,True,RandBot,6,0,0,False,N/A,N/A,N/A,12,5,40979,20979
+980,RDeepBot beat RandBot,RDeepBot,RandBot,74,11,2,True,RDeepBot,28,0,0,True,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.QUEEN_DIAMONDS', 'Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']",4,12,5,40980,20980
+981,RDeepBot beat RandBot,RDeepBot,RandBot,61,38,2,True,RandBot,20,0,0,False,N/A,N/A,N/A,12,5,40981,20981
+982,RDeepBot beat RandBot,RDeepBot,RandBot,70,24,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40982,20982
+983,RDeepBot beat RandBot,RDeepBot,RandBot,67,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40983,20983
+984,RDeepBot beat RandBot,RDeepBot,RandBot,104,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40984,20984
+985,RDeepBot beat RandBot,RDeepBot,RandBot,78,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40985,20985
+986,RDeepBot beat RandBot,RDeepBot,RandBot,69,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,12,5,40986,20986
+987,RDeepBot beat RandBot,RDeepBot,RandBot,87,14,2,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40987,20987
+988,RandBot beat RDeepBot,RandBot,RDeepBot,0,0,3,True,RDeepBot,0,0,0,False,"['Card.TEN_CLUBS', 'Card.JACK_CLUBS']","['Card.JACK_DIAMONDS', 'Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']",0,12,5,40988,20988
+989,RDeepBot beat RandBot,RDeepBot,RandBot,67,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40989,20989
+990,RDeepBot beat RandBot,RDeepBot,RandBot,75,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40990,20990
+991,RDeepBot beat RandBot,RDeepBot,RandBot,32,12,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,12,5,40991,20991
+992,RDeepBot beat RandBot,RDeepBot,RandBot,76,21,2,True,RDeepBot,14,0,0,True,['Card.JACK_CLUBS'],"['Card.QUEEN_DIAMONDS', 'Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']",5,12,5,40992,20992
+993,RDeepBot beat RandBot,RDeepBot,RandBot,79,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40993,20993
+994,RandBot beat RDeepBot,RandBot,RDeepBot,67,18,2,True,RDeepBot,6,0,0,False,['Card.JACK_HEARTS'],"['Card.TEN_SPADES', 'Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.JACK_DIAMONDS']",1,12,5,40994,20994
+995,RDeepBot beat RandBot,RDeepBot,RandBot,26,42,3,True,RandBot,8,0,0,False,N/A,N/A,N/A,12,5,40995,20995
+996,RDeepBot beat RandBot,RDeepBot,RandBot,76,58,1,False,None,N/A,2,0,False,N/A,N/A,N/A,12,5,40996,20996
+997,RDeepBot beat RandBot,RDeepBot,RandBot,47,6,3,True,RandBot,6,0,0,False,N/A,N/A,N/A,12,5,40997,20997
+998,RandBot beat RDeepBot,RandBot,RDeepBot,75,26,2,True,RandBot,14,1,0,False,N/A,N/A,N/A,12,5,40998,20998
+999,RDeepBot beat RandBot,RDeepBot,RandBot,69,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,12,5,40999,20999

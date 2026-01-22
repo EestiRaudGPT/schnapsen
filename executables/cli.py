@@ -410,7 +410,7 @@ def cocky_experiment() -> None:
         "Non-trumps when closing", "Tricks won after closing", "RandBot RNG Seed"
     ]
     
-    output_file = 'experiment_results.csv'
+    output_file = 'cockyexperiment_results.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:
