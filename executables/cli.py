@@ -220,6 +220,7 @@ class ExperimentCockyBot(CockyBot):
         self.trumps_when_closing: list[str] = []
         self.non_trumps_when_closing: list[str] = []
         self.tricks_at_closure = 0
+        self.opponent_points_at_closure = 0
         self.final_score = 0
         self.final_won_cards_count = 0
 
@@ -244,6 +245,10 @@ class ExperimentCockyBot(CockyBot):
             # The tricks won so far is just the number of won cards divided by 2.
             self.tricks_at_closure = len(perspective.get_won_cards()) // 2
             
+            # Track opponent's score at closure for correct game point calculation
+            opp_score = perspective.get_opponent_score()
+            self.opponent_points_at_closure = opp_score.direct_points + opp_score.pending_points
+            
         return move
 
     def notify_game_end(self, won: bool, perspective: PlayerPerspective) -> None:
@@ -264,6 +269,7 @@ class ExperimentRandBot(RandBot):
         super().__init__(rng, name)
         self.closed_talon = False
         self.closure_points = 0
+        self.opponent_points_at_closure = 0
         self.final_score = 0
 
     def get_move(self, perspective: PlayerPerspective, leader_move: Optional[Move]) -> Move:
@@ -272,6 +278,8 @@ class ExperimentRandBot(RandBot):
             self.closed_talon = True
             score = perspective.get_my_score()
             self.closure_points = score.direct_points + score.pending_points
+            opp_score = perspective.get_opponent_score()
+            self.opponent_points_at_closure = opp_score.direct_points + opp_score.pending_points
         return move
 
     def notify_game_end(self, won: bool, perspective: PlayerPerspective) -> None:
@@ -292,6 +300,7 @@ class ExperimentBullyBot(BullyBot):
         self.trumps_when_closing: list[str] = []
         self.non_trumps_when_closing: list[str] = []
         self.tricks_at_closure = 0
+        self.opponent_points_at_closure = 0
         self.final_score = 0
         self.final_won_cards_count = 0
 
@@ -314,6 +323,10 @@ class ExperimentBullyBot(BullyBot):
             self.non_trumps_when_closing = [str(c) for c in perspective.get_hand().get_cards() if c.suit != trump_suit]
             
             self.tricks_at_closure = len(perspective.get_won_cards()) // 2
+            
+            # Track opponent's score at closure for correct game point calculation
+            opp_score = perspective.get_opponent_score()
+            self.opponent_points_at_closure = opp_score.direct_points + opp_score.pending_points
             
         return move
 
@@ -339,6 +352,7 @@ class ExperimentRDeepBot(RdeepBot):
         self.trumps_when_closing: list[str] = []
         self.non_trumps_when_closing: list[str] = []
         self.tricks_at_closure = 0
+        self.opponent_points_at_closure = 0
         self.final_score = 0
         self.final_won_cards_count = 0
 
@@ -362,6 +376,10 @@ class ExperimentRDeepBot(RdeepBot):
             
             self.tricks_at_closure = len(perspective.get_won_cards()) // 2
             
+            # Track opponent's score at closure for correct game point calculation
+            opp_score = perspective.get_opponent_score()
+            self.opponent_points_at_closure = opp_score.direct_points + opp_score.pending_points
+            
         return move
 
     def notify_game_end(self, won: bool, perspective: PlayerPerspective) -> None:
@@ -374,7 +392,7 @@ class ExperimentRDeepBot(RdeepBot):
 
 
 @main.command()
-def experiment() -> None:
+def cocky_experiment() -> None:
     """Run CockyBot vs RandBot experiment (1000 games)"""
     import csv
     
@@ -444,6 +462,23 @@ def experiment() -> None:
             if bot_cocky.closed_talon:
                 final_tricks = bot_cocky.final_won_cards_count // 2
                 tricks_won_after_closing = final_tricks - bot_cocky.tricks_at_closure
+            
+            #Makes sure game points have been calculated correctly when talon has been closed
+            if bot_cocky.closed_talon or bot_rand.closed_talon:
+                closer = bot_cocky if bot_cocky.closed_talon else bot_rand
+                if winner == closer:
+                    if closer.opponent_points_at_closure == 0:
+                        game_points = 3
+                    elif closer.opponent_points_at_closure < 33:
+                        game_points = 2
+                    else:
+                        game_points = 1
+                else:
+                    #The logic is the same, but in this case these game points are for the non-closer
+                    if closer.opponent_points_at_closure == 0:
+                        game_points = 3
+                    else:
+                        game_points = 2
 
             row = {
                 "Seed": seed,
@@ -467,7 +502,7 @@ def experiment() -> None:
             
             writer.writerow(row)
             
-    print("Experiment done")
+    print("Cockybot experiment done")
 
 
 @main.command()
@@ -542,6 +577,23 @@ def bully_experiment() -> None:
             if bot_bully.closed_talon:
                 final_tricks = bot_bully.final_won_cards_count // 2
                 tricks_won_after_closing = final_tricks - bot_bully.tricks_at_closure
+
+            #Makes sure game points have been calculated correctly when talon has been closed
+            if bot_bully.closed_talon or bot_rand.closed_talon:
+                closer = bot_bully if bot_bully.closed_talon else bot_rand
+                if winner == closer:
+                    if closer.opponent_points_at_closure == 0:
+                        game_points = 3
+                    elif closer.opponent_points_at_closure < 33:
+                        game_points = 2
+                    else:
+                        game_points = 1
+                else:
+                    #The logic is the same, but in this case these game points are for the non-closer
+                    if closer.opponent_points_at_closure == 0:
+                        game_points = 3
+                    else:
+                        game_points = 2
 
             row = {
                 "Seed": seed,
@@ -644,6 +696,23 @@ def rdeep_experiment() -> None:
             if bot_rdeep.closed_talon:
                 final_tricks = bot_rdeep.final_won_cards_count // 2
                 tricks_won_after_closing = final_tricks - bot_rdeep.tricks_at_closure
+
+            #Makes sure game points have been calculated correctly when talon has been closed
+            if bot_rdeep.closed_talon or bot_rand.closed_talon:
+                closer = bot_rdeep if bot_rdeep.closed_talon else bot_rand
+                if winner == closer:
+                    if closer.opponent_points_at_closure == 0:
+                        game_points = 3
+                    elif closer.opponent_points_at_closure < 33:
+                        game_points = 2
+                    else:
+                        game_points = 1
+                else:
+                    #The logic is the same, but in this case these game points are for the non-closer
+                    if closer.opponent_points_at_closure == 0:
+                        game_points = 3
+                    else:
+                        game_points = 2
 
             row = {
                 "Seed": seed,
