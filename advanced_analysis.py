@@ -1,94 +1,101 @@
 import csv
-import numpy as np
-from scipy import stats
+import os
+try:
+    from statsmodels.stats.contingency_tables import mcnemar
+except ImportError:
+    print("Error: statsmodels is not installed. Please install it using 'pip install statsmodels'")
+    exit(1)
 
-def calculate_stats(filename: str, bot_name: str, baseline_win_rate: float = 0.5):
-    """
-    Analyzes game results using numpy and scipy for statistical calculations.
-    """
-    print(f"\n{'='*60}")
-    print(f"   Advanced Statistical Analysis (NumPy/SciPy): {bot_name}")
-    print(f"{'='*60}")
-    
-    wins = 0
-    losses = 0
-    game_points_list = []
-    
-    try:
-        with open(filename, 'r', newline='') as csvfile:
+def mcnemar_test(bot_a: str, bot_b: str, file_a: str, file_b: str):
+    '''
+    Performs a McNemar test on two datasets.
+    We have to use McNemar's test because we are not comparing two random groups of games.
+    We are comparing how two bots perform against the same baseline (RandBot) over the same 1000 games.
+    So we have a paired sample.
+    '''
+
+    # Load data for Bot A
+    print(f"Loading data for {bot_a} from {file_a}...")
+    sample_a = []
+    if not os.path.exists(file_a):
+        print(f"Warning: File {file_a} not found.")
+    else:
+        with open(file_a, 'r', newline='') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
                 winner = row['Winner']
-                points = int(row['Game points'])
-                
-                if winner == bot_name:
-                    wins += 1
-                    game_points_list.append(points)
+                if winner == 'RandBot':
+                    sample_a.append(0) #Bot lost
                 else:
-                    losses += 1
-                    # We store 0 for losses when calculating 'winning points avg', 
-                    # or we could skip them. Let's filter later.
-    except FileNotFoundError:
-        print(f"Error: File '{filename}' not found.")
-        return
-
-    n = wins + losses
-    if n == 0:
-        print("No games recorded.")
-        return
-
-    # --- Statistical Analysis using NumPy/SciPy ---
+                    sample_a.append(1) #Bot won
     
-    # 1. Basic Counts
-    win_rate = wins / n
-    
-    # 2. Confidence Interval (95%) using Normal Approximation
-    # Standard Error = sqrt(p*(1-p)/n)
-    std_error = stats.sem(np.array([1]*wins + [0]*losses)) # Standard error of the mean
-    
-    # Confidence interval using normal distribution (ppf)
-    confidence_level = 0.95
-    degrees_freedom = n - 1
-    # For large n, t-dist converts to normal, but stats.t.interval is convenient
-    ci_low, ci_high = stats.t.interval(confidence_level, degrees_freedom, loc=win_rate, scale=std_error)
-    
-    # 3. Hypothesis Testing (Binomial Test is exact and preferred over Z-test for proportions)
-    # Null Hypothesis: p = 0.5
-    binom_result = stats.binomtest(wins, n, p=baseline_win_rate, alternative='two-sided')
-    p_value = binom_result.pvalue
-    
-    # We can also back-calculate the Z-score for display purposes if needed, 
-    # but binomtest doesn't return it.
-    # Let's verify significance
-    alpha = 0.05
-    is_significant = p_value < alpha
-    significance_str = "SIGNIFICANT" if is_significant else "NOT SIGNIFICANT"
+    # Load data for Bot B
+    print(f"Loading data for {bot_b} from {file_b}...")
+    sample_b = []
+    if not os.path.exists(file_b):
+        print(f"Warning: File {file_b} not found.")
+    else:
+        with open(file_b, 'r', newline='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                winner = row['Winner']
+                if winner == 'RandBot':
+                    sample_b.append(0) #Bot lost
+                else:
+                    sample_b.append(1) #Bot won
 
-    # 4. Points Analysis with NumPy
-    points_array = np.array(game_points_list)
-    avg_points_win = np.mean(points_array) if len(points_array) > 0 else 0.0
+    print(f"{bot_a}: Loaded {len(sample_a)} games.")
+    print(f"{bot_b}: Loaded {len(sample_b)} games.")
 
-    # --- Reporting ---
-    print(f"\nResult Summary:")
-    print(f"  Total Games (n):    {n}")
-    print(f"  Wins:              {wins}")
-    print(f"  Losses:            {losses}")
-    print(f"  Observed Win Rate: {win_rate:.4f} ({win_rate*100:.2f}%)")
-    
-    print(f"\nStatistical Significance (Binomial Test):")
-    print(f"  Null Hypothesis:   True win rate is 50%")
-    print(f"  P-Value:           {p_value:.10f}")
-    print(f"  Conclusion:        The result is statistically {significance_str} at alpha={alpha}")
-    
-    print(f"\n95% Confidence Interval (t-distribution):")
-    print(f"  Range:             [{ci_low:.4f}, {ci_high:.4f}]")
-    print(f"  Interpretation:    We are 95% confident the true win rate is between {ci_low*100:.2f}% and {ci_high*100:.2f}%")
+    if len(sample_a) != len(sample_b) or len(sample_a) == 0:
+        print(f"\nSkipping {bot_a} vs {bot_b}: Samples must be paired and non-empty.")
+    else:
+        n10 = 0 # A wins, B loses (favors A)
+        n01 = 0 # A loses, B wins (favors B)
+        n11 = 0 # A wins, B wins (draw)
+        n00 = 0 # A loses, B loses (draw)
+        
+        for a, b in zip(sample_a, sample_b):
+            #zip lets us iterate over two lists at the same time (it returns a tuple of two elements)
+            if a == 1 and b == 0:
+                n10 += 1
+            elif a == 0 and b == 1:
+                n01 += 1
+            elif a == 1 and b == 1:
+                n11 += 1
+            else:
+                n00 += 1
+                
+        print(f"\nComparing {bot_a} vs {bot_b}:")
+        print(f"Paired Disagreements: {bot_a} wins/{bot_b} loses = {n10}")
+        print(f"Paired Disagreements: {bot_a} loses/{bot_b} wins = {n01}")
+        print(f"Agreements: {bot_a} wins/{bot_b} wins = {n11}, {bot_a} loses/{bot_b} loses = {n00}")
+        
+        # How the table works
+        #         B=0    B=1
+        # A=0     n00    n01
+        # A=1     n10    n11
+        table = [[n00, n01],
+                [n10, n11]]
+                
+        result = mcnemar(table, exact=False, correction=True)
+        '''
+        Exact being false means we use chi-square distribution, which is an approximation, and we use it because we have a large sample size.
+        Chi-square distribution tracks how much the results deviate from what we would expect if the null hypothesis (the two bots perform the same) were true.
+        Correction being true means we apply the continuity correction.
+        Continuity correction is a small adjustment to the chi-square statistic to account for the fact that the chi-square distribution is continuous (uses decimals) while the McNemar test is discrete (uses whole numbers).
+        This is necessary because you can't have half a win or half a loss.
+        '''
+        
+        print(f"P-value: {result.pvalue:.6f}")
+        
+        alpha = 0.05
+        if result.pvalue < alpha:
+            winner = bot_a if n10 > n01 else bot_b
+            print(f"Result: The difference is STATISTICALLY SIGNIFICANT (p < {alpha}). {winner} performs better.")
+        else:
+            print(f"Result: The difference is NOT statistically significant (p >= {alpha}).")
 
-    print(f"\nPoints Efficiency:")
-    print(f"  Avg Game Points (Winning): {avg_points_win:.2f}")
 
-
-if __name__ == "__main__":
-    calculate_stats('cocky_experiment_results_new.csv', 'CockyBot')
-    calculate_stats('bully_experiment_results_new.csv', 'BullyBot')
-    calculate_stats('rdeep_experiment_results_new.csv', 'RDeepBot')
+mcnemar_test("CockyBot", "BullyBot", "cocky_experiment_results_new.csv", "bully_experiment_results_new.csv")
+mcnemar_test("CockyBot", "RDeepBot", "cocky_experiment_results_new.csv", "rdeep_experiment_results_new.csv")
