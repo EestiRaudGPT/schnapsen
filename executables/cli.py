@@ -644,7 +644,7 @@ def rdeep_experiment() -> None:
         "RDeepBot RNG Seed", "RandBot RNG Seed"
     ]
     
-    output_file = 'rdeep_experiment_results.csv'
+    output_file = 'rdeep_experiment_results_new.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:
