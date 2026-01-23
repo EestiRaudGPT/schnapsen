@@ -2086,7 +2086,7 @@ class SchnapsenTrickScorer(TrickScorer):
         Declaring a winner uses the logic from https://web.archive.org/web/20230303074822/https://www.pagat.com/marriage/schnaps.html#out , but simplified, because we do not have closing of the Talon and no need to guess the scores.
         The following text adapted accordingly from that website.
 
-        If a player has 66 or more points, she scores points toward game as follows:
+        If a player has 66 or more points, the scores points toward game as follows:
 
             * one game point, if the opponent has made at least 33 points;
             * two game points, if the opponent has made fewer than 33 points, but has won at least one trick (opponent is said to be Schneider);

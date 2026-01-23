@@ -236,7 +236,7 @@ class ExperimentCockyBot(CockyBot):
         if move.is_close_talon():
             self.closed_talon = True
             score = perspective.get_my_score()
-            self.closure_points = score.direct_points + score.pending_points
+            self.closure_points = score.direct_points #only direct points are added
             
             trump_suit = perspective.get_trump_suit()
             self.trumps_when_closing = [str(c) for c in perspective.get_hand().get_cards() if c.suit == trump_suit]
@@ -247,7 +247,7 @@ class ExperimentCockyBot(CockyBot):
             
             # Track opponent's score at closure for correct game point calculation
             opp_score = perspective.get_opponent_score()
-            self.opponent_points_at_closure = opp_score.direct_points + opp_score.pending_points
+            self.opponent_points_at_closure = opp_score.direct_points #only direct points are added
             
         return move
 
@@ -257,7 +257,7 @@ class ExperimentCockyBot(CockyBot):
         (this method is called by the game engine when the game ends)
         '''
         score = perspective.get_my_score()
-        self.final_score = score.direct_points + score.pending_points
+        self.final_score = score.direct_points 
         self.final_won_cards_count = len(perspective.get_won_cards())
 
 
@@ -277,14 +277,14 @@ class ExperimentRandBot(RandBot):
         if move.is_close_talon():
             self.closed_talon = True
             score = perspective.get_my_score()
-            self.closure_points = score.direct_points + score.pending_points
+            self.closure_points = score.direct_points 
             opp_score = perspective.get_opponent_score()
-            self.opponent_points_at_closure = opp_score.direct_points + opp_score.pending_points
+            self.opponent_points_at_closure = opp_score.direct_points
         return move
 
     def notify_game_end(self, won: bool, perspective: PlayerPerspective) -> None:
         score = perspective.get_my_score()
-        self.final_score = score.direct_points + score.pending_points
+        self.final_score = score.direct_points 
 
 
 class ExperimentBullyBot(BullyBot):
@@ -316,7 +316,7 @@ class ExperimentBullyBot(BullyBot):
         if move.is_close_talon():
             self.closed_talon = True
             score = perspective.get_my_score()
-            self.closure_points = score.direct_points + score.pending_points
+            self.closure_points = score.direct_points 
             
             trump_suit = perspective.get_trump_suit()
             self.trumps_when_closing = [str(c) for c in perspective.get_hand().get_cards() if c.suit == trump_suit]
@@ -326,7 +326,7 @@ class ExperimentBullyBot(BullyBot):
             
             # Track opponent's score at closure for correct game point calculation
             opp_score = perspective.get_opponent_score()
-            self.opponent_points_at_closure = opp_score.direct_points + opp_score.pending_points
+            self.opponent_points_at_closure = opp_score.direct_points 
             
         return move
 
@@ -335,7 +335,7 @@ class ExperimentBullyBot(BullyBot):
         Overrides the method from the game engine, so that we can get the bot's final score and won cards count when the game ends
         '''
         score = perspective.get_my_score()
-        self.final_score = score.direct_points + score.pending_points
+        self.final_score = score.direct_points 
         self.final_won_cards_count = len(perspective.get_won_cards())
 
 
@@ -368,7 +368,7 @@ class ExperimentRDeepBot(RdeepBot):
         if move.is_close_talon():
             self.closed_talon = True
             score = perspective.get_my_score()
-            self.closure_points = score.direct_points + score.pending_points
+            self.closure_points = score.direct_points 
             
             trump_suit = perspective.get_trump_suit()
             self.trumps_when_closing = [str(c) for c in perspective.get_hand().get_cards() if c.suit == trump_suit]
@@ -378,7 +378,7 @@ class ExperimentRDeepBot(RdeepBot):
             
             # Track opponent's score at closure for correct game point calculation
             opp_score = perspective.get_opponent_score()
-            self.opponent_points_at_closure = opp_score.direct_points + opp_score.pending_points
+            self.opponent_points_at_closure = opp_score.direct_points 
             
         return move
 
@@ -387,7 +387,7 @@ class ExperimentRDeepBot(RdeepBot):
         Overrides the method from the game engine, so that we can get the bot's final score and won cards count when the game ends
         '''
         score = perspective.get_my_score()
-        self.final_score = score.direct_points + score.pending_points
+        self.final_score = score.direct_points 
         self.final_won_cards_count = len(perspective.get_won_cards())
 
 
@@ -410,7 +410,7 @@ def cocky_experiment() -> None:
         "Non-trumps when closing", "Tricks won after closing", "RandBot RNG Seed"
     ]
     
-    output_file = 'cocky_experiment_results.csv'
+    output_file = 'cocky_experiment_results_new.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:
@@ -525,7 +525,7 @@ def bully_experiment() -> None:
         "BullyBot RNG Seed", "RandBot RNG Seed"
     ]
     
-    output_file = 'bully_experiment_results.csv'
+    output_file = 'bully_experiment_results_new.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:

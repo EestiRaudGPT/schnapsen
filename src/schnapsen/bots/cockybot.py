@@ -45,7 +45,7 @@ class CockyBot(Bot):
         - We have at least 2 trump cards in hand.
         """
         my_score = perspective.get_my_score()
-        total_score = my_score.direct_points + my_score.pending_points
+        total_score = my_score.direct_points #changed so that only closes talon when real points reach 40, not incl pending.
         trump_suit = perspective.get_trump_suit()
         trumps_in_hand = [c for c in perspective.get_hand().get_cards() if c.suit == trump_suit]
         

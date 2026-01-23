@@ -109,6 +109,6 @@ def analyze_results(filename: str, bot_name: str):
         print(f"  Win rate not closing:  {win_rate_not_closed:.2f}%")
 
 if __name__ == "__main__":
-    analyze_results('cocky_experiment_results.csv', 'CockyBot')
-    analyze_results('rdeep_experiment_results.csv', 'RDeepBot')
-    analyze_results('bully_experiment_results.csv', 'BullyBot')
+    analyze_results('cocky_experiment_results_new.csv', 'CockyBot')
+    analyze_results('rdeep_experiment_results_new.csv', 'RDeepBot')
+    analyze_results('bully_experiment_results_new.csv', 'BullyBot')
