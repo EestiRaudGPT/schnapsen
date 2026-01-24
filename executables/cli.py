@@ -7,7 +7,8 @@ import click
 from schnapsen.alternative_engines.ace_one_engine import AceOneGamePlayEngine
 
 from schnapsen.bots import MLDataBot, train_ML_model, MLPlayingBot, RandBot
-from schnapsen.bots.cockybot import CockyBot
+# from schnapsen.bots.cockybot import CockyBot
+from schnapsen.bots.cockybot_updated_conditions_v1 import CockyBot 
 from schnapsen.bots.bully_bot import BullyBot
 
 from schnapsen.bots.example_bot import ExampleBot
@@ -410,7 +411,7 @@ def cocky_experiment() -> None:
         "Non-trumps when closing", "Tricks won after closing", "RandBot RNG Seed"
     ]
     
-    output_file = 'cocky_experiment_results_new.csv'
+    output_file = 'cocky_experiment_results_new_2.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:
@@ -418,7 +419,7 @@ def cocky_experiment() -> None:
         writer.writeheader()
         
         for i in range(total_games):
-            seed = i
+            seed = i 
             rng_game = random.Random(seed)
             rand_bot_rng_seed = seed + 20000
             rng_randbot = random.Random(rand_bot_rng_seed)
@@ -525,7 +526,7 @@ def bully_experiment() -> None:
         "BullyBot RNG Seed", "RandBot RNG Seed"
     ]
     
-    output_file = 'bully_experiment_results_new.csv'
+    output_file = 'bully_experiment_results_new_2.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:
@@ -533,7 +534,7 @@ def bully_experiment() -> None:
         writer.writeheader()
         
         for i in range(total_games):
-            seed = i
+            seed = i 
             rng_game = random.Random(seed)
             rand_bot_rng_seed = seed + 20000
             bully_bot_rng_seed = seed + 30000
@@ -644,7 +645,7 @@ def rdeep_experiment() -> None:
         "RDeepBot RNG Seed", "RandBot RNG Seed"
     ]
     
-    output_file = 'rdeep_experiment_results_new.csv'
+    output_file = 'rdeep_experiment_results_new_2.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:
@@ -652,7 +653,7 @@ def rdeep_experiment() -> None:
         writer.writeheader()
         
         for i in range(total_games):
-            seed = i
+            seed = i 
             rng_game = random.Random(seed)
             rand_bot_rng_seed = seed + 20000
             rdeep_bot_rng_seed = seed + 40000

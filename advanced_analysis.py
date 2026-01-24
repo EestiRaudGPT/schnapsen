@@ -97,5 +97,5 @@ def mcnemar_test(bot_a: str, bot_b: str, file_a: str, file_b: str):
             print(f"Result: The difference is NOT statistically significant (p >= {alpha}).")
 
 
-mcnemar_test("CockyBot", "BullyBot", "cocky_experiment_results_new.csv", "bully_experiment_results_new.csv")
-mcnemar_test("CockyBot", "RDeepBot", "cocky_experiment_results_new.csv", "rdeep_experiment_results_new.csv")
+mcnemar_test("CockyBot", "BullyBot", "cocky_experiment_results_new_2.csv", "bully_experiment_results_new_2.csv")
+mcnemar_test("CockyBot", "RDeepBot", "cocky_experiment_results_new_2.csv", "rdeep_experiment_results_new_2.csv")
