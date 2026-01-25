@@ -7,8 +7,8 @@ import click
 from schnapsen.alternative_engines.ace_one_engine import AceOneGamePlayEngine
 
 from schnapsen.bots import MLDataBot, train_ML_model, MLPlayingBot, RandBot
-# from schnapsen.bots.cockybot import CockyBot
-from schnapsen.bots.cockybot_updated_conditions_v1 import CockyBot 
+from schnapsen.bots.cockybot import CockyBot
+#from schnapsen.bots.cockybot_updated_conditions_v1 import CockyBot 
 from schnapsen.bots.bully_bot import BullyBot
 
 from schnapsen.bots.example_bot import ExampleBot
@@ -213,7 +213,7 @@ class ExperimentCockyBot(CockyBot):
     This bot adds to Cockybot by tracking its performance during the game.
     '''
     def __init__(self, name: str = "CockyBot") -> None:
-        super().__init__(name)
+        super().__init__(30, 3, name) #Change the points_requirement and trumps_requirement to test different cocky bot versions
         self.marriages_declared = 0
         self.trump_exchanges_declared = 0
         self.closed_talon = False
@@ -411,7 +411,7 @@ def cocky_experiment() -> None:
         "Non-trumps when closing", "Tricks won after closing", "RandBot RNG Seed"
     ]
     
-    output_file = 'cocky_experiment_results_new_2.csv'
+    output_file = 'cocky_experiment_results_30points3trumps.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:
@@ -526,7 +526,7 @@ def bully_experiment() -> None:
         "BullyBot RNG Seed", "RandBot RNG Seed"
     ]
     
-    output_file = 'bully_experiment_results_new_2.csv'
+    output_file = 'bully_proper_experiment_results.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:
@@ -645,7 +645,7 @@ def rdeep_experiment() -> None:
         "RDeepBot RNG Seed", "RandBot RNG Seed"
     ]
     
-    output_file = 'rdeep_experiment_results_new_2.csv'
+    output_file = 'rdeep_proper_experiment_results.csv'
     print(f"Output will be saved to {output_file}")
     
     with open(output_file, 'w', newline='') as csvfile:

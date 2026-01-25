@@ -10,11 +10,13 @@ class CockyBot(Bot):
     Once these conditions are met, it switches to cocky mode.
     """
 
-    def __init__(self, name: str | None = None) -> None:
+    def __init__(self, points_requirement: int, trumps_requirement: int, name: str | None = None) -> None:
         """
         Initialize the bot.
         """
         super().__init__(name)
+        self.points_requirement = points_requirement
+        self.trumps_requirement = trumps_requirement
 
     def get_move(self, perspective: PlayerPerspective, leader_move: Move | None) -> Move:
         """
@@ -49,7 +51,7 @@ class CockyBot(Bot):
         trump_suit = perspective.get_trump_suit()
         trumps_in_hand = [c for c in perspective.get_hand().get_cards() if c.suit == trump_suit]
         
-        return total_score >= 40 and len(trumps_in_hand) >= 2
+        return total_score >= self.points_requirement and len(trumps_in_hand) >= self.trumps_requirement
 
     def _try_special_moves(self, perspective: PlayerPerspective) -> Move | None:
         """
