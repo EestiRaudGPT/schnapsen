@@ -1,0 +1,1001 @@
+Seed,Match outcome,Winner,Loser,Winner score,Loser score,Game points,Deck closed,Closer,Closure points,CockyBot marriages,CockyBot trump exchanges,CockyBot won after closing,Trumps when closing,Non-trumps when closing,Tricks won after closing,RandBot RNG Seed
+0,CockyBot beat RandBot,CockyBot,RandBot,66,13,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20000
+1,CockyBot beat RandBot,CockyBot,RandBot,73,47,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20001
+2,CockyBot beat RandBot,CockyBot,RandBot,66,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20002
+3,CockyBot beat RandBot,CockyBot,RandBot,74,17,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20003
+4,CockyBot beat RandBot,CockyBot,RandBot,77,57,1,False,None,N/A,1,1,False,N/A,N/A,N/A,20004
+5,CockyBot beat RandBot,CockyBot,RandBot,35,26,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20005
+6,CockyBot beat RandBot,CockyBot,RandBot,77,11,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20006
+7,RandBot beat CockyBot,RandBot,CockyBot,75,45,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20007
+8,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,12,0,1,True,"['Card.ACE_CLUBS', 'Card.KING_CLUBS']","['Card.ACE_DIAMONDS', 'Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']",4,20008
+9,RandBot beat CockyBot,RandBot,CockyBot,70,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20009
+10,CockyBot beat RandBot,CockyBot,RandBot,76,12,2,True,CockyBot,14,1,0,True,"['Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.ACE_CLUBS', 'Card.ACE_HEARTS']",2,20010
+11,CockyBot beat RandBot,CockyBot,RandBot,71,6,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20011
+12,CockyBot beat RandBot,CockyBot,RandBot,72,36,2,True,RandBot,22,2,0,False,N/A,N/A,N/A,20012
+13,CockyBot beat RandBot,CockyBot,RandBot,53,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20013
+14,RandBot beat CockyBot,RandBot,CockyBot,73,47,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20014
+15,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,20015
+16,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,13,0,0,True,"['Card.KING_SPADES', 'Card.ACE_SPADES', 'Card.JACK_SPADES']","['Card.QUEEN_HEARTS', 'Card.KING_DIAMONDS']",5,20016
+17,CockyBot beat RandBot,CockyBot,RandBot,72,7,2,True,CockyBot,30,0,0,True,"['Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.ACE_HEARTS', 'Card.TEN_CLUBS', 'Card.QUEEN_SPADES']",3,20017
+18,CockyBot beat RandBot,CockyBot,RandBot,60,21,3,True,CockyBot,13,0,0,True,"['Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']","['Card.ACE_DIAMONDS', 'Card.ACE_HEARTS', 'Card.QUEEN_DIAMONDS']",4,20018
+19,CockyBot beat RandBot,CockyBot,RandBot,81,18,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20019
+20,CockyBot beat RandBot,CockyBot,RandBot,68,25,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20020
+21,CockyBot beat RandBot,CockyBot,RandBot,72,28,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20021
+22,RandBot beat CockyBot,RandBot,CockyBot,68,60,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20022
+23,RandBot beat CockyBot,RandBot,CockyBot,58,63,2,True,CockyBot,48,1,1,False,"['Card.ACE_CLUBS', 'Card.QUEEN_CLUBS']","['Card.QUEEN_SPADES', 'Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']",1,20023
+24,CockyBot beat RandBot,CockyBot,RandBot,87,0,3,True,CockyBot,19,0,0,True,"['Card.QUEEN_SPADES', 'Card.ACE_SPADES', 'Card.JACK_SPADES']","['Card.ACE_CLUBS', 'Card.ACE_HEARTS']",5,20024
+25,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,12,0,0,True,"['Card.QUEEN_SPADES', 'Card.ACE_SPADES']","['Card.TEN_HEARTS', 'Card.KING_CLUBS', 'Card.QUEEN_HEARTS']",5,20025
+26,RandBot beat CockyBot,RandBot,CockyBot,52,32,3,True,CockyBot,27,1,1,False,"['Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']","['Card.JACK_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.JACK_SPADES']",1,20026
+27,RandBot beat CockyBot,RandBot,CockyBot,73,15,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20027
+28,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,13,0,1,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.ACE_CLUBS', 'Card.ACE_SPADES', 'Card.ACE_DIAMONDS']",4,20028
+29,RandBot beat CockyBot,RandBot,CockyBot,68,52,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20029
+30,CockyBot beat RandBot,CockyBot,RandBot,82,14,2,True,CockyBot,13,0,1,True,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.TEN_HEARTS', 'Card.ACE_HEARTS', 'Card.KING_HEARTS']",4,20030
+31,RandBot beat CockyBot,RandBot,CockyBot,69,51,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20031
+32,RandBot beat CockyBot,RandBot,CockyBot,68,37,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20032
+33,RandBot beat CockyBot,RandBot,CockyBot,12,50,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20033
+34,RandBot beat CockyBot,RandBot,CockyBot,54,60,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,20034
+35,CockyBot beat RandBot,CockyBot,RandBot,72,34,3,True,CockyBot,32,0,0,True,"['Card.QUEEN_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.KING_CLUBS', 'Card.TEN_CLUBS', 'Card.ACE_SPADES']",3,20035
+36,RandBot beat CockyBot,RandBot,CockyBot,60,33,3,True,CockyBot,26,1,0,False,"['Card.KING_SPADES', 'Card.TEN_SPADES']","['Card.QUEEN_DIAMONDS', 'Card.QUEEN_CLUBS', 'Card.TEN_HEARTS']",1,20036
+37,RandBot beat CockyBot,RandBot,CockyBot,39,39,3,True,CockyBot,21,0,0,False,"['Card.TEN_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.TEN_HEARTS', 'Card.QUEEN_CLUBS', 'Card.JACK_SPADES']",2,20037
+38,CockyBot beat RandBot,CockyBot,RandBot,77,0,3,True,CockyBot,13,0,1,True,"['Card.ACE_SPADES', 'Card.KING_SPADES', 'Card.TEN_SPADES']","['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']",4,20038
+39,RandBot beat CockyBot,RandBot,CockyBot,31,49,2,True,RandBot,4,0,0,False,N/A,N/A,N/A,20039
+40,RandBot beat CockyBot,RandBot,CockyBot,58,8,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,20040
+41,CockyBot beat RandBot,CockyBot,RandBot,39,21,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20041
+42,CockyBot beat RandBot,CockyBot,RandBot,71,15,3,True,CockyBot,17,1,0,True,"['Card.QUEEN_HEARTS', 'Card.KING_HEARTS']","['Card.ACE_DIAMONDS', 'Card.ACE_SPADES', 'Card.ACE_CLUBS']",1,20042
+43,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,12,0,0,True,"['Card.KING_HEARTS', 'Card.TEN_HEARTS']","['Card.TEN_SPADES', 'Card.TEN_DIAMONDS', 'Card.KING_CLUBS']",4,20043
+44,CockyBot beat RandBot,CockyBot,RandBot,68,26,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20044
+45,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,13,0,0,True,"['Card.ACE_CLUBS', 'Card.KING_CLUBS']","['Card.TEN_HEARTS', 'Card.ACE_SPADES', 'Card.KING_SPADES']",5,20045
+46,CockyBot beat RandBot,CockyBot,RandBot,74,28,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20046
+47,RandBot beat CockyBot,RandBot,CockyBot,38,13,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20047
+48,CockyBot beat RandBot,CockyBot,RandBot,65,21,3,True,CockyBot,19,0,0,True,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.TEN_CLUBS', 'Card.ACE_SPADES']",4,20048
+49,RandBot beat CockyBot,RandBot,CockyBot,26,61,2,True,CockyBot,13,0,0,False,"['Card.QUEEN_HEARTS', 'Card.JACK_HEARTS']","['Card.QUEEN_CLUBS', 'Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']",4,20049
+50,CockyBot beat RandBot,CockyBot,RandBot,106,28,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20050
+51,CockyBot beat RandBot,CockyBot,RandBot,71,0,3,True,CockyBot,20,0,0,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.ACE_SPADES', 'Card.TEN_DIAMONDS', 'Card.KING_SPADES']",4,20051
+52,CockyBot beat RandBot,CockyBot,RandBot,71,12,2,True,CockyBot,14,0,1,True,"['Card.ACE_CLUBS', 'Card.TEN_CLUBS']","['Card.ACE_DIAMONDS', 'Card.KING_SPADES', 'Card.KING_HEARTS']",3,20052
+53,RandBot beat CockyBot,RandBot,CockyBot,42,64,2,True,RandBot,15,0,0,False,N/A,N/A,N/A,20053
+54,RandBot beat CockyBot,RandBot,CockyBot,28,64,2,True,CockyBot,18,0,1,False,"['Card.KING_HEARTS', 'Card.ACE_HEARTS']","['Card.ACE_DIAMONDS', 'Card.KING_CLUBS', 'Card.TEN_DIAMONDS']",4,20054
+55,CockyBot beat RandBot,CockyBot,RandBot,26,40,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20055
+56,CockyBot beat RandBot,CockyBot,RandBot,73,34,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20056
+57,CockyBot beat RandBot,CockyBot,RandBot,68,12,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20057
+58,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,19,0,1,True,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.TEN_CLUBS', 'Card.TEN_SPADES', 'Card.ACE_HEARTS']",4,20058
+59,CockyBot beat RandBot,CockyBot,RandBot,66,12,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20059
+60,RandBot beat CockyBot,RandBot,CockyBot,83,37,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20060
+61,CockyBot beat RandBot,CockyBot,RandBot,68,20,3,True,RandBot,20,0,0,False,N/A,N/A,N/A,20061
+62,CockyBot beat RandBot,CockyBot,RandBot,74,6,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20062
+63,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,13,0,0,True,"['Card.KING_SPADES', 'Card.TEN_SPADES']","['Card.KING_CLUBS', 'Card.JACK_CLUBS', 'Card.TEN_DIAMONDS']",5,20063
+64,CockyBot beat RandBot,CockyBot,RandBot,53,28,3,True,CockyBot,13,0,0,True,"['Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.ACE_CLUBS', 'Card.TEN_SPADES', 'Card.QUEEN_HEARTS']",3,20064
+65,CockyBot beat RandBot,CockyBot,RandBot,75,44,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20065
+66,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,CockyBot,52,1,1,True,"['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']","['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.KING_SPADES']",2,20066
+67,CockyBot beat RandBot,CockyBot,RandBot,71,0,3,True,CockyBot,43,1,0,True,"['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']","['Card.QUEEN_SPADES', 'Card.QUEEN_DIAMONDS', 'Card.QUEEN_CLUBS']",2,20067
+68,CockyBot beat RandBot,CockyBot,RandBot,80,40,1,False,None,N/A,2,0,False,N/A,N/A,N/A,20068
+69,CockyBot beat RandBot,CockyBot,RandBot,68,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20069
+70,CockyBot beat RandBot,CockyBot,RandBot,69,9,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20070
+71,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,25,0,0,True,"['Card.ACE_SPADES', 'Card.TEN_SPADES']","['Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS', 'Card.TEN_HEARTS']",3,20071
+72,CockyBot beat RandBot,CockyBot,RandBot,75,21,3,True,CockyBot,54,1,1,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.KING_SPADES', 'Card.TEN_CLUBS', 'Card.ACE_DIAMONDS']",1,20072
+73,CockyBot beat RandBot,CockyBot,RandBot,73,40,2,True,CockyBot,27,1,0,True,"['Card.QUEEN_CLUBS', 'Card.KING_CLUBS']","['Card.KING_HEARTS', 'Card.TEN_DIAMONDS', 'Card.ACE_HEARTS']",1,20073
+74,CockyBot beat RandBot,CockyBot,RandBot,71,27,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20074
+75,RandBot beat CockyBot,RandBot,CockyBot,75,44,2,True,RandBot,20,1,0,False,N/A,N/A,N/A,20075
+76,CockyBot beat RandBot,CockyBot,RandBot,68,18,2,True,RandBot,18,0,1,False,N/A,N/A,N/A,20076
+77,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,40,0,0,True,"['Card.ACE_CLUBS', 'Card.KING_CLUBS']","['Card.ACE_DIAMONDS', 'Card.ACE_HEARTS', 'Card.TEN_SPADES']",3,20077
+78,CockyBot beat RandBot,CockyBot,RandBot,0,0,3,True,RandBot,15,1,0,False,N/A,N/A,N/A,20078
+79,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,13,1,0,True,"['Card.QUEEN_HEARTS', 'Card.KING_HEARTS']","['Card.QUEEN_CLUBS', 'Card.JACK_SPADES', 'Card.KING_SPADES']",1,20079
+80,CockyBot beat RandBot,CockyBot,RandBot,67,5,2,True,CockyBot,13,1,0,True,"['Card.ACE_CLUBS', 'Card.KING_CLUBS', 'Card.QUEEN_CLUBS']","['Card.TEN_DIAMONDS', 'Card.ACE_SPADES']",1,20080
+81,CockyBot beat RandBot,CockyBot,RandBot,71,49,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20081
+82,CockyBot beat RandBot,CockyBot,RandBot,76,24,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20082
+83,CockyBot beat RandBot,CockyBot,RandBot,67,14,2,True,CockyBot,26,0,0,True,"['Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.KING_CLUBS', 'Card.TEN_SPADES', 'Card.JACK_HEARTS']",3,20083
+84,CockyBot beat RandBot,CockyBot,RandBot,68,33,2,True,CockyBot,14,1,0,True,"['Card.QUEEN_CLUBS', 'Card.KING_CLUBS']","['Card.ACE_DIAMONDS', 'Card.KING_HEARTS', 'Card.KING_SPADES']",1,20084
+85,RandBot beat CockyBot,RandBot,CockyBot,68,34,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20085
+86,CockyBot beat RandBot,CockyBot,RandBot,62,39,2,True,RandBot,24,0,0,False,N/A,N/A,N/A,20086
+87,CockyBot beat RandBot,CockyBot,RandBot,74,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20087
+88,CockyBot beat RandBot,CockyBot,RandBot,69,14,2,True,RandBot,14,1,0,False,N/A,N/A,N/A,20088
+89,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,13,0,0,True,"['Card.JACK_HEARTS', 'Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.KING_CLUBS', 'Card.KING_DIAMONDS']",5,20089
+90,RandBot beat CockyBot,RandBot,CockyBot,75,65,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20090
+91,CockyBot beat RandBot,CockyBot,RandBot,66,5,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20091
+92,CockyBot beat RandBot,CockyBot,RandBot,67,15,2,True,CockyBot,46,1,1,True,"['Card.QUEEN_SPADES', 'Card.TEN_SPADES']","['Card.JACK_DIAMONDS', 'Card.JACK_CLUBS', 'Card.KING_CLUBS']",1,20092
+93,CockyBot beat RandBot,CockyBot,RandBot,72,34,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20093
+94,RandBot beat CockyBot,RandBot,CockyBot,48,62,3,True,RandBot,14,1,1,False,N/A,N/A,N/A,20094
+95,CockyBot beat RandBot,CockyBot,RandBot,37,54,2,True,RandBot,19,0,0,False,N/A,N/A,N/A,20095
+96,CockyBot beat RandBot,CockyBot,RandBot,61,59,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20096
+97,CockyBot beat RandBot,CockyBot,RandBot,73,54,1,False,None,N/A,1,1,False,N/A,N/A,N/A,20097
+98,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,13,0,0,True,"['Card.KING_SPADES', 'Card.ACE_SPADES', 'Card.JACK_SPADES']","['Card.ACE_CLUBS', 'Card.KING_DIAMONDS']",5,20098
+99,CockyBot beat RandBot,CockyBot,RandBot,71,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20099
+100,CockyBot beat RandBot,CockyBot,RandBot,86,14,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20100
+101,CockyBot beat RandBot,CockyBot,RandBot,68,7,2,True,RandBot,7,0,0,False,N/A,N/A,N/A,20101
+102,CockyBot beat RandBot,CockyBot,RandBot,62,58,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20102
+103,RandBot beat CockyBot,RandBot,CockyBot,60,60,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20103
+104,CockyBot beat RandBot,CockyBot,RandBot,68,26,2,True,CockyBot,12,0,0,True,"['Card.TEN_HEARTS', 'Card.KING_HEARTS']","['Card.KING_DIAMONDS', 'Card.TEN_SPADES', 'Card.ACE_SPADES']",4,20104
+105,CockyBot beat RandBot,CockyBot,RandBot,85,31,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20105
+106,CockyBot beat RandBot,CockyBot,RandBot,72,21,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20106
+107,RandBot beat CockyBot,RandBot,CockyBot,30,22,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20107
+108,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,23,0,1,True,"['Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.QUEEN_CLUBS', 'Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS']",3,20108
+109,CockyBot beat RandBot,CockyBot,RandBot,68,52,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20109
+110,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,12,0,0,True,"['Card.ACE_SPADES', 'Card.QUEEN_SPADES']","['Card.TEN_HEARTS', 'Card.ACE_CLUBS', 'Card.TEN_DIAMONDS']",4,20110
+111,CockyBot beat RandBot,CockyBot,RandBot,67,53,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20111
+112,RandBot beat CockyBot,RandBot,CockyBot,20,46,3,True,CockyBot,14,0,0,False,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.QUEEN_HEARTS', 'Card.KING_CLUBS', 'Card.TEN_HEARTS']",3,20112
+113,CockyBot beat RandBot,CockyBot,RandBot,61,21,3,True,CockyBot,18,0,0,True,"['Card.KING_HEARTS', 'Card.ACE_HEARTS']","['Card.TEN_SPADES', 'Card.KING_CLUBS', 'Card.KING_DIAMONDS']",4,20113
+114,RandBot beat CockyBot,RandBot,CockyBot,27,53,3,True,CockyBot,19,0,0,False,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.KING_DIAMONDS', 'Card.TEN_SPADES', 'Card.JACK_HEARTS']",3,20114
+115,RandBot beat CockyBot,RandBot,CockyBot,67,19,2,True,RandBot,4,0,0,False,N/A,N/A,N/A,20115
+116,CockyBot beat RandBot,CockyBot,RandBot,80,0,3,True,CockyBot,12,0,1,True,"['Card.QUEEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.TEN_SPADES', 'Card.ACE_SPADES', 'Card.KING_CLUBS']",4,20116
+117,CockyBot beat RandBot,CockyBot,RandBot,72,13,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20117
+118,CockyBot beat RandBot,CockyBot,RandBot,71,7,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20118
+119,RandBot beat CockyBot,RandBot,CockyBot,68,37,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20119
+120,CockyBot beat RandBot,CockyBot,RandBot,75,19,3,True,RandBot,19,0,0,False,N/A,N/A,N/A,20120
+121,RandBot beat CockyBot,RandBot,CockyBot,43,25,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20121
+122,RandBot beat CockyBot,RandBot,CockyBot,68,31,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20122
+123,CockyBot beat RandBot,CockyBot,RandBot,85,38,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20123
+124,CockyBot beat RandBot,CockyBot,RandBot,39,42,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,20124
+125,RandBot beat CockyBot,RandBot,CockyBot,45,13,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20125
+126,CockyBot beat RandBot,CockyBot,RandBot,73,15,2,True,CockyBot,28,0,1,True,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.ACE_HEARTS', 'Card.TEN_SPADES', 'Card.TEN_HEARTS']",4,20126
+127,CockyBot beat RandBot,CockyBot,RandBot,61,34,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,20127
+128,CockyBot beat RandBot,CockyBot,RandBot,72,55,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20128
+129,CockyBot beat RandBot,CockyBot,RandBot,75,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20129
+130,CockyBot beat RandBot,CockyBot,RandBot,36,26,3,True,RandBot,6,0,1,False,N/A,N/A,N/A,20130
+131,CockyBot beat RandBot,CockyBot,RandBot,79,41,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20131
+132,RandBot beat CockyBot,RandBot,CockyBot,80,27,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20132
+133,RandBot beat CockyBot,RandBot,CockyBot,58,62,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20133
+134,CockyBot beat RandBot,CockyBot,RandBot,67,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20134
+135,RandBot beat CockyBot,RandBot,CockyBot,69,31,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20135
+136,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,13,0,1,True,"['Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.ACE_HEARTS', 'Card.ACE_SPADES', 'Card.KING_HEARTS']",4,20136
+137,RandBot beat CockyBot,RandBot,CockyBot,82,38,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20137
+138,CockyBot beat RandBot,CockyBot,RandBot,72,5,2,True,CockyBot,10,0,0,True,"['Card.KING_CLUBS', 'Card.TEN_CLUBS']","['Card.KING_DIAMONDS', 'Card.TEN_HEARTS', 'Card.ACE_HEARTS']",4,20138
+139,RandBot beat CockyBot,RandBot,CockyBot,60,26,3,True,CockyBot,12,0,0,False,"['Card.TEN_HEARTS', 'Card.KING_HEARTS']","['Card.QUEEN_DIAMONDS', 'Card.QUEEN_SPADES', 'Card.JACK_CLUBS']",1,20139
+140,CockyBot beat RandBot,CockyBot,RandBot,72,33,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20140
+141,RandBot beat CockyBot,RandBot,CockyBot,64,56,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20141
+142,CockyBot beat RandBot,CockyBot,RandBot,67,5,2,True,RandBot,5,0,0,False,N/A,N/A,N/A,20142
+143,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,20143
+144,CockyBot beat RandBot,CockyBot,RandBot,79,0,3,True,CockyBot,19,0,0,True,"['Card.QUEEN_SPADES', 'Card.TEN_SPADES']","['Card.QUEEN_DIAMONDS', 'Card.TEN_HEARTS', 'Card.TEN_DIAMONDS']",4,20144
+145,CockyBot beat RandBot,CockyBot,RandBot,61,33,2,True,CockyBot,27,0,0,True,"['Card.QUEEN_SPADES', 'Card.JACK_SPADES']","['Card.ACE_CLUBS', 'Card.KING_CLUBS', 'Card.TEN_DIAMONDS']",3,20145
+146,CockyBot beat RandBot,CockyBot,RandBot,80,13,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20146
+147,CockyBot beat RandBot,CockyBot,RandBot,79,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20147
+148,CockyBot beat RandBot,CockyBot,RandBot,66,13,2,True,RandBot,13,0,1,False,N/A,N/A,N/A,20148
+149,RandBot beat CockyBot,RandBot,CockyBot,36,34,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,20149
+150,CockyBot beat RandBot,CockyBot,RandBot,74,13,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20150
+151,CockyBot beat RandBot,CockyBot,RandBot,64,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20151
+152,CockyBot beat RandBot,CockyBot,RandBot,59,12,3,True,RandBot,12,0,0,False,N/A,N/A,N/A,20152
+153,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,17,0,0,True,"['Card.QUEEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.ACE_HEARTS', 'Card.TEN_HEARTS', 'Card.JACK_CLUBS']",4,20153
+154,RandBot beat CockyBot,RandBot,CockyBot,69,20,2,True,CockyBot,20,0,1,False,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.TEN_HEARTS', 'Card.TEN_SPADES', 'Card.JACK_HEARTS']",0,20154
+155,CockyBot beat RandBot,CockyBot,RandBot,76,48,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20155
+156,CockyBot beat RandBot,CockyBot,RandBot,31,35,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,20156
+157,RandBot beat CockyBot,RandBot,CockyBot,66,54,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20157
+158,CockyBot beat RandBot,CockyBot,RandBot,71,0,3,True,CockyBot,14,0,1,True,"['Card.ACE_CLUBS', 'Card.KING_CLUBS']","['Card.ACE_SPADES', 'Card.ACE_HEARTS', 'Card.JACK_HEARTS']",4,20158
+159,RandBot beat CockyBot,RandBot,CockyBot,27,40,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20159
+160,RandBot beat CockyBot,RandBot,CockyBot,68,60,1,True,RandBot,7,1,0,False,N/A,N/A,N/A,20160
+161,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,15,0,0,True,"['Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.TEN_SPADES', 'Card.QUEEN_SPADES', 'Card.JACK_HEARTS']",4,20161
+162,RandBot beat CockyBot,RandBot,CockyBot,75,40,2,True,RandBot,35,0,1,False,N/A,N/A,N/A,20162
+163,CockyBot beat RandBot,CockyBot,RandBot,67,17,2,True,CockyBot,14,0,0,True,"['Card.ACE_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.ACE_HEARTS', 'Card.TEN_SPADES', 'Card.TEN_HEARTS']",4,20163
+164,CockyBot beat RandBot,CockyBot,RandBot,67,7,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20164
+165,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,40,0,0,True,"['Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.KING_SPADES', 'Card.TEN_CLUBS', 'Card.ACE_CLUBS']",2,20165
+166,RandBot beat CockyBot,RandBot,CockyBot,49,47,2,True,CockyBot,11,0,0,False,"['Card.TEN_CLUBS', 'Card.KING_CLUBS']","['Card.ACE_SPADES', 'Card.ACE_HEARTS', 'Card.KING_DIAMONDS']",3,20166
+167,CockyBot beat RandBot,CockyBot,RandBot,81,0,3,True,CockyBot,13,0,0,True,"['Card.ACE_CLUBS', 'Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']",4,20167
+168,CockyBot beat RandBot,CockyBot,RandBot,73,0,3,True,CockyBot,26,1,0,True,"['Card.KING_HEARTS', 'Card.ACE_HEARTS']","['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS', 'Card.TEN_SPADES']",4,20168
+169,CockyBot beat RandBot,CockyBot,RandBot,74,32,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20169
+170,CockyBot beat RandBot,CockyBot,RandBot,45,42,3,True,CockyBot,19,0,0,True,"['Card.TEN_SPADES', 'Card.KING_SPADES']","['Card.TEN_CLUBS', 'Card.KING_CLUBS', 'Card.ACE_HEARTS']",3,20170
+171,RandBot beat CockyBot,RandBot,CockyBot,24,35,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20171
+172,CockyBot beat RandBot,CockyBot,RandBot,63,57,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20172
+173,RandBot beat CockyBot,RandBot,CockyBot,42,61,3,True,CockyBot,27,0,0,False,"['Card.KING_SPADES', 'Card.TEN_SPADES']","['Card.TEN_CLUBS', 'Card.ACE_HEARTS', 'Card.TEN_DIAMONDS']",3,20173
+174,RandBot beat CockyBot,RandBot,CockyBot,83,45,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20174
+175,CockyBot beat RandBot,CockyBot,RandBot,69,17,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20175
+176,CockyBot beat RandBot,CockyBot,RandBot,67,6,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20176
+177,CockyBot beat RandBot,CockyBot,RandBot,42,61,3,True,CockyBot,14,0,0,True,"['Card.JACK_CLUBS', 'Card.TEN_CLUBS']","['Card.QUEEN_SPADES', 'Card.TEN_DIAMONDS', 'Card.ACE_HEARTS']",2,20177
+178,RandBot beat CockyBot,RandBot,CockyBot,73,47,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20178
+179,RandBot beat CockyBot,RandBot,CockyBot,68,18,2,True,RandBot,18,0,0,False,N/A,N/A,N/A,20179
+180,RandBot beat CockyBot,RandBot,CockyBot,80,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20180
+181,CockyBot beat RandBot,CockyBot,RandBot,71,4,2,True,CockyBot,28,0,0,True,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.KING_HEARTS', 'Card.QUEEN_CLUBS', 'Card.TEN_SPADES']",3,20181
+182,CockyBot beat RandBot,CockyBot,RandBot,72,21,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20182
+183,CockyBot beat RandBot,CockyBot,RandBot,80,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20183
+184,CockyBot beat RandBot,CockyBot,RandBot,91,26,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20184
+185,CockyBot beat RandBot,CockyBot,RandBot,65,15,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20185
+186,CockyBot beat RandBot,CockyBot,RandBot,67,7,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20186
+187,RandBot beat CockyBot,RandBot,CockyBot,67,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20187
+188,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,34,1,0,True,"['Card.ACE_CLUBS', 'Card.JACK_CLUBS']","['Card.JACK_SPADES', 'Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']",3,20188
+189,RandBot beat CockyBot,RandBot,CockyBot,73,46,2,True,RandBot,47,1,0,False,N/A,N/A,N/A,20189
+190,RandBot beat CockyBot,RandBot,CockyBot,53,57,3,True,RandBot,12,0,0,False,N/A,N/A,N/A,20190
+191,RandBot beat CockyBot,RandBot,CockyBot,56,64,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20191
+192,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,12,0,0,True,"['Card.KING_SPADES', 'Card.TEN_SPADES', 'Card.JACK_SPADES']","['Card.ACE_DIAMONDS', 'Card.KING_CLUBS']",4,20192
+193,RandBot beat CockyBot,RandBot,CockyBot,39,14,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20193
+194,CockyBot beat RandBot,CockyBot,RandBot,78,0,3,True,CockyBot,17,0,0,True,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.TEN_SPADES', 'Card.ACE_SPADES', 'Card.KING_CLUBS']",4,20194
+195,CockyBot beat RandBot,CockyBot,RandBot,79,0,3,False,None,N/A,0,1,False,N/A,N/A,N/A,20195
+196,RandBot beat CockyBot,RandBot,CockyBot,64,39,2,True,CockyBot,20,0,1,False,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS', 'Card.KING_SPADES']",2,20196
+197,CockyBot beat RandBot,CockyBot,RandBot,67,20,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20197
+198,RandBot beat CockyBot,RandBot,CockyBot,74,39,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20198
+199,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,14,0,0,True,"['Card.ACE_SPADES', 'Card.JACK_SPADES']","['Card.QUEEN_DIAMONDS', 'Card.QUEEN_CLUBS', 'Card.ACE_HEARTS']",4,20199
+200,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,12,0,0,True,"['Card.TEN_HEARTS', 'Card.KING_HEARTS']","['Card.JACK_SPADES', 'Card.ACE_DIAMONDS', 'Card.KING_SPADES']",4,20200
+201,CockyBot beat RandBot,CockyBot,RandBot,67,20,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20201
+202,RandBot beat CockyBot,RandBot,CockyBot,74,33,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20202
+203,CockyBot beat RandBot,CockyBot,RandBot,71,47,1,False,None,N/A,1,1,False,N/A,N/A,N/A,20203
+204,RandBot beat CockyBot,RandBot,CockyBot,37,49,2,True,CockyBot,21,0,1,False,"['Card.ACE_SPADES', 'Card.KING_SPADES']","['Card.QUEEN_DIAMONDS', 'Card.QUEEN_HEARTS', 'Card.JACK_CLUBS']",2,20204
+205,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,False,None,N/A,2,0,False,N/A,N/A,N/A,20205
+206,RandBot beat CockyBot,RandBot,CockyBot,64,50,2,True,CockyBot,23,0,0,False,"['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']","['Card.KING_SPADES', 'Card.TEN_SPADES', 'Card.KING_CLUBS']",2,20206
+207,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,28,0,0,True,"['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.QUEEN_CLUBS', 'Card.TEN_HEARTS', 'Card.ACE_SPADES']",3,20207
+208,CockyBot beat RandBot,CockyBot,RandBot,67,12,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20208
+209,CockyBot beat RandBot,CockyBot,RandBot,70,18,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20209
+210,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,13,0,0,True,"['Card.TEN_SPADES', 'Card.ACE_SPADES']","['Card.ACE_CLUBS', 'Card.TEN_CLUBS', 'Card.TEN_HEARTS']",4,20210
+211,CockyBot beat RandBot,CockyBot,RandBot,28,48,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,20211
+212,CockyBot beat RandBot,CockyBot,RandBot,86,46,1,False,None,N/A,2,0,False,N/A,N/A,N/A,20212
+213,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,14,1,0,True,"['Card.QUEEN_HEARTS', 'Card.KING_HEARTS']","['Card.QUEEN_SPADES', 'Card.QUEEN_DIAMONDS', 'Card.ACE_DIAMONDS']",2,20213
+214,CockyBot beat RandBot,CockyBot,RandBot,79,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20214
+215,RandBot beat CockyBot,RandBot,CockyBot,26,41,3,True,CockyBot,21,0,0,False,"['Card.KING_HEARTS', 'Card.ACE_HEARTS']","['Card.QUEEN_SPADES', 'Card.JACK_CLUBS', 'Card.QUEEN_CLUBS']",2,20215
+216,CockyBot beat RandBot,CockyBot,RandBot,71,28,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20216
+217,CockyBot beat RandBot,CockyBot,RandBot,72,6,2,True,CockyBot,33,0,0,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.ACE_SPADES', 'Card.TEN_SPADES', 'Card.KING_DIAMONDS']",3,20217
+218,CockyBot beat RandBot,CockyBot,RandBot,72,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20218
+219,CockyBot beat RandBot,CockyBot,RandBot,68,14,3,True,CockyBot,21,1,0,True,"['Card.ACE_SPADES', 'Card.TEN_SPADES']","['Card.ACE_CLUBS', 'Card.KING_CLUBS', 'Card.QUEEN_CLUBS']",2,20219
+220,CockyBot beat RandBot,CockyBot,RandBot,51,6,3,True,RandBot,6,0,0,False,N/A,N/A,N/A,20220
+221,RandBot beat CockyBot,RandBot,CockyBot,66,53,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20221
+222,CockyBot beat RandBot,CockyBot,RandBot,66,13,2,True,CockyBot,19,0,0,True,"['Card.KING_HEARTS', 'Card.JACK_HEARTS']","['Card.TEN_CLUBS', 'Card.TEN_SPADES', 'Card.ACE_DIAMONDS']",4,20222
+223,CockyBot beat RandBot,CockyBot,RandBot,73,26,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20223
+224,RandBot beat CockyBot,RandBot,CockyBot,34,57,3,True,CockyBot,23,0,0,False,"['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_SPADES', 'Card.ACE_CLUBS', 'Card.QUEEN_DIAMONDS']",3,20224
+225,CockyBot beat RandBot,CockyBot,RandBot,67,14,3,True,CockyBot,19,1,0,True,"['Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.QUEEN_HEARTS', 'Card.TEN_SPADES', 'Card.KING_HEARTS']",2,20225
+226,CockyBot beat RandBot,CockyBot,RandBot,74,7,2,True,CockyBot,32,0,0,True,"['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.ACE_HEARTS', 'Card.TEN_SPADES', 'Card.ACE_SPADES']",3,20226
+227,CockyBot beat RandBot,CockyBot,RandBot,79,0,3,True,CockyBot,18,0,1,True,"['Card.KING_SPADES', 'Card.TEN_SPADES']","['Card.TEN_HEARTS', 'Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']",4,20227
+228,RandBot beat CockyBot,RandBot,CockyBot,69,24,2,True,RandBot,6,0,1,False,N/A,N/A,N/A,20228
+229,CockyBot beat RandBot,CockyBot,RandBot,80,8,2,True,CockyBot,39,1,0,True,"['Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.QUEEN_HEARTS', 'Card.QUEEN_SPADES', 'Card.JACK_SPADES']",2,20229
+230,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,20,0,0,True,"['Card.TEN_CLUBS', 'Card.KING_CLUBS']","['Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.ACE_SPADES']",4,20230
+231,CockyBot beat RandBot,CockyBot,RandBot,78,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20231
+232,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,19,0,1,True,"['Card.ACE_CLUBS', 'Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']","['Card.ACE_DIAMONDS', 'Card.ACE_SPADES']",4,20232
+233,CockyBot beat RandBot,CockyBot,RandBot,74,46,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20233
+234,RandBot beat CockyBot,RandBot,CockyBot,68,52,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20234
+235,CockyBot beat RandBot,CockyBot,RandBot,40,34,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20235
+236,RandBot beat CockyBot,RandBot,CockyBot,53,62,1,True,RandBot,17,0,0,False,N/A,N/A,N/A,20236
+237,CockyBot beat RandBot,CockyBot,RandBot,56,33,2,True,RandBot,5,0,0,False,N/A,N/A,N/A,20237
+238,CockyBot beat RandBot,CockyBot,RandBot,68,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20238
+239,CockyBot beat RandBot,CockyBot,RandBot,68,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20239
+240,CockyBot beat RandBot,CockyBot,RandBot,73,8,2,True,CockyBot,26,1,1,True,"['Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.QUEEN_CLUBS', 'Card.QUEEN_SPADES', 'Card.TEN_CLUBS']",3,20240
+241,RandBot beat CockyBot,RandBot,CockyBot,74,31,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20241
+242,CockyBot beat RandBot,CockyBot,RandBot,68,35,2,True,CockyBot,21,1,0,True,"['Card.TEN_SPADES', 'Card.KING_SPADES']","['Card.KING_CLUBS', 'Card.QUEEN_HEARTS', 'Card.KING_HEARTS']",2,20242
+243,RandBot beat CockyBot,RandBot,CockyBot,49,21,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20243
+244,RandBot beat CockyBot,RandBot,CockyBot,72,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20244
+245,RandBot beat CockyBot,RandBot,CockyBot,26,34,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20245
+246,RandBot beat CockyBot,RandBot,CockyBot,27,60,3,True,CockyBot,13,0,0,False,"['Card.TEN_HEARTS', 'Card.ACE_HEARTS']","['Card.ACE_SPADES', 'Card.TEN_CLUBS', 'Card.KING_DIAMONDS']",3,20246
+247,CockyBot beat RandBot,CockyBot,RandBot,48,21,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20247
+248,RandBot beat CockyBot,RandBot,CockyBot,74,46,1,False,None,N/A,2,0,False,N/A,N/A,N/A,20248
+249,RandBot beat CockyBot,RandBot,CockyBot,75,65,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20249
+250,CockyBot beat RandBot,CockyBot,RandBot,76,0,3,True,CockyBot,55,1,1,True,"['Card.TEN_SPADES', 'Card.ACE_SPADES', 'Card.QUEEN_SPADES']","['Card.JACK_DIAMONDS', 'Card.QUEEN_CLUBS']",1,20250
+251,CockyBot beat RandBot,CockyBot,RandBot,78,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20251
+252,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,13,0,1,True,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.ACE_SPADES', 'Card.QUEEN_HEARTS', 'Card.TEN_SPADES']",4,20252
+253,CockyBot beat RandBot,CockyBot,RandBot,70,24,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20253
+254,CockyBot beat RandBot,CockyBot,RandBot,78,30,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20254
+255,CockyBot beat RandBot,CockyBot,RandBot,111,35,1,False,None,N/A,2,0,False,N/A,N/A,N/A,20255
+256,CockyBot beat RandBot,CockyBot,RandBot,73,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20256
+257,CockyBot beat RandBot,CockyBot,RandBot,67,25,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20257
+258,CockyBot beat RandBot,CockyBot,RandBot,73,0,3,True,CockyBot,52,1,1,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.KING_CLUBS', 'Card.TEN_CLUBS', 'Card.TEN_DIAMONDS']",1,20258
+259,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,14,0,0,True,"['Card.ACE_HEARTS', 'Card.JACK_HEARTS']","['Card.ACE_CLUBS', 'Card.QUEEN_CLUBS', 'Card.QUEEN_DIAMONDS']",4,20259
+260,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,53,1,1,True,"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']","['Card.TEN_DIAMONDS', 'Card.TEN_HEARTS', 'Card.ACE_SPADES']",1,20260
+261,RandBot beat CockyBot,RandBot,CockyBot,25,64,2,True,RandBot,5,0,0,False,N/A,N/A,N/A,20261
+262,CockyBot beat RandBot,CockyBot,RandBot,74,12,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20262
+263,RandBot beat CockyBot,RandBot,CockyBot,60,5,3,True,RandBot,13,1,0,False,N/A,N/A,N/A,20263
+264,CockyBot beat RandBot,CockyBot,RandBot,77,14,2,True,CockyBot,21,0,0,True,"['Card.QUEEN_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.TEN_CLUBS', 'Card.ACE_HEARTS', 'Card.ACE_SPADES']",5,20264
+265,CockyBot beat RandBot,CockyBot,RandBot,76,28,2,True,RandBot,13,1,0,False,N/A,N/A,N/A,20265
+266,CockyBot beat RandBot,CockyBot,RandBot,82,44,1,False,None,N/A,1,1,False,N/A,N/A,N/A,20266
+267,RandBot beat CockyBot,RandBot,CockyBot,20,41,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20267
+268,CockyBot beat RandBot,CockyBot,RandBot,83,5,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20268
+269,CockyBot beat RandBot,CockyBot,RandBot,72,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20269
+270,CockyBot beat RandBot,CockyBot,RandBot,74,41,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20270
+271,RandBot beat CockyBot,RandBot,CockyBot,36,40,3,True,RandBot,15,0,0,False,N/A,N/A,N/A,20271
+272,CockyBot beat RandBot,CockyBot,RandBot,72,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20272
+273,CockyBot beat RandBot,CockyBot,RandBot,0,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20273
+274,CockyBot beat RandBot,CockyBot,RandBot,76,44,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20274
+275,RandBot beat CockyBot,RandBot,CockyBot,42,13,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20275
+276,RandBot beat CockyBot,RandBot,CockyBot,26,61,3,True,CockyBot,17,0,0,False,"['Card.ACE_SPADES', 'Card.KING_SPADES']","['Card.ACE_CLUBS', 'Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']",3,20276
+277,CockyBot beat RandBot,CockyBot,RandBot,43,36,3,True,CockyBot,13,0,0,True,"['Card.JACK_HEARTS', 'Card.TEN_HEARTS']","['Card.TEN_CLUBS', 'Card.KING_DIAMONDS', 'Card.TEN_SPADES']",3,20277
+278,RandBot beat CockyBot,RandBot,CockyBot,67,52,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20278
+279,RandBot beat CockyBot,RandBot,CockyBot,62,58,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20279
+280,CockyBot beat RandBot,CockyBot,RandBot,71,0,3,True,CockyBot,31,0,0,True,"['Card.KING_CLUBS', 'Card.TEN_CLUBS']","['Card.ACE_DIAMONDS', 'Card.ACE_HEARTS', 'Card.TEN_HEARTS']",3,20280
+281,CockyBot beat RandBot,CockyBot,RandBot,79,15,2,True,CockyBot,58,1,0,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.TEN_SPADES', 'Card.ACE_DIAMONDS', 'Card.KING_CLUBS']",1,20281
+282,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,48,1,0,True,"['Card.KING_HEARTS', 'Card.TEN_HEARTS']","['Card.TEN_SPADES', 'Card.QUEEN_SPADES', 'Card.ACE_CLUBS']",2,20282
+283,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,13,0,0,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.TEN_SPADES']",4,20283
+284,RandBot beat CockyBot,RandBot,CockyBot,73,39,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20284
+285,CockyBot beat RandBot,CockyBot,RandBot,51,13,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,20285
+286,RandBot beat CockyBot,RandBot,CockyBot,53,49,3,True,RandBot,32,0,0,False,N/A,N/A,N/A,20286
+287,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,21,0,0,True,"['Card.JACK_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.QUEEN_HEARTS', 'Card.KING_CLUBS', 'Card.ACE_SPADES']",4,20287
+288,RandBot beat CockyBot,RandBot,CockyBot,28,56,3,True,RandBot,21,0,1,False,N/A,N/A,N/A,20288
+289,CockyBot beat RandBot,CockyBot,RandBot,73,0,3,True,CockyBot,21,0,0,True,"['Card.ACE_CLUBS', 'Card.QUEEN_CLUBS']","['Card.TEN_DIAMONDS', 'Card.TEN_SPADES', 'Card.QUEEN_DIAMONDS']",4,20289
+290,CockyBot beat RandBot,CockyBot,RandBot,82,0,3,True,CockyBot,12,1,0,True,"['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.KING_SPADES', 'Card.KING_HEARTS', 'Card.QUEEN_HEARTS']",3,20290
+291,CockyBot beat RandBot,CockyBot,RandBot,74,33,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20291
+292,CockyBot beat RandBot,CockyBot,RandBot,70,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20292
+293,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,13,1,0,True,"['Card.TEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.QUEEN_SPADES', 'Card.KING_SPADES', 'Card.ACE_SPADES']",3,20293
+294,CockyBot beat RandBot,CockyBot,RandBot,76,12,2,True,CockyBot,14,0,0,True,"['Card.KING_CLUBS', 'Card.ACE_CLUBS']","['Card.ACE_DIAMONDS', 'Card.TEN_SPADES', 'Card.KING_SPADES']",4,20294
+295,CockyBot beat RandBot,CockyBot,RandBot,67,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20295
+296,CockyBot beat RandBot,CockyBot,RandBot,76,21,3,True,CockyBot,18,0,1,True,"['Card.TEN_HEARTS', 'Card.KING_HEARTS']","['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.ACE_CLUBS']",4,20296
+297,RandBot beat CockyBot,RandBot,CockyBot,68,32,2,True,RandBot,46,0,0,False,N/A,N/A,N/A,20297
+298,CockyBot beat RandBot,CockyBot,RandBot,67,21,3,True,CockyBot,39,1,0,True,"['Card.TEN_CLUBS', 'Card.KING_CLUBS']","['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS', 'Card.TEN_SPADES']",2,20298
+299,CockyBot beat RandBot,CockyBot,RandBot,70,43,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20299
+300,CockyBot beat RandBot,CockyBot,RandBot,67,18,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20300
+301,CockyBot beat RandBot,CockyBot,RandBot,58,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20301
+302,CockyBot beat RandBot,CockyBot,RandBot,74,20,2,True,RandBot,20,2,0,False,N/A,N/A,N/A,20302
+303,RandBot beat CockyBot,RandBot,CockyBot,59,13,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20303
+304,CockyBot beat RandBot,CockyBot,RandBot,65,28,3,True,CockyBot,27,0,0,True,"['Card.QUEEN_HEARTS', 'Card.JACK_HEARTS']","['Card.TEN_CLUBS', 'Card.ACE_CLUBS', 'Card.ACE_DIAMONDS']",3,20304
+305,CockyBot beat RandBot,CockyBot,RandBot,78,8,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20305
+306,CockyBot beat RandBot,CockyBot,RandBot,69,21,3,True,CockyBot,26,0,1,True,"['Card.TEN_SPADES', 'Card.KING_SPADES']","['Card.ACE_HEARTS', 'Card.KING_CLUBS', 'Card.ACE_DIAMONDS']",3,20306
+307,CockyBot beat RandBot,CockyBot,RandBot,73,47,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20307
+308,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,12,0,0,True,"['Card.ACE_CLUBS', 'Card.QUEEN_CLUBS']","['Card.TEN_HEARTS', 'Card.ACE_DIAMONDS', 'Card.JACK_SPADES']",4,20308
+309,CockyBot beat RandBot,CockyBot,RandBot,78,34,3,True,CockyBot,51,1,0,True,"['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']","['Card.TEN_DIAMONDS', 'Card.TEN_SPADES', 'Card.ACE_SPADES']",2,20309
+310,CockyBot beat RandBot,CockyBot,RandBot,72,0,3,True,CockyBot,20,0,0,True,"['Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.TEN_SPADES', 'Card.QUEEN_SPADES']",4,20310
+311,RandBot beat CockyBot,RandBot,CockyBot,32,13,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20311
+312,RandBot beat CockyBot,RandBot,CockyBot,33,58,3,True,CockyBot,19,0,0,False,"['Card.KING_HEARTS', 'Card.TEN_HEARTS']","['Card.TEN_SPADES', 'Card.ACE_CLUBS', 'Card.TEN_DIAMONDS']",3,20312
+313,RandBot beat CockyBot,RandBot,CockyBot,42,54,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,20313
+314,CockyBot beat RandBot,CockyBot,RandBot,77,0,3,True,CockyBot,13,0,0,True,"['Card.ACE_CLUBS', 'Card.TEN_CLUBS']","['Card.TEN_SPADES', 'Card.ACE_DIAMONDS', 'Card.ACE_HEARTS']",4,20314
+315,RandBot beat CockyBot,RandBot,CockyBot,43,52,2,True,RandBot,7,0,0,False,N/A,N/A,N/A,20315
+316,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,18,0,0,True,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.ACE_SPADES', 'Card.ACE_CLUBS', 'Card.KING_SPADES']",4,20316
+317,CockyBot beat RandBot,CockyBot,RandBot,66,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20317
+318,CockyBot beat RandBot,CockyBot,RandBot,67,12,2,True,CockyBot,14,0,0,True,"['Card.KING_HEARTS', 'Card.ACE_HEARTS']","['Card.QUEEN_SPADES', 'Card.ACE_DIAMONDS', 'Card.JACK_SPADES']",5,20318
+319,CockyBot beat RandBot,CockyBot,RandBot,67,21,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20319
+320,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,20320
+321,RandBot beat CockyBot,RandBot,CockyBot,58,21,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,20321
+322,CockyBot beat RandBot,CockyBot,RandBot,67,19,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20322
+323,CockyBot beat RandBot,CockyBot,RandBot,69,18,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20323
+324,RandBot beat CockyBot,RandBot,CockyBot,80,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20324
+325,CockyBot beat RandBot,CockyBot,RandBot,68,17,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20325
+326,CockyBot beat RandBot,CockyBot,RandBot,67,26,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20326
+327,CockyBot beat RandBot,CockyBot,RandBot,72,28,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20327
+328,CockyBot beat RandBot,CockyBot,RandBot,68,13,2,True,CockyBot,27,0,0,True,"['Card.TEN_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.ACE_CLUBS', 'Card.TEN_CLUBS', 'Card.TEN_SPADES']",3,20328
+329,CockyBot beat RandBot,CockyBot,RandBot,73,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20329
+330,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,14,0,0,True,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.ACE_HEARTS', 'Card.TEN_HEARTS', 'Card.JACK_SPADES']",4,20330
+331,RandBot beat CockyBot,RandBot,CockyBot,87,0,3,True,RandBot,41,0,0,False,N/A,N/A,N/A,20331
+332,CockyBot beat RandBot,CockyBot,RandBot,52,21,3,True,CockyBot,13,0,0,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.ACE_SPADES', 'Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']",4,20332
+333,CockyBot beat RandBot,CockyBot,RandBot,79,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20333
+334,CockyBot beat RandBot,CockyBot,RandBot,72,0,3,True,CockyBot,11,0,0,True,"['Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.ACE_DIAMONDS', 'Card.TEN_HEARTS', 'Card.ACE_SPADES']",4,20334
+335,CockyBot beat RandBot,CockyBot,RandBot,60,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20335
+336,CockyBot beat RandBot,CockyBot,RandBot,67,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20336
+337,CockyBot beat RandBot,CockyBot,RandBot,68,17,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20337
+338,CockyBot beat RandBot,CockyBot,RandBot,64,29,3,True,CockyBot,46,1,0,True,"['Card.QUEEN_HEARTS', 'Card.JACK_HEARTS']","['Card.KING_SPADES', 'Card.KING_DIAMONDS', 'Card.KING_CLUBS']",3,20338
+339,CockyBot beat RandBot,CockyBot,RandBot,73,0,3,True,CockyBot,13,0,1,True,"['Card.TEN_HEARTS', 'Card.ACE_HEARTS']","['Card.TEN_SPADES', 'Card.TEN_CLUBS', 'Card.JACK_CLUBS']",4,20339
+340,CockyBot beat RandBot,CockyBot,RandBot,82,27,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20340
+341,RandBot beat CockyBot,RandBot,CockyBot,24,34,3,True,CockyBot,14,0,0,False,"['Card.ACE_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.JACK_HEARTS', 'Card.JACK_CLUBS', 'Card.KING_SPADES']",2,20341
+342,RandBot beat CockyBot,RandBot,CockyBot,56,44,3,True,CockyBot,18,0,1,False,"['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']","['Card.ACE_SPADES', 'Card.TEN_DIAMONDS', 'Card.TEN_CLUBS']",2,20342
+343,CockyBot beat RandBot,CockyBot,RandBot,81,0,3,True,CockyBot,25,0,0,True,"['Card.ACE_CLUBS', 'Card.TEN_CLUBS']","['Card.QUEEN_DIAMONDS', 'Card.ACE_HEARTS', 'Card.ACE_DIAMONDS']",3,20343
+344,RandBot beat CockyBot,RandBot,CockyBot,66,35,1,False,None,N/A,2,0,False,N/A,N/A,N/A,20344
+345,CockyBot beat RandBot,CockyBot,RandBot,67,59,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20345
+346,RandBot beat CockyBot,RandBot,CockyBot,49,41,3,True,CockyBot,11,0,1,False,"['Card.TEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.ACE_HEARTS', 'Card.QUEEN_SPADES', 'Card.TEN_SPADES']",2,20346
+347,CockyBot beat RandBot,CockyBot,RandBot,66,8,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20347
+348,CockyBot beat RandBot,CockyBot,RandBot,79,0,3,False,None,N/A,2,0,False,N/A,N/A,N/A,20348
+349,RandBot beat CockyBot,RandBot,CockyBot,79,52,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20349
+350,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,17,0,0,True,"['Card.ACE_SPADES', 'Card.TEN_SPADES']","['Card.TEN_DIAMONDS', 'Card.TEN_HEARTS', 'Card.ACE_CLUBS']",4,20350
+351,CockyBot beat RandBot,CockyBot,RandBot,74,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20351
+352,CockyBot beat RandBot,CockyBot,RandBot,75,52,2,True,RandBot,11,1,1,False,N/A,N/A,N/A,20352
+353,CockyBot beat RandBot,CockyBot,RandBot,72,0,3,True,CockyBot,16,0,0,True,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.ACE_DIAMONDS', 'Card.KING_CLUBS', 'Card.ACE_CLUBS']",4,20353
+354,CockyBot beat RandBot,CockyBot,RandBot,82,34,1,False,None,N/A,1,1,False,N/A,N/A,N/A,20354
+355,RandBot beat CockyBot,RandBot,CockyBot,67,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20355
+356,RandBot beat CockyBot,RandBot,CockyBot,75,45,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20356
+357,RandBot beat CockyBot,RandBot,CockyBot,17,54,3,True,CockyBot,15,0,0,False,"['Card.ACE_CLUBS', 'Card.QUEEN_CLUBS']","['Card.TEN_DIAMONDS', 'Card.JACK_HEARTS', 'Card.JACK_SPADES']",3,20357
+358,CockyBot beat RandBot,CockyBot,RandBot,67,4,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20358
+359,CockyBot beat RandBot,CockyBot,RandBot,66,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20359
+360,CockyBot beat RandBot,CockyBot,RandBot,80,0,3,True,CockyBot,18,0,1,True,"['Card.KING_CLUBS', 'Card.TEN_CLUBS']","['Card.TEN_DIAMONDS', 'Card.ACE_SPADES', 'Card.QUEEN_HEARTS']",4,20360
+361,CockyBot beat RandBot,CockyBot,RandBot,66,14,3,True,CockyBot,21,1,0,True,"['Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.QUEEN_HEARTS', 'Card.JACK_CLUBS', 'Card.KING_HEARTS']",3,20361
+362,CockyBot beat RandBot,CockyBot,RandBot,77,21,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20362
+363,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,14,1,0,True,"['Card.KING_CLUBS', 'Card.QUEEN_CLUBS']","['Card.TEN_HEARTS', 'Card.QUEEN_DIAMONDS', 'Card.KING_HEARTS']",2,20363
+364,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,21,0,0,True,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.ACE_CLUBS', 'Card.TEN_CLUBS']",4,20364
+365,RandBot beat CockyBot,RandBot,CockyBot,38,19,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20365
+366,RandBot beat CockyBot,RandBot,CockyBot,74,32,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20366
+367,CockyBot beat RandBot,CockyBot,RandBot,54,15,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20367
+368,CockyBot beat RandBot,CockyBot,RandBot,53,34,2,True,CockyBot,13,0,0,True,"['Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.TEN_HEARTS', 'Card.TEN_CLUBS', 'Card.KING_CLUBS']",4,20368
+369,CockyBot beat RandBot,CockyBot,RandBot,68,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20369
+370,CockyBot beat RandBot,CockyBot,RandBot,73,0,3,True,CockyBot,17,0,0,True,"['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']","['Card.ACE_DIAMONDS', 'Card.ACE_SPADES', 'Card.TEN_SPADES']",4,20370
+371,CockyBot beat RandBot,CockyBot,RandBot,76,12,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20371
+372,RandBot beat CockyBot,RandBot,CockyBot,34,60,3,True,CockyBot,11,0,1,False,"['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.TEN_CLUBS', 'Card.JACK_DIAMONDS']",3,20372
+373,RandBot beat CockyBot,RandBot,CockyBot,79,7,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20373
+374,CockyBot beat RandBot,CockyBot,RandBot,79,0,3,True,CockyBot,38,1,0,True,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.QUEEN_CLUBS', 'Card.KING_HEARTS', 'Card.ACE_CLUBS']",3,20374
+375,CockyBot beat RandBot,CockyBot,RandBot,71,33,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20375
+376,RandBot beat CockyBot,RandBot,CockyBot,60,60,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20376
+377,RandBot beat CockyBot,RandBot,CockyBot,65,28,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20377
+378,CockyBot beat RandBot,CockyBot,RandBot,71,28,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20378
+379,CockyBot beat RandBot,CockyBot,RandBot,71,34,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20379
+380,CockyBot beat RandBot,CockyBot,RandBot,66,8,2,True,CockyBot,18,0,1,True,"['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']","['Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.QUEEN_SPADES']",3,20380
+381,CockyBot beat RandBot,CockyBot,RandBot,74,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20381
+382,CockyBot beat RandBot,CockyBot,RandBot,66,14,3,True,CockyBot,20,0,0,True,"['Card.KING_HEARTS', 'Card.JACK_HEARTS']","['Card.ACE_DIAMONDS', 'Card.ACE_SPADES', 'Card.ACE_CLUBS']",4,20382
+383,CockyBot beat RandBot,CockyBot,RandBot,69,25,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20383
+384,CockyBot beat RandBot,CockyBot,RandBot,74,14,2,True,CockyBot,19,0,1,True,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.ACE_CLUBS', 'Card.TEN_DIAMONDS', 'Card.TEN_HEARTS']",4,20384
+385,CockyBot beat RandBot,CockyBot,RandBot,66,21,3,True,CockyBot,26,0,0,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.KING_CLUBS', 'Card.ACE_DIAMONDS', 'Card.TEN_SPADES']",3,20385
+386,CockyBot beat RandBot,CockyBot,RandBot,72,14,3,True,CockyBot,10,1,1,True,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.KING_CLUBS', 'Card.ACE_HEARTS']",2,20386
+387,RandBot beat CockyBot,RandBot,CockyBot,74,59,1,False,None,N/A,2,0,False,N/A,N/A,N/A,20387
+388,CockyBot beat RandBot,CockyBot,RandBot,72,18,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20388
+389,CockyBot beat RandBot,CockyBot,RandBot,71,14,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20389
+390,RandBot beat CockyBot,RandBot,CockyBot,81,38,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20390
+391,RandBot beat CockyBot,RandBot,CockyBot,75,45,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20391
+392,CockyBot beat RandBot,CockyBot,RandBot,68,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20392
+393,RandBot beat CockyBot,RandBot,CockyBot,74,46,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20393
+394,RandBot beat CockyBot,RandBot,CockyBot,85,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20394
+395,RandBot beat CockyBot,RandBot,CockyBot,56,34,3,True,CockyBot,27,0,0,False,"['Card.TEN_SPADES', 'Card.KING_SPADES']","['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.QUEEN_CLUBS']",1,20395
+396,RandBot beat CockyBot,RandBot,CockyBot,20,61,3,True,CockyBot,18,0,1,False,"['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']","['Card.ACE_SPADES', 'Card.QUEEN_DIAMONDS', 'Card.JACK_CLUBS']",3,20396
+397,CockyBot beat RandBot,CockyBot,RandBot,80,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20397
+398,CockyBot beat RandBot,CockyBot,RandBot,66,40,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20398
+399,CockyBot beat RandBot,CockyBot,RandBot,82,0,3,True,CockyBot,34,0,0,True,"['Card.ACE_HEARTS', 'Card.KING_HEARTS']","['Card.ACE_CLUBS', 'Card.TEN_SPADES', 'Card.ACE_DIAMONDS']",3,20399
+400,RandBot beat CockyBot,RandBot,CockyBot,18,52,3,True,RandBot,4,0,0,False,N/A,N/A,N/A,20400
+401,RandBot beat CockyBot,RandBot,CockyBot,47,33,3,True,RandBot,20,0,0,False,N/A,N/A,N/A,20401
+402,CockyBot beat RandBot,CockyBot,RandBot,68,25,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20402
+403,RandBot beat CockyBot,RandBot,CockyBot,81,13,2,True,RandBot,32,0,0,False,N/A,N/A,N/A,20403
+404,CockyBot beat RandBot,CockyBot,RandBot,74,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20404
+405,CockyBot beat RandBot,CockyBot,RandBot,67,19,2,True,CockyBot,28,0,0,True,"['Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.ACE_DIAMONDS', 'Card.ACE_CLUBS', 'Card.QUEEN_DIAMONDS']",3,20405
+406,CockyBot beat RandBot,CockyBot,RandBot,75,10,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20406
+407,RandBot beat CockyBot,RandBot,CockyBot,38,34,3,True,CockyBot,13,0,0,False,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.JACK_CLUBS', 'Card.TEN_SPADES', 'Card.TEN_CLUBS']",2,20407
+408,CockyBot beat RandBot,CockyBot,RandBot,87,6,2,False,None,N/A,2,1,False,N/A,N/A,N/A,20408
+409,RandBot beat CockyBot,RandBot,CockyBot,67,0,3,True,RandBot,25,0,0,False,N/A,N/A,N/A,20409
+410,CockyBot beat RandBot,CockyBot,RandBot,63,57,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20410
+411,CockyBot beat RandBot,CockyBot,RandBot,79,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20411
+412,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,28,1,0,True,"['Card.TEN_CLUBS', 'Card.KING_CLUBS']","['Card.QUEEN_SPADES', 'Card.ACE_SPADES', 'Card.JACK_HEARTS']",3,20412
+413,RandBot beat CockyBot,RandBot,CockyBot,68,60,1,False,None,N/A,1,1,False,N/A,N/A,N/A,20413
+414,CockyBot beat RandBot,CockyBot,RandBot,73,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20414
+415,CockyBot beat RandBot,CockyBot,RandBot,67,47,2,True,RandBot,34,0,0,False,N/A,N/A,N/A,20415
+416,CockyBot beat RandBot,CockyBot,RandBot,75,21,2,True,CockyBot,40,1,0,True,"['Card.KING_CLUBS', 'Card.ACE_CLUBS']","['Card.QUEEN_HEARTS', 'Card.ACE_DIAMONDS', 'Card.JACK_SPADES']",2,20416
+417,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,20417
+418,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,14,0,0,True,"['Card.TEN_SPADES', 'Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.TEN_DIAMONDS', 'Card.TEN_CLUBS']",4,20418
+419,CockyBot beat RandBot,CockyBot,RandBot,77,0,3,True,CockyBot,25,0,0,True,"['Card.KING_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.KING_SPADES', 'Card.TEN_SPADES', 'Card.QUEEN_HEARTS']",5,20419
+420,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,60,1,0,True,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.ACE_CLUBS', 'Card.KING_DIAMONDS', 'Card.TEN_SPADES']",1,20420
+421,RandBot beat CockyBot,RandBot,CockyBot,69,45,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20421
+422,CockyBot beat RandBot,CockyBot,RandBot,66,5,2,True,CockyBot,39,0,0,True,"['Card.ACE_SPADES', 'Card.JACK_SPADES']","['Card.KING_DIAMONDS', 'Card.ACE_HEARTS', 'Card.TEN_DIAMONDS']",2,20422
+423,CockyBot beat RandBot,CockyBot,RandBot,82,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20423
+424,RandBot beat CockyBot,RandBot,CockyBot,40,58,3,True,CockyBot,32,1,0,False,"['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.QUEEN_SPADES', 'Card.TEN_CLUBS', 'Card.KING_HEARTS']",2,20424
+425,RandBot beat CockyBot,RandBot,CockyBot,79,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20425
+426,CockyBot beat RandBot,CockyBot,RandBot,69,12,2,True,RandBot,12,0,0,False,N/A,N/A,N/A,20426
+427,CockyBot beat RandBot,CockyBot,RandBot,69,6,2,True,CockyBot,21,0,0,True,"['Card.ACE_CLUBS', 'Card.TEN_CLUBS']","['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.ACE_HEARTS']",3,20427
+428,RandBot beat CockyBot,RandBot,CockyBot,74,53,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20428
+429,CockyBot beat RandBot,CockyBot,RandBot,75,14,2,True,CockyBot,20,0,1,True,"['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.TEN_SPADES', 'Card.ACE_SPADES', 'Card.KING_SPADES']",4,20429
+430,RandBot beat CockyBot,RandBot,CockyBot,72,34,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20430
+431,CockyBot beat RandBot,CockyBot,RandBot,71,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20431
+432,CockyBot beat RandBot,CockyBot,RandBot,66,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20432
+433,RandBot beat CockyBot,RandBot,CockyBot,27,42,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20433
+434,CockyBot beat RandBot,CockyBot,RandBot,67,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20434
+435,CockyBot beat RandBot,CockyBot,RandBot,45,43,2,True,RandBot,15,0,0,False,N/A,N/A,N/A,20435
+436,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,28,1,0,True,"['Card.ACE_SPADES', 'Card.JACK_SPADES']","['Card.QUEEN_DIAMONDS', 'Card.ACE_HEARTS', 'Card.QUEEN_CLUBS']",4,20436
+437,RandBot beat CockyBot,RandBot,CockyBot,69,53,2,True,RandBot,41,1,1,False,N/A,N/A,N/A,20437
+438,CockyBot beat RandBot,CockyBot,RandBot,75,61,1,False,None,N/A,1,1,False,N/A,N/A,N/A,20438
+439,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,14,0,0,True,"['Card.ACE_SPADES', 'Card.QUEEN_SPADES']","['Card.JACK_CLUBS', 'Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']",5,20439
+440,CockyBot beat RandBot,CockyBot,RandBot,75,21,3,True,CockyBot,38,1,0,True,"['Card.ACE_HEARTS', 'Card.JACK_HEARTS']","['Card.QUEEN_SPADES', 'Card.TEN_SPADES', 'Card.TEN_CLUBS']",4,20440
+441,CockyBot beat RandBot,CockyBot,RandBot,66,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20441
+442,CockyBot beat RandBot,CockyBot,RandBot,72,6,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20442
+443,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,53,1,0,True,"['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']","['Card.QUEEN_CLUBS', 'Card.ACE_SPADES', 'Card.JACK_CLUBS']",1,20443
+444,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,CockyBot,12,0,1,True,"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS', 'Card.TEN_CLUBS']","['Card.TEN_HEARTS', 'Card.ACE_SPADES']",4,20444
+445,CockyBot beat RandBot,CockyBot,RandBot,74,13,2,True,RandBot,13,0,0,False,N/A,N/A,N/A,20445
+446,CockyBot beat RandBot,CockyBot,RandBot,76,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20446
+447,RandBot beat CockyBot,RandBot,CockyBot,62,39,2,True,CockyBot,20,0,0,False,"['Card.QUEEN_SPADES', 'Card.JACK_SPADES']","['Card.KING_DIAMONDS', 'Card.QUEEN_HEARTS', 'Card.TEN_DIAMONDS']",2,20447
+448,RandBot beat CockyBot,RandBot,CockyBot,66,47,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20448
+449,RandBot beat CockyBot,RandBot,CockyBot,77,63,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20449
+450,CockyBot beat RandBot,CockyBot,RandBot,68,5,2,True,RandBot,5,1,0,False,N/A,N/A,N/A,20450
+451,RandBot beat CockyBot,RandBot,CockyBot,47,15,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20451
+452,CockyBot beat RandBot,CockyBot,RandBot,71,0,3,True,CockyBot,10,0,0,True,"['Card.TEN_SPADES', 'Card.ACE_SPADES']","['Card.KING_CLUBS', 'Card.TEN_DIAMONDS', 'Card.TEN_HEARTS']",4,20452
+453,RandBot beat CockyBot,RandBot,CockyBot,68,39,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20453
+454,RandBot beat CockyBot,RandBot,CockyBot,50,38,3,True,RandBot,15,1,0,False,N/A,N/A,N/A,20454
+455,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,46,0,0,True,"['Card.ACE_HEARTS', 'Card.KING_HEARTS']","['Card.QUEEN_DIAMONDS', 'Card.QUEEN_CLUBS', 'Card.ACE_SPADES']",2,20455
+456,RandBot beat CockyBot,RandBot,CockyBot,79,39,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20456
+457,CockyBot beat RandBot,CockyBot,RandBot,86,36,2,True,CockyBot,50,1,0,True,"['Card.KING_CLUBS', 'Card.TEN_CLUBS']","['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS', 'Card.QUEEN_SPADES']",2,20457
+458,CockyBot beat RandBot,CockyBot,RandBot,70,0,3,True,CockyBot,12,0,0,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.ACE_CLUBS', 'Card.TEN_SPADES', 'Card.JACK_SPADES']",5,20458
+459,CockyBot beat RandBot,CockyBot,RandBot,68,52,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20459
+460,CockyBot beat RandBot,CockyBot,RandBot,79,7,2,True,CockyBot,20,0,0,True,"['Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']","['Card.ACE_HEARTS', 'Card.ACE_SPADES', 'Card.KING_DIAMONDS']",4,20460
+461,RandBot beat CockyBot,RandBot,CockyBot,66,54,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20461
+462,CockyBot beat RandBot,CockyBot,RandBot,76,17,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20462
+463,RandBot beat CockyBot,RandBot,CockyBot,13,60,3,True,CockyBot,15,0,0,False,"['Card.KING_CLUBS', 'Card.ACE_CLUBS']","['Card.JACK_HEARTS', 'Card.QUEEN_SPADES', 'Card.TEN_DIAMONDS']",4,20463
+464,RandBot beat CockyBot,RandBot,CockyBot,71,56,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20464
+465,RandBot beat CockyBot,RandBot,CockyBot,74,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20465
+466,CockyBot beat RandBot,CockyBot,RandBot,79,41,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20466
+467,CockyBot beat RandBot,CockyBot,RandBot,68,14,3,True,CockyBot,21,1,0,True,"['Card.JACK_CLUBS', 'Card.ACE_CLUBS']","['Card.KING_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.QUEEN_SPADES']",2,20467
+468,RandBot beat CockyBot,RandBot,CockyBot,77,43,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20468
+469,CockyBot beat RandBot,CockyBot,RandBot,80,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20469
+470,CockyBot beat RandBot,CockyBot,RandBot,68,6,2,True,CockyBot,53,1,0,True,"['Card.TEN_HEARTS', 'Card.ACE_HEARTS']","['Card.TEN_CLUBS', 'Card.ACE_SPADES', 'Card.TEN_DIAMONDS']",1,20470
+471,CockyBot beat RandBot,CockyBot,RandBot,73,39,2,True,RandBot,25,1,0,False,N/A,N/A,N/A,20471
+472,CockyBot beat RandBot,CockyBot,RandBot,74,6,2,True,CockyBot,60,1,0,True,"['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_CLUBS', 'Card.KING_CLUBS', 'Card.QUEEN_DIAMONDS']",1,20472
+473,CockyBot beat RandBot,CockyBot,RandBot,69,19,2,True,CockyBot,26,0,0,True,"['Card.ACE_SPADES', 'Card.QUEEN_SPADES']","['Card.KING_HEARTS', 'Card.ACE_HEARTS', 'Card.JACK_HEARTS']",3,20473
+474,CockyBot beat RandBot,CockyBot,RandBot,55,37,2,True,RandBot,16,0,0,False,N/A,N/A,N/A,20474
+475,RandBot beat CockyBot,RandBot,CockyBot,64,35,2,True,RandBot,18,0,0,False,N/A,N/A,N/A,20475
+476,CockyBot beat RandBot,CockyBot,RandBot,72,28,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20476
+477,RandBot beat CockyBot,RandBot,CockyBot,67,38,1,True,RandBot,12,1,0,False,N/A,N/A,N/A,20477
+478,CockyBot beat RandBot,CockyBot,RandBot,83,40,3,True,RandBot,27,2,0,False,N/A,N/A,N/A,20478
+479,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,11,0,0,True,"['Card.QUEEN_SPADES', 'Card.ACE_SPADES']","['Card.ACE_CLUBS', 'Card.JACK_CLUBS', 'Card.ACE_DIAMONDS']",4,20479
+480,RandBot beat CockyBot,RandBot,CockyBot,36,58,3,True,CockyBot,16,0,1,False,"['Card.TEN_SPADES', 'Card.KING_SPADES']","['Card.TEN_CLUBS', 'Card.KING_DIAMONDS', 'Card.TEN_HEARTS']",3,20480
+481,CockyBot beat RandBot,CockyBot,RandBot,68,46,2,True,CockyBot,13,1,0,True,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.QUEEN_CLUBS', 'Card.JACK_CLUBS', 'Card.KING_CLUBS']",3,20481
+482,CockyBot beat RandBot,CockyBot,RandBot,73,0,3,False,None,N/A,2,1,False,N/A,N/A,N/A,20482
+483,RandBot beat CockyBot,RandBot,CockyBot,69,27,2,True,RandBot,27,0,1,False,N/A,N/A,N/A,20483
+484,CockyBot beat RandBot,CockyBot,RandBot,82,0,3,True,CockyBot,12,1,0,True,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.QUEEN_CLUBS', 'Card.ACE_HEARTS']",2,20484
+485,CockyBot beat RandBot,CockyBot,RandBot,81,14,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20485
+486,CockyBot beat RandBot,CockyBot,RandBot,66,28,2,True,CockyBot,26,0,0,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.ACE_SPADES', 'Card.ACE_HEARTS', 'Card.TEN_DIAMONDS']",3,20486
+487,RandBot beat CockyBot,RandBot,CockyBot,66,0,3,True,RandBot,27,0,0,False,N/A,N/A,N/A,20487
+488,CockyBot beat RandBot,CockyBot,RandBot,72,0,3,True,CockyBot,59,1,0,True,"['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']","['Card.ACE_DIAMONDS', 'Card.ACE_SPADES', 'Card.QUEEN_CLUBS']",1,20488
+489,CockyBot beat RandBot,CockyBot,RandBot,61,59,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20489
+490,RandBot beat CockyBot,RandBot,CockyBot,81,39,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20490
+491,CockyBot beat RandBot,CockyBot,RandBot,68,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20491
+492,CockyBot beat RandBot,CockyBot,RandBot,67,21,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20492
+493,CockyBot beat RandBot,CockyBot,RandBot,54,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20493
+494,RandBot beat CockyBot,RandBot,CockyBot,66,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20494
+495,CockyBot beat RandBot,CockyBot,RandBot,68,12,2,True,CockyBot,14,0,0,True,"['Card.KING_CLUBS', 'Card.ACE_CLUBS']","['Card.QUEEN_HEARTS', 'Card.QUEEN_DIAMONDS', 'Card.ACE_DIAMONDS']",5,20495
+496,RandBot beat CockyBot,RandBot,CockyBot,76,25,2,True,RandBot,33,0,0,False,N/A,N/A,N/A,20496
+497,CockyBot beat RandBot,CockyBot,RandBot,85,21,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20497
+498,CockyBot beat RandBot,CockyBot,RandBot,72,28,2,True,CockyBot,30,0,0,True,"['Card.TEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.KING_SPADES', 'Card.ACE_SPADES', 'Card.ACE_HEARTS']",3,20498
+499,CockyBot beat RandBot,CockyBot,RandBot,81,32,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20499
+500,CockyBot beat RandBot,CockyBot,RandBot,52,19,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,20500
+501,RandBot beat CockyBot,RandBot,CockyBot,67,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20501
+502,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,27,0,1,True,"['Card.QUEEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.TEN_HEARTS', 'Card.ACE_CLUBS', 'Card.TEN_CLUBS']",4,20502
+503,CockyBot beat RandBot,CockyBot,RandBot,77,27,2,True,CockyBot,31,1,0,True,"['Card.KING_CLUBS', 'Card.QUEEN_CLUBS']","['Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']",1,20503
+504,CockyBot beat RandBot,CockyBot,RandBot,66,55,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20504
+505,RandBot beat CockyBot,RandBot,CockyBot,53,5,3,True,RandBot,12,0,0,False,N/A,N/A,N/A,20505
+506,CockyBot beat RandBot,CockyBot,RandBot,72,35,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20506
+507,CockyBot beat RandBot,CockyBot,RandBot,41,21,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20507
+508,CockyBot beat RandBot,CockyBot,RandBot,74,7,2,True,CockyBot,26,0,0,True,"['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.ACE_SPADES', 'Card.JACK_CLUBS', 'Card.ACE_HEARTS']",3,20508
+509,CockyBot beat RandBot,CockyBot,RandBot,80,0,3,True,CockyBot,13,1,0,True,"['Card.KING_SPADES', 'Card.ACE_SPADES', 'Card.QUEEN_SPADES']","['Card.QUEEN_HEARTS', 'Card.KING_CLUBS']",2,20509
+510,CockyBot beat RandBot,CockyBot,RandBot,77,13,3,True,CockyBot,43,1,0,True,"['Card.QUEEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.ACE_HEARTS', 'Card.TEN_CLUBS', 'Card.KING_SPADES']",2,20510
+511,RandBot beat CockyBot,RandBot,CockyBot,68,0,3,True,RandBot,33,0,0,False,N/A,N/A,N/A,20511
+512,CockyBot beat RandBot,CockyBot,RandBot,76,17,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20512
+513,RandBot beat CockyBot,RandBot,CockyBot,41,34,3,True,RandBot,7,0,0,False,N/A,N/A,N/A,20513
+514,CockyBot beat RandBot,CockyBot,RandBot,73,15,2,True,RandBot,15,1,0,False,N/A,N/A,N/A,20514
+515,CockyBot beat RandBot,CockyBot,RandBot,66,25,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20515
+516,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,CockyBot,34,1,0,True,"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']","['Card.QUEEN_SPADES', 'Card.JACK_SPADES', 'Card.KING_HEARTS']",2,20516
+517,CockyBot beat RandBot,CockyBot,RandBot,63,57,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20517
+518,CockyBot beat RandBot,CockyBot,RandBot,68,47,2,True,RandBot,34,2,0,False,N/A,N/A,N/A,20518
+519,RandBot beat CockyBot,RandBot,CockyBot,74,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,20519
+520,CockyBot beat RandBot,CockyBot,RandBot,72,36,2,True,RandBot,22,1,0,False,N/A,N/A,N/A,20520
+521,CockyBot beat RandBot,CockyBot,RandBot,72,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20521
+522,CockyBot beat RandBot,CockyBot,RandBot,78,34,2,True,CockyBot,39,0,0,True,"['Card.TEN_HEARTS', 'Card.JACK_HEARTS']","['Card.TEN_SPADES', 'Card.QUEEN_DIAMONDS', 'Card.QUEEN_SPADES']",4,20522
+523,CockyBot beat RandBot,CockyBot,RandBot,75,46,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20523
+524,RandBot beat CockyBot,RandBot,CockyBot,40,57,2,True,CockyBot,15,0,0,False,"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']","['Card.TEN_SPADES', 'Card.TEN_HEARTS', 'Card.ACE_HEARTS']",3,20524
+525,CockyBot beat RandBot,CockyBot,RandBot,67,26,2,True,CockyBot,20,0,0,True,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.ACE_SPADES', 'Card.KING_HEARTS', 'Card.JACK_CLUBS']",4,20525
+526,CockyBot beat RandBot,CockyBot,RandBot,80,0,3,True,CockyBot,13,0,0,True,"['Card.TEN_HEARTS', 'Card.KING_HEARTS']","['Card.TEN_SPADES', 'Card.TEN_CLUBS', 'Card.ACE_SPADES']",5,20526
+527,RandBot beat CockyBot,RandBot,CockyBot,74,60,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20527
+528,RandBot beat CockyBot,RandBot,CockyBot,26,47,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,20528
+529,CockyBot beat RandBot,CockyBot,RandBot,78,0,3,True,CockyBot,12,1,0,True,"['Card.JACK_HEARTS', 'Card.KING_HEARTS', 'Card.QUEEN_HEARTS']","['Card.KING_DIAMONDS', 'Card.ACE_CLUBS']",3,20529
+530,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,21,0,0,True,"['Card.ACE_SPADES', 'Card.TEN_SPADES', 'Card.QUEEN_SPADES']","['Card.ACE_CLUBS', 'Card.KING_HEARTS']",4,20530
+531,CockyBot beat RandBot,CockyBot,RandBot,58,21,3,True,CockyBot,17,0,0,True,"['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_DIAMONDS', 'Card.KING_DIAMONDS', 'Card.KING_SPADES']",4,20531
+532,CockyBot beat RandBot,CockyBot,RandBot,69,21,2,True,CockyBot,14,0,0,True,"['Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.ACE_DIAMONDS', 'Card.KING_SPADES', 'Card.QUEEN_DIAMONDS']",4,20532
+533,CockyBot beat RandBot,CockyBot,RandBot,73,27,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20533
+534,CockyBot beat RandBot,CockyBot,RandBot,73,0,3,True,CockyBot,19,1,1,True,"['Card.QUEEN_SPADES', 'Card.TEN_SPADES', 'Card.KING_SPADES']","['Card.TEN_CLUBS', 'Card.KING_CLUBS']",1,20534
+535,RandBot beat CockyBot,RandBot,CockyBot,80,31,2,True,RandBot,26,1,0,False,N/A,N/A,N/A,20535
+536,RandBot beat CockyBot,RandBot,CockyBot,60,14,3,True,RandBot,5,0,0,False,N/A,N/A,N/A,20536
+537,CockyBot beat RandBot,CockyBot,RandBot,59,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20537
+538,CockyBot beat RandBot,CockyBot,RandBot,71,0,3,True,CockyBot,17,0,0,True,"['Card.KING_CLUBS', 'Card.JACK_CLUBS']","['Card.TEN_SPADES', 'Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']",4,20538
+539,CockyBot beat RandBot,CockyBot,RandBot,0,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20539
+540,RandBot beat CockyBot,RandBot,CockyBot,35,45,2,True,CockyBot,14,0,0,False,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.TEN_CLUBS', 'Card.TEN_HEARTS', 'Card.QUEEN_CLUBS']",3,20540
+541,CockyBot beat RandBot,CockyBot,RandBot,63,15,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20541
+542,CockyBot beat RandBot,CockyBot,RandBot,75,39,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20542
+543,RandBot beat CockyBot,RandBot,CockyBot,84,56,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20543
+544,RandBot beat CockyBot,RandBot,CockyBot,26,60,2,True,CockyBot,11,0,1,False,"['Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']","['Card.ACE_HEARTS', 'Card.ACE_SPADES', 'Card.KING_SPADES']",4,20544
+545,CockyBot beat RandBot,CockyBot,RandBot,67,6,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,20545
+546,CockyBot beat RandBot,CockyBot,RandBot,68,46,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20546
+547,CockyBot beat RandBot,CockyBot,RandBot,35,54,3,True,RandBot,21,0,0,False,N/A,N/A,N/A,20547
+548,CockyBot beat RandBot,CockyBot,RandBot,74,14,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20548
+549,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,False,None,N/A,0,0,False,N/A,N/A,N/A,20549
+550,CockyBot beat RandBot,CockyBot,RandBot,68,6,2,True,CockyBot,14,0,0,True,"['Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.ACE_SPADES', 'Card.ACE_HEARTS', 'Card.KING_SPADES']",4,20550
+551,CockyBot beat RandBot,CockyBot,RandBot,61,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20551
+552,RandBot beat CockyBot,RandBot,CockyBot,74,47,3,True,RandBot,24,1,0,False,N/A,N/A,N/A,20552
+553,RandBot beat CockyBot,RandBot,CockyBot,38,42,2,True,RandBot,12,0,0,False,N/A,N/A,N/A,20553
+554,CockyBot beat RandBot,CockyBot,RandBot,70,0,3,True,CockyBot,14,0,0,True,"['Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.TEN_HEARTS', 'Card.ACE_SPADES', 'Card.ACE_HEARTS']",4,20554
+555,CockyBot beat RandBot,CockyBot,RandBot,68,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20555
+556,CockyBot beat RandBot,CockyBot,RandBot,60,28,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,20556
+557,RandBot beat CockyBot,RandBot,CockyBot,68,32,2,True,RandBot,5,0,0,False,N/A,N/A,N/A,20557
+558,RandBot beat CockyBot,RandBot,CockyBot,69,30,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,20558
+559,RandBot beat CockyBot,RandBot,CockyBot,63,57,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20559
+560,RandBot beat CockyBot,RandBot,CockyBot,64,51,2,True,CockyBot,38,0,0,False,"['Card.KING_HEARTS', 'Card.JACK_HEARTS']","['Card.QUEEN_SPADES', 'Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']",1,20560
+561,CockyBot beat RandBot,CockyBot,RandBot,20,27,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20561
+562,CockyBot beat RandBot,CockyBot,RandBot,86,26,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20562
+563,CockyBot beat RandBot,CockyBot,RandBot,67,7,2,True,RandBot,7,0,0,False,N/A,N/A,N/A,20563
+564,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,11,0,0,True,"['Card.TEN_CLUBS', 'Card.JACK_CLUBS']","['Card.TEN_SPADES', 'Card.ACE_SPADES', 'Card.KING_HEARTS']",4,20564
+565,CockyBot beat RandBot,CockyBot,RandBot,75,29,2,True,RandBot,8,1,0,False,N/A,N/A,N/A,20565
+566,RandBot beat CockyBot,RandBot,CockyBot,74,18,2,True,RandBot,12,0,0,False,N/A,N/A,N/A,20566
+567,CockyBot beat RandBot,CockyBot,RandBot,79,0,3,True,CockyBot,14,0,0,True,"['Card.TEN_HEARTS', 'Card.JACK_HEARTS']","['Card.ACE_DIAMONDS', 'Card.TEN_CLUBS', 'Card.QUEEN_DIAMONDS']",5,20567
+568,CockyBot beat RandBot,CockyBot,RandBot,76,0,3,True,CockyBot,14,0,1,True,"['Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.KING_SPADES', 'Card.ACE_SPADES', 'Card.KING_CLUBS']",4,20568
+569,CockyBot beat RandBot,CockyBot,RandBot,80,40,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20569
+570,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,26,0,0,True,"['Card.TEN_HEARTS', 'Card.ACE_HEARTS']","['Card.ACE_SPADES', 'Card.ACE_DIAMONDS', 'Card.TEN_CLUBS']",3,20570
+571,CockyBot beat RandBot,CockyBot,RandBot,79,20,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20571
+572,CockyBot beat RandBot,CockyBot,RandBot,71,14,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20572
+573,CockyBot beat RandBot,CockyBot,RandBot,65,55,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20573
+574,CockyBot beat RandBot,CockyBot,RandBot,72,14,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20574
+575,RandBot beat CockyBot,RandBot,CockyBot,19,54,3,True,CockyBot,14,0,0,False,"['Card.TEN_CLUBS', 'Card.JACK_CLUBS']","['Card.JACK_HEARTS', 'Card.ACE_HEARTS', 'Card.KING_DIAMONDS']",3,20575
+576,CockyBot beat RandBot,CockyBot,RandBot,75,7,2,True,CockyBot,47,1,0,True,"['Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.ACE_CLUBS', 'Card.ACE_SPADES', 'Card.QUEEN_HEARTS']",2,20576
+577,CockyBot beat RandBot,CockyBot,RandBot,68,6,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,20577
+578,CockyBot beat RandBot,CockyBot,RandBot,47,60,3,True,RandBot,40,0,0,False,N/A,N/A,N/A,20578
+579,CockyBot beat RandBot,CockyBot,RandBot,70,13,2,True,RandBot,13,0,0,False,N/A,N/A,N/A,20579
+580,CockyBot beat RandBot,CockyBot,RandBot,86,14,2,False,None,N/A,2,1,False,N/A,N/A,N/A,20580
+581,CockyBot beat RandBot,CockyBot,RandBot,72,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20581
+582,CockyBot beat RandBot,CockyBot,RandBot,79,0,3,True,CockyBot,13,0,0,True,"['Card.ACE_CLUBS', 'Card.TEN_CLUBS']","['Card.ACE_HEARTS', 'Card.TEN_SPADES', 'Card.KING_SPADES']",5,20582
+583,CockyBot beat RandBot,CockyBot,RandBot,66,33,3,True,CockyBot,46,1,0,True,"['Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.QUEEN_HEARTS', 'Card.QUEEN_SPADES', 'Card.JACK_SPADES']",2,20583
+584,CockyBot beat RandBot,CockyBot,RandBot,74,11,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20584
+585,CockyBot beat RandBot,CockyBot,RandBot,59,13,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20585
+586,RandBot beat CockyBot,RandBot,CockyBot,61,28,3,True,CockyBot,20,0,1,False,"['Card.KING_CLUBS', 'Card.TEN_CLUBS']","['Card.QUEEN_HEARTS', 'Card.ACE_DIAMONDS', 'Card.JACK_HEARTS']",1,20586
+587,CockyBot beat RandBot,CockyBot,RandBot,70,14,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20587
+588,CockyBot beat RandBot,CockyBot,RandBot,67,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20588
+589,CockyBot beat RandBot,CockyBot,RandBot,76,27,3,True,CockyBot,13,1,0,True,"['Card.KING_HEARTS', 'Card.QUEEN_HEARTS']","['Card.QUEEN_DIAMONDS', 'Card.TEN_SPADES', 'Card.QUEEN_SPADES']",3,20589
+590,CockyBot beat RandBot,CockyBot,RandBot,66,18,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20590
+591,CockyBot beat RandBot,CockyBot,RandBot,74,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20591
+592,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,CockyBot,55,1,1,True,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_CLUBS', 'Card.TEN_DIAMONDS', 'Card.KING_DIAMONDS']",1,20592
+593,CockyBot beat RandBot,CockyBot,RandBot,67,21,3,True,CockyBot,32,0,0,True,"['Card.TEN_SPADES', 'Card.KING_SPADES']","['Card.ACE_HEARTS', 'Card.TEN_CLUBS', 'Card.ACE_DIAMONDS']",3,20593
+594,CockyBot beat RandBot,CockyBot,RandBot,75,31,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20594
+595,CockyBot beat RandBot,CockyBot,RandBot,68,14,3,True,CockyBot,19,1,0,True,"['Card.ACE_SPADES', 'Card.KING_SPADES']","['Card.JACK_CLUBS', 'Card.QUEEN_CLUBS', 'Card.KING_CLUBS']",2,20595
+596,RandBot beat CockyBot,RandBot,CockyBot,34,53,3,True,CockyBot,19,0,0,False,"['Card.ACE_SPADES', 'Card.QUEEN_SPADES']","['Card.QUEEN_HEARTS', 'Card.QUEEN_DIAMONDS', 'Card.QUEEN_CLUBS']",2,20596
+597,CockyBot beat RandBot,CockyBot,RandBot,71,30,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20597
+598,CockyBot beat RandBot,CockyBot,RandBot,74,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20598
+599,CockyBot beat RandBot,CockyBot,RandBot,68,40,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20599
+600,CockyBot beat RandBot,CockyBot,RandBot,73,0,3,True,CockyBot,18,0,1,True,"['Card.ACE_CLUBS', 'Card.TEN_CLUBS', 'Card.KING_CLUBS']","['Card.KING_HEARTS', 'Card.ACE_DIAMONDS']",4,20600
+601,RandBot beat CockyBot,RandBot,CockyBot,73,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20601
+602,RandBot beat CockyBot,RandBot,CockyBot,50,59,2,True,CockyBot,19,0,0,False,"['Card.TEN_SPADES', 'Card.ACE_SPADES']","['Card.ACE_HEARTS', 'Card.TEN_CLUBS', 'Card.KING_CLUBS']",3,20602
+603,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,13,1,0,True,"['Card.QUEEN_CLUBS', 'Card.KING_CLUBS']","['Card.ACE_HEARTS', 'Card.QUEEN_DIAMONDS', 'Card.QUEEN_HEARTS']",2,20603
+604,CockyBot beat RandBot,CockyBot,RandBot,82,7,2,True,CockyBot,13,0,1,True,"['Card.TEN_HEARTS', 'Card.KING_HEARTS', 'Card.ACE_HEARTS']","['Card.ACE_CLUBS', 'Card.KING_CLUBS']",4,20604
+605,CockyBot beat RandBot,CockyBot,RandBot,79,14,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20605
+606,RandBot beat CockyBot,RandBot,CockyBot,64,56,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20606
+607,CockyBot beat RandBot,CockyBot,RandBot,67,5,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20607
+608,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,39,1,1,True,"['Card.ACE_HEARTS', 'Card.KING_HEARTS']","['Card.ACE_CLUBS', 'Card.TEN_CLUBS', 'Card.TEN_DIAMONDS']",2,20608
+609,CockyBot beat RandBot,CockyBot,RandBot,0,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20609
+610,CockyBot beat RandBot,CockyBot,RandBot,68,22,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20610
+611,RandBot beat CockyBot,RandBot,CockyBot,39,15,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20611
+612,CockyBot beat RandBot,CockyBot,RandBot,77,0,3,True,CockyBot,12,1,0,True,"['Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.QUEEN_DIAMONDS', 'Card.QUEEN_HEARTS', 'Card.KING_HEARTS']",4,20612
+613,CockyBot beat RandBot,CockyBot,RandBot,75,7,2,True,CockyBot,12,0,0,True,"['Card.ACE_CLUBS', 'Card.KING_CLUBS']","['Card.TEN_SPADES', 'Card.ACE_DIAMONDS', 'Card.JACK_DIAMONDS']",4,20613
+614,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,53,1,1,True,"['Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.TEN_DIAMONDS', 'Card.ACE_SPADES', 'Card.QUEEN_DIAMONDS']",1,20614
+615,CockyBot beat RandBot,CockyBot,RandBot,68,26,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20615
+616,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,18,0,0,True,"['Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.ACE_DIAMONDS', 'Card.TEN_SPADES', 'Card.KING_DIAMONDS']",4,20616
+617,CockyBot beat RandBot,CockyBot,RandBot,77,0,3,True,CockyBot,21,0,0,True,"['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.TEN_SPADES', 'Card.ACE_CLUBS', 'Card.KING_CLUBS']",4,20617
+618,CockyBot beat RandBot,CockyBot,RandBot,69,51,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20618
+619,RandBot beat CockyBot,RandBot,CockyBot,61,28,2,True,RandBot,13,0,0,False,N/A,N/A,N/A,20619
+620,CockyBot beat RandBot,CockyBot,RandBot,74,52,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20620
+621,CockyBot beat RandBot,CockyBot,RandBot,39,21,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20621
+622,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,34,1,0,True,"['Card.TEN_CLUBS', 'Card.JACK_CLUBS']","['Card.TEN_DIAMONDS', 'Card.ACE_HEARTS', 'Card.QUEEN_SPADES']",3,20622
+623,CockyBot beat RandBot,CockyBot,RandBot,70,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20623
+624,CockyBot beat RandBot,CockyBot,RandBot,68,39,2,True,RandBot,12,1,0,False,N/A,N/A,N/A,20624
+625,CockyBot beat RandBot,CockyBot,RandBot,75,65,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20625
+626,CockyBot beat RandBot,CockyBot,RandBot,75,13,2,True,RandBot,13,0,0,False,N/A,N/A,N/A,20626
+627,CockyBot beat RandBot,CockyBot,RandBot,75,45,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20627
+628,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,11,0,1,True,"['Card.KING_SPADES', 'Card.TEN_SPADES']","['Card.ACE_DIAMONDS', 'Card.ACE_HEARTS', 'Card.ACE_CLUBS']",4,20628
+629,RandBot beat CockyBot,RandBot,CockyBot,43,28,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20629
+630,CockyBot beat RandBot,CockyBot,RandBot,83,17,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20630
+631,CockyBot beat RandBot,CockyBot,RandBot,68,12,2,True,CockyBot,35,0,0,True,"['Card.TEN_CLUBS', 'Card.JACK_CLUBS']","['Card.QUEEN_SPADES', 'Card.TEN_DIAMONDS', 'Card.ACE_SPADES']",3,20631
+632,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,17,0,1,True,"['Card.TEN_SPADES', 'Card.QUEEN_SPADES', 'Card.ACE_SPADES']","['Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS']",3,20632
+633,RandBot beat CockyBot,RandBot,CockyBot,75,24,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20633
+634,CockyBot beat RandBot,CockyBot,RandBot,72,0,3,True,CockyBot,11,0,0,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.ACE_CLUBS', 'Card.QUEEN_SPADES', 'Card.TEN_SPADES']",5,20634
+635,CockyBot beat RandBot,CockyBot,RandBot,74,39,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20635
+636,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,CockyBot,34,1,0,True,"['Card.KING_CLUBS', 'Card.ACE_CLUBS']","['Card.QUEEN_HEARTS', 'Card.QUEEN_SPADES', 'Card.ACE_SPADES']",2,20636
+637,RandBot beat CockyBot,RandBot,CockyBot,60,60,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20637
+638,CockyBot beat RandBot,CockyBot,RandBot,72,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20638
+639,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,13,1,0,True,"['Card.KING_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.KING_CLUBS', 'Card.QUEEN_CLUBS']",1,20639
+640,RandBot beat CockyBot,RandBot,CockyBot,82,38,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20640
+641,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,15,0,0,True,"['Card.JACK_SPADES', 'Card.ACE_SPADES']","['Card.KING_CLUBS', 'Card.ACE_HEARTS', 'Card.TEN_DIAMONDS']",4,20641
+642,RandBot beat CockyBot,RandBot,CockyBot,28,47,3,True,CockyBot,13,0,0,False,"['Card.KING_CLUBS', 'Card.ACE_CLUBS']","['Card.QUEEN_HEARTS', 'Card.KING_SPADES', 'Card.KING_DIAMONDS']",3,20642
+643,CockyBot beat RandBot,CockyBot,RandBot,67,34,2,True,RandBot,21,0,0,False,N/A,N/A,N/A,20643
+644,CockyBot beat RandBot,CockyBot,RandBot,68,15,3,True,CockyBot,13,1,0,True,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.ACE_HEARTS', 'Card.QUEEN_CLUBS']",1,20644
+645,RandBot beat CockyBot,RandBot,CockyBot,20,45,3,True,CockyBot,15,0,0,False,"['Card.TEN_CLUBS', 'Card.JACK_CLUBS']","['Card.QUEEN_HEARTS', 'Card.JACK_SPADES', 'Card.TEN_DIAMONDS']",3,20645
+646,RandBot beat CockyBot,RandBot,CockyBot,36,60,3,True,CockyBot,13,0,1,False,"['Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.TEN_HEARTS', 'Card.TEN_SPADES', 'Card.KING_SPADES']",3,20646
+647,RandBot beat CockyBot,RandBot,CockyBot,52,40,3,True,RandBot,19,0,0,False,N/A,N/A,N/A,20647
+648,RandBot beat CockyBot,RandBot,CockyBot,68,0,3,True,RandBot,40,1,0,False,N/A,N/A,N/A,20648
+649,CockyBot beat RandBot,CockyBot,RandBot,60,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20649
+650,CockyBot beat RandBot,CockyBot,RandBot,94,35,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20650
+651,CockyBot beat RandBot,CockyBot,RandBot,66,42,2,True,CockyBot,32,0,1,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.ACE_SPADES', 'Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']",3,20651
+652,RandBot beat CockyBot,RandBot,CockyBot,67,53,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20652
+653,RandBot beat CockyBot,RandBot,CockyBot,79,12,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20653
+654,RandBot beat CockyBot,RandBot,CockyBot,60,60,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20654
+655,CockyBot beat RandBot,CockyBot,RandBot,85,28,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20655
+656,CockyBot beat RandBot,CockyBot,RandBot,66,12,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20656
+657,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,20657
+658,RandBot beat CockyBot,RandBot,CockyBot,20,54,3,True,CockyBot,13,0,0,False,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.QUEEN_SPADES', 'Card.TEN_CLUBS', 'Card.JACK_DIAMONDS']",3,20658
+659,RandBot beat CockyBot,RandBot,CockyBot,66,47,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20659
+660,RandBot beat CockyBot,RandBot,CockyBot,61,22,3,True,RandBot,12,0,0,False,N/A,N/A,N/A,20660
+661,CockyBot beat RandBot,CockyBot,RandBot,26,34,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20661
+662,CockyBot beat RandBot,CockyBot,RandBot,74,34,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20662
+663,RandBot beat CockyBot,RandBot,CockyBot,32,61,3,True,CockyBot,43,1,0,False,"['Card.QUEEN_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.JACK_HEARTS', 'Card.ACE_CLUBS', 'Card.QUEEN_CLUBS']",2,20663
+664,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,12,0,0,True,"['Card.TEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.TEN_HEARTS', 'Card.ACE_SPADES', 'Card.QUEEN_CLUBS']",4,20664
+665,RandBot beat CockyBot,RandBot,CockyBot,39,12,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20665
+666,CockyBot beat RandBot,CockyBot,RandBot,72,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20666
+667,CockyBot beat RandBot,CockyBot,RandBot,74,6,2,True,CockyBot,14,1,0,True,"['Card.QUEEN_HEARTS', 'Card.KING_HEARTS']","['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS', 'Card.TEN_CLUBS']",2,20667
+668,CockyBot beat RandBot,CockyBot,RandBot,70,0,3,True,CockyBot,12,0,1,True,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.ACE_HEARTS', 'Card.ACE_CLUBS', 'Card.TEN_CLUBS']",4,20668
+669,RandBot beat CockyBot,RandBot,CockyBot,18,47,3,True,CockyBot,13,0,0,False,"['Card.JACK_CLUBS', 'Card.TEN_CLUBS']","['Card.TEN_SPADES', 'Card.JACK_SPADES', 'Card.KING_DIAMONDS']",3,20669
+670,RandBot beat CockyBot,RandBot,CockyBot,69,51,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20670
+671,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,False,None,N/A,2,0,False,N/A,N/A,N/A,20671
+672,CockyBot beat RandBot,CockyBot,RandBot,105,15,3,True,CockyBot,51,2,0,True,"['Card.KING_HEARTS', 'Card.QUEEN_HEARTS']","['Card.ACE_SPADES', 'Card.ACE_CLUBS', 'Card.ACE_DIAMONDS']",1,20672
+673,CockyBot beat RandBot,CockyBot,RandBot,66,14,2,True,RandBot,14,1,1,False,N/A,N/A,N/A,20673
+674,CockyBot beat RandBot,CockyBot,RandBot,82,17,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20674
+675,RandBot beat CockyBot,RandBot,CockyBot,19,47,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20675
+676,RandBot beat CockyBot,RandBot,CockyBot,67,35,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20676
+677,CockyBot beat RandBot,CockyBot,RandBot,79,26,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20677
+678,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,CockyBot,33,0,0,True,"['Card.ACE_HEARTS', 'Card.KING_HEARTS']","['Card.TEN_CLUBS', 'Card.ACE_DIAMONDS', 'Card.ACE_SPADES']",3,20678
+679,CockyBot beat RandBot,CockyBot,RandBot,81,0,3,True,CockyBot,20,0,1,True,"['Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.TEN_HEARTS', 'Card.ACE_SPADES']",4,20679
+680,CockyBot beat RandBot,CockyBot,RandBot,68,6,2,True,CockyBot,20,0,0,True,"['Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.KING_HEARTS', 'Card.ACE_SPADES', 'Card.JACK_CLUBS']",3,20680
+681,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,30,0,0,True,"['Card.QUEEN_SPADES', 'Card.ACE_SPADES']","['Card.ACE_CLUBS', 'Card.TEN_CLUBS', 'Card.QUEEN_HEARTS']",3,20681
+682,CockyBot beat RandBot,CockyBot,RandBot,73,14,3,True,CockyBot,18,0,0,True,"['Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.ACE_SPADES', 'Card.TEN_HEARTS', 'Card.ACE_CLUBS']",3,20682
+683,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,CockyBot,14,0,0,True,"['Card.ACE_SPADES', 'Card.TEN_SPADES']","['Card.JACK_CLUBS', 'Card.TEN_HEARTS', 'Card.KING_CLUBS']",4,20683
+684,CockyBot beat RandBot,CockyBot,RandBot,39,46,3,True,RandBot,7,1,0,False,N/A,N/A,N/A,20684
+685,CockyBot beat RandBot,CockyBot,RandBot,67,38,2,True,RandBot,24,0,0,False,N/A,N/A,N/A,20685
+686,RandBot beat CockyBot,RandBot,CockyBot,66,48,2,True,CockyBot,20,0,1,False,"['Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS', 'Card.QUEEN_CLUBS']",2,20686
+687,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,13,0,0,True,"['Card.TEN_SPADES', 'Card.ACE_SPADES', 'Card.QUEEN_SPADES']","['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']",4,20687
+688,CockyBot beat RandBot,CockyBot,RandBot,75,31,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20688
+689,CockyBot beat RandBot,CockyBot,RandBot,70,6,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,20689
+690,CockyBot beat RandBot,CockyBot,RandBot,86,13,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20690
+691,CockyBot beat RandBot,CockyBot,RandBot,87,0,3,True,CockyBot,33,2,0,True,"['Card.KING_HEARTS', 'Card.QUEEN_HEARTS']","['Card.QUEEN_SPADES', 'Card.TEN_DIAMONDS', 'Card.JACK_SPADES']",1,20691
+692,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,47,1,0,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.JACK_SPADES', 'Card.QUEEN_CLUBS', 'Card.QUEEN_SPADES']",1,20692
+693,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,20693
+694,RandBot beat CockyBot,RandBot,CockyBot,74,39,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20694
+695,CockyBot beat RandBot,CockyBot,RandBot,69,13,2,True,RandBot,13,0,0,False,N/A,N/A,N/A,20695
+696,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,19,0,0,True,"['Card.ACE_CLUBS', 'Card.TEN_CLUBS']","['Card.TEN_SPADES', 'Card.ACE_DIAMONDS', 'Card.KING_HEARTS']",4,20696
+697,RandBot beat CockyBot,RandBot,CockyBot,54,52,2,True,RandBot,14,1,0,False,N/A,N/A,N/A,20697
+698,CockyBot beat RandBot,CockyBot,RandBot,53,7,3,True,RandBot,7,0,1,False,N/A,N/A,N/A,20698
+699,CockyBot beat RandBot,CockyBot,RandBot,79,0,3,True,CockyBot,17,0,0,True,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.TEN_CLUBS', 'Card.ACE_CLUBS', 'Card.QUEEN_DIAMONDS']",4,20699
+700,CockyBot beat RandBot,CockyBot,RandBot,75,13,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20700
+701,RandBot beat CockyBot,RandBot,CockyBot,45,40,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20701
+702,CockyBot beat RandBot,CockyBot,RandBot,70,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,20702
+703,RandBot beat CockyBot,RandBot,CockyBot,56,14,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20703
+704,CockyBot beat RandBot,CockyBot,RandBot,68,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20704
+705,CockyBot beat RandBot,CockyBot,RandBot,81,0,3,True,CockyBot,35,1,0,True,"['Card.QUEEN_CLUBS', 'Card.KING_CLUBS']","['Card.KING_HEARTS', 'Card.TEN_DIAMONDS', 'Card.TEN_HEARTS']",1,20705
+706,CockyBot beat RandBot,CockyBot,RandBot,66,15,3,True,RandBot,15,2,0,False,N/A,N/A,N/A,20706
+707,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,41,1,0,True,"['Card.KING_HEARTS', 'Card.ACE_HEARTS']","['Card.QUEEN_SPADES', 'Card.JACK_CLUBS', 'Card.TEN_SPADES']",2,20707
+708,CockyBot beat RandBot,CockyBot,RandBot,86,0,3,False,None,N/A,2,0,False,N/A,N/A,N/A,20708
+709,RandBot beat CockyBot,RandBot,CockyBot,53,13,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20709
+710,RandBot beat CockyBot,RandBot,CockyBot,13,54,3,True,CockyBot,14,0,1,False,"['Card.TEN_SPADES', 'Card.KING_SPADES']","['Card.KING_HEARTS', 'Card.ACE_CLUBS', 'Card.JACK_DIAMONDS']",4,20710
+711,CockyBot beat RandBot,CockyBot,RandBot,73,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20711
+712,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,CockyBot,22,0,1,True,"['Card.TEN_CLUBS', 'Card.ACE_CLUBS', 'Card.KING_CLUBS']","['Card.ACE_DIAMONDS', 'Card.JACK_SPADES']",4,20712
+713,CockyBot beat RandBot,CockyBot,RandBot,66,17,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20713
+714,RandBot beat CockyBot,RandBot,CockyBot,17,62,2,True,RandBot,4,0,0,False,N/A,N/A,N/A,20714
+715,RandBot beat CockyBot,RandBot,CockyBot,28,58,3,True,CockyBot,17,0,0,False,"['Card.ACE_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.ACE_SPADES', 'Card.KING_SPADES', 'Card.QUEEN_CLUBS']",3,20715
+716,CockyBot beat RandBot,CockyBot,RandBot,72,0,3,True,CockyBot,10,0,0,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']",5,20716
+717,CockyBot beat RandBot,CockyBot,RandBot,73,12,2,True,CockyBot,21,0,0,True,"['Card.QUEEN_CLUBS', 'Card.JACK_CLUBS', 'Card.ACE_CLUBS']","['Card.TEN_HEARTS', 'Card.KING_SPADES']",5,20717
+718,CockyBot beat RandBot,CockyBot,RandBot,73,0,3,True,CockyBot,27,0,0,True,"['Card.ACE_CLUBS', 'Card.QUEEN_CLUBS']","['Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.ACE_SPADES']",4,20718
+719,CockyBot beat RandBot,CockyBot,RandBot,60,60,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20719
+720,CockyBot beat RandBot,CockyBot,RandBot,72,0,3,True,CockyBot,17,1,0,True,"['Card.TEN_HEARTS', 'Card.KING_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_SPADES', 'Card.TEN_DIAMONDS']",1,20720
+721,CockyBot beat RandBot,CockyBot,RandBot,69,19,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20721
+722,CockyBot beat RandBot,CockyBot,RandBot,73,0,3,True,CockyBot,27,2,0,True,"['Card.KING_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.JACK_SPADES', 'Card.QUEEN_CLUBS', 'Card.KING_SPADES']",1,20722
+723,CockyBot beat RandBot,CockyBot,RandBot,79,41,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20723
+724,CockyBot beat RandBot,CockyBot,RandBot,75,24,2,True,RandBot,9,0,0,False,N/A,N/A,N/A,20724
+725,CockyBot beat RandBot,CockyBot,RandBot,83,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20725
+726,CockyBot beat RandBot,CockyBot,RandBot,86,15,2,True,CockyBot,65,1,1,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.TEN_HEARTS', 'Card.KING_DIAMONDS', 'Card.JACK_SPADES']",1,20726
+727,CockyBot beat RandBot,CockyBot,RandBot,66,54,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20727
+728,RandBot beat CockyBot,RandBot,CockyBot,69,26,3,True,RandBot,14,1,0,False,N/A,N/A,N/A,20728
+729,RandBot beat CockyBot,RandBot,CockyBot,76,64,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20729
+730,RandBot beat CockyBot,RandBot,CockyBot,75,65,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20730
+731,CockyBot beat RandBot,CockyBot,RandBot,34,40,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20731
+732,CockyBot beat RandBot,CockyBot,RandBot,73,20,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20732
+733,CockyBot beat RandBot,CockyBot,RandBot,66,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20733
+734,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,CockyBot,14,0,0,True,"['Card.ACE_SPADES', 'Card.TEN_SPADES']","['Card.ACE_CLUBS', 'Card.KING_HEARTS', 'Card.ACE_DIAMONDS']",4,20734
+735,CockyBot beat RandBot,CockyBot,RandBot,49,50,2,True,RandBot,18,0,0,False,N/A,N/A,N/A,20735
+736,CockyBot beat RandBot,CockyBot,RandBot,75,19,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20736
+737,CockyBot beat RandBot,CockyBot,RandBot,81,0,3,True,CockyBot,60,1,0,True,"['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']","['Card.JACK_DIAMONDS', 'Card.ACE_CLUBS', 'Card.JACK_CLUBS']",1,20737
+738,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,27,1,0,True,"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']","['Card.TEN_HEARTS', 'Card.JACK_HEARTS', 'Card.QUEEN_SPADES']",3,20738
+739,CockyBot beat RandBot,CockyBot,RandBot,72,21,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20739
+740,CockyBot beat RandBot,CockyBot,RandBot,32,47,2,True,RandBot,7,0,0,False,N/A,N/A,N/A,20740
+741,CockyBot beat RandBot,CockyBot,RandBot,67,27,2,True,CockyBot,36,0,0,True,"['Card.QUEEN_CLUBS', 'Card.JACK_CLUBS']","['Card.KING_DIAMONDS', 'Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']",3,20741
+742,RandBot beat CockyBot,RandBot,CockyBot,40,64,3,True,CockyBot,48,1,0,False,"['Card.QUEEN_SPADES', 'Card.JACK_SPADES']","['Card.TEN_CLUBS', 'Card.TEN_DIAMONDS', 'Card.JACK_CLUBS']",2,20742
+743,CockyBot beat RandBot,CockyBot,RandBot,67,20,2,True,RandBot,7,0,0,False,N/A,N/A,N/A,20743
+744,RandBot beat CockyBot,RandBot,CockyBot,63,17,3,True,CockyBot,13,0,0,False,"['Card.KING_CLUBS', 'Card.JACK_CLUBS']","['Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.QUEEN_SPADES']",1,20744
+745,CockyBot beat RandBot,CockyBot,RandBot,71,29,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20745
+746,RandBot beat CockyBot,RandBot,CockyBot,44,55,1,True,RandBot,6,1,0,False,N/A,N/A,N/A,20746
+747,RandBot beat CockyBot,RandBot,CockyBot,13,31,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20747
+748,CockyBot beat RandBot,CockyBot,RandBot,76,0,3,True,CockyBot,20,0,0,True,"['Card.QUEEN_HEARTS', 'Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.TEN_CLUBS', 'Card.KING_CLUBS']",3,20748
+749,CockyBot beat RandBot,CockyBot,RandBot,67,6,2,True,CockyBot,53,1,0,True,"['Card.QUEEN_SPADES', 'Card.TEN_SPADES']","['Card.QUEEN_CLUBS', 'Card.QUEEN_HEARTS', 'Card.ACE_HEARTS']",1,20749
+750,CockyBot beat RandBot,CockyBot,RandBot,72,48,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20750
+751,RandBot beat CockyBot,RandBot,CockyBot,57,7,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20751
+752,RandBot beat CockyBot,RandBot,CockyBot,74,46,3,True,RandBot,27,1,0,False,N/A,N/A,N/A,20752
+753,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,20753
+754,RandBot beat CockyBot,RandBot,CockyBot,72,36,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20754
+755,CockyBot beat RandBot,CockyBot,RandBot,73,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20755
+756,CockyBot beat RandBot,CockyBot,RandBot,80,20,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20756
+757,RandBot beat CockyBot,RandBot,CockyBot,71,0,3,True,RandBot,4,0,0,False,N/A,N/A,N/A,20757
+758,CockyBot beat RandBot,CockyBot,RandBot,81,14,2,True,CockyBot,33,1,0,True,"['Card.TEN_SPADES', 'Card.ACE_SPADES']","['Card.ACE_CLUBS', 'Card.QUEEN_CLUBS', 'Card.ACE_DIAMONDS']",3,20758
+759,RandBot beat CockyBot,RandBot,CockyBot,53,54,2,True,RandBot,25,0,0,False,N/A,N/A,N/A,20759
+760,CockyBot beat RandBot,CockyBot,RandBot,68,7,3,True,CockyBot,35,0,0,True,"['Card.QUEEN_HEARTS', 'Card.JACK_HEARTS']","['Card.ACE_SPADES', 'Card.ACE_DIAMONDS', 'Card.TEN_CLUBS']",3,20760
+761,CockyBot beat RandBot,CockyBot,RandBot,78,15,2,True,CockyBot,39,1,0,True,"['Card.JACK_CLUBS', 'Card.ACE_CLUBS']","['Card.QUEEN_SPADES', 'Card.TEN_DIAMONDS', 'Card.QUEEN_HEARTS']",3,20761
+762,RandBot beat CockyBot,RandBot,CockyBot,71,50,1,False,None,N/A,2,0,False,N/A,N/A,N/A,20762
+763,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,13,1,0,True,"['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.ACE_CLUBS', 'Card.ACE_SPADES']",2,20763
+764,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,47,1,0,True,"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']","['Card.QUEEN_SPADES', 'Card.KING_DIAMONDS', 'Card.JACK_HEARTS']",2,20764
+765,CockyBot beat RandBot,CockyBot,RandBot,69,25,2,True,RandBot,25,0,0,False,N/A,N/A,N/A,20765
+766,RandBot beat CockyBot,RandBot,CockyBot,69,30,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20766
+767,CockyBot beat RandBot,CockyBot,RandBot,31,61,2,True,RandBot,6,0,0,False,N/A,N/A,N/A,20767
+768,RandBot beat CockyBot,RandBot,CockyBot,27,51,3,True,CockyBot,20,0,0,False,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.TEN_DIAMONDS', 'Card.JACK_SPADES']",3,20768
+769,CockyBot beat RandBot,CockyBot,RandBot,65,55,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20769
+770,CockyBot beat RandBot,CockyBot,RandBot,76,32,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20770
+771,CockyBot beat RandBot,CockyBot,RandBot,67,24,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20771
+772,RandBot beat CockyBot,RandBot,CockyBot,81,40,2,True,RandBot,18,1,0,False,N/A,N/A,N/A,20772
+773,RandBot beat CockyBot,RandBot,CockyBot,13,62,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20773
+774,RandBot beat CockyBot,RandBot,CockyBot,48,35,3,True,RandBot,6,0,1,False,N/A,N/A,N/A,20774
+775,CockyBot beat RandBot,CockyBot,RandBot,69,36,3,True,CockyBot,55,1,0,True,"['Card.KING_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.KING_SPADES', 'Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']",1,20775
+776,CockyBot beat RandBot,CockyBot,RandBot,66,4,2,True,CockyBot,13,1,0,True,"['Card.KING_SPADES', 'Card.QUEEN_SPADES']","['Card.KING_HEARTS', 'Card.ACE_HEARTS', 'Card.KING_CLUBS']",2,20776
+777,RandBot beat CockyBot,RandBot,CockyBot,25,47,3,True,CockyBot,13,0,0,False,"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']","['Card.TEN_HEARTS', 'Card.ACE_DIAMONDS', 'Card.JACK_DIAMONDS']",3,20777
+778,CockyBot beat RandBot,CockyBot,RandBot,78,22,2,True,RandBot,22,0,1,False,N/A,N/A,N/A,20778
+779,CockyBot beat RandBot,CockyBot,RandBot,81,0,3,True,CockyBot,10,0,0,True,"['Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.ACE_SPADES', 'Card.KING_CLUBS', 'Card.TEN_SPADES']",4,20779
+780,CockyBot beat RandBot,CockyBot,RandBot,81,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20780
+781,RandBot beat CockyBot,RandBot,CockyBot,45,14,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20781
+782,CockyBot beat RandBot,CockyBot,RandBot,69,14,3,True,RandBot,14,0,1,False,N/A,N/A,N/A,20782
+783,RandBot beat CockyBot,RandBot,CockyBot,76,44,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20783
+784,CockyBot beat RandBot,CockyBot,RandBot,72,20,3,True,CockyBot,25,0,0,True,"['Card.QUEEN_SPADES', 'Card.JACK_SPADES']","['Card.TEN_HEARTS', 'Card.TEN_CLUBS', 'Card.TEN_DIAMONDS']",3,20784
+785,CockyBot beat RandBot,CockyBot,RandBot,59,21,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20785
+786,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,28,1,0,True,"['Card.ACE_SPADES', 'Card.KING_SPADES', 'Card.TEN_SPADES']","['Card.TEN_HEARTS', 'Card.QUEEN_DIAMONDS']",3,20786
+787,CockyBot beat RandBot,CockyBot,RandBot,71,29,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20787
+788,CockyBot beat RandBot,CockyBot,RandBot,76,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20788
+789,CockyBot beat RandBot,CockyBot,RandBot,81,52,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20789
+790,RandBot beat CockyBot,RandBot,CockyBot,57,63,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20790
+791,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20791
+792,CockyBot beat RandBot,CockyBot,RandBot,69,6,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20792
+793,RandBot beat CockyBot,RandBot,CockyBot,29,7,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20793
+794,CockyBot beat RandBot,CockyBot,RandBot,79,0,3,True,CockyBot,29,0,0,True,"['Card.TEN_CLUBS', 'Card.KING_CLUBS']","['Card.ACE_HEARTS', 'Card.TEN_SPADES', 'Card.ACE_SPADES']",4,20794
+795,CockyBot beat RandBot,CockyBot,RandBot,58,7,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20795
+796,CockyBot beat RandBot,CockyBot,RandBot,76,23,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20796
+797,CockyBot beat RandBot,CockyBot,RandBot,51,26,3,True,CockyBot,10,0,0,True,"['Card.TEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.QUEEN_SPADES', 'Card.TEN_SPADES', 'Card.TEN_CLUBS']",3,20797
+798,RandBot beat CockyBot,RandBot,CockyBot,79,41,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20798
+799,CockyBot beat RandBot,CockyBot,RandBot,68,55,2,True,RandBot,19,1,0,False,N/A,N/A,N/A,20799
+800,CockyBot beat RandBot,CockyBot,RandBot,73,12,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20800
+801,RandBot beat CockyBot,RandBot,CockyBot,31,27,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20801
+802,CockyBot beat RandBot,CockyBot,RandBot,67,53,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20802
+803,CockyBot beat RandBot,CockyBot,RandBot,89,41,1,False,None,N/A,2,0,False,N/A,N/A,N/A,20803
+804,CockyBot beat RandBot,CockyBot,RandBot,67,42,2,True,CockyBot,13,1,0,True,"['Card.QUEEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.QUEEN_SPADES', 'Card.ACE_HEARTS', 'Card.KING_SPADES']",2,20804
+805,RandBot beat CockyBot,RandBot,CockyBot,54,32,2,True,RandBot,5,0,0,False,N/A,N/A,N/A,20805
+806,CockyBot beat RandBot,CockyBot,RandBot,81,59,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20806
+807,RandBot beat CockyBot,RandBot,CockyBot,40,46,3,True,CockyBot,11,0,0,False,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.QUEEN_DIAMONDS', 'Card.QUEEN_HEARTS', 'Card.JACK_HEARTS']",2,20807
+808,CockyBot beat RandBot,CockyBot,RandBot,57,14,3,True,CockyBot,19,0,1,True,"['Card.TEN_SPADES', 'Card.QUEEN_SPADES']","['Card.QUEEN_DIAMONDS', 'Card.QUEEN_CLUBS', 'Card.TEN_HEARTS']",4,20808
+809,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,13,0,0,True,"['Card.KING_HEARTS', 'Card.ACE_HEARTS']","['Card.TEN_CLUBS', 'Card.ACE_DIAMONDS', 'Card.QUEEN_SPADES']",4,20809
+810,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,21,0,1,True,"['Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.ACE_HEARTS', 'Card.QUEEN_CLUBS']",4,20810
+811,RandBot beat CockyBot,RandBot,CockyBot,20,54,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,20811
+812,CockyBot beat RandBot,CockyBot,RandBot,79,19,2,True,RandBot,5,1,0,False,N/A,N/A,N/A,20812
+813,CockyBot beat RandBot,CockyBot,RandBot,0,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20813
+814,RandBot beat CockyBot,RandBot,CockyBot,73,47,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20814
+815,RandBot beat CockyBot,RandBot,CockyBot,13,61,3,True,CockyBot,15,0,0,False,"['Card.KING_HEARTS', 'Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.JACK_DIAMONDS', 'Card.TEN_SPADES']",4,20815
+816,CockyBot beat RandBot,CockyBot,RandBot,86,15,2,True,CockyBot,45,1,0,True,"['Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']","['Card.ACE_SPADES', 'Card.ACE_DIAMONDS', 'Card.KING_SPADES']",3,20816
+817,RandBot beat CockyBot,RandBot,CockyBot,35,10,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20817
+818,RandBot beat CockyBot,RandBot,CockyBot,68,46,1,True,RandBot,7,0,0,False,N/A,N/A,N/A,20818
+819,CockyBot beat RandBot,CockyBot,RandBot,67,15,2,True,RandBot,15,1,0,False,N/A,N/A,N/A,20819
+820,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,34,1,0,True,"['Card.KING_CLUBS', 'Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.QUEEN_SPADES', 'Card.QUEEN_HEARTS']",2,20820
+821,CockyBot beat RandBot,CockyBot,RandBot,66,14,2,True,RandBot,14,0,0,False,N/A,N/A,N/A,20821
+822,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,13,0,1,True,"['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_DIAMONDS', 'Card.TEN_CLUBS', 'Card.ACE_DIAMONDS']",4,20822
+823,RandBot beat CockyBot,RandBot,CockyBot,54,26,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,20823
+824,CockyBot beat RandBot,CockyBot,RandBot,100,12,2,True,CockyBot,46,2,0,True,"['Card.KING_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_CLUBS', 'Card.QUEEN_DIAMONDS', 'Card.ACE_SPADES']",1,20824
+825,RandBot beat CockyBot,RandBot,CockyBot,30,32,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20825
+826,RandBot beat CockyBot,RandBot,CockyBot,72,35,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20826
+827,CockyBot beat RandBot,CockyBot,RandBot,67,21,3,True,CockyBot,46,1,0,True,"['Card.KING_SPADES', 'Card.TEN_SPADES']","['Card.JACK_HEARTS', 'Card.ACE_DIAMONDS', 'Card.QUEEN_CLUBS']",1,20827
+828,CockyBot beat RandBot,CockyBot,RandBot,73,13,2,True,CockyBot,61,1,0,True,"['Card.TEN_CLUBS', 'Card.KING_CLUBS']","['Card.QUEEN_HEARTS', 'Card.QUEEN_DIAMONDS', 'Card.QUEEN_SPADES']",1,20828
+829,CockyBot beat RandBot,CockyBot,RandBot,69,21,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20829
+830,RandBot beat CockyBot,RandBot,CockyBot,69,36,1,False,None,N/A,0,1,False,N/A,N/A,N/A,20830
+831,CockyBot beat RandBot,CockyBot,RandBot,78,15,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20831
+832,CockyBot beat RandBot,CockyBot,RandBot,58,34,2,True,CockyBot,14,0,0,True,"['Card.TEN_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.TEN_CLUBS', 'Card.TEN_SPADES', 'Card.QUEEN_HEARTS']",4,20832
+833,RandBot beat CockyBot,RandBot,CockyBot,69,37,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20833
+834,CockyBot beat RandBot,CockyBot,RandBot,66,26,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20834
+835,RandBot beat CockyBot,RandBot,CockyBot,68,14,3,True,RandBot,32,0,0,False,N/A,N/A,N/A,20835
+836,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,11,0,1,True,"['Card.KING_SPADES', 'Card.TEN_SPADES', 'Card.ACE_SPADES']","['Card.ACE_HEARTS', 'Card.ACE_CLUBS']",4,20836
+837,CockyBot beat RandBot,CockyBot,RandBot,72,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20837
+838,CockyBot beat RandBot,CockyBot,RandBot,76,18,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20838
+839,CockyBot beat RandBot,CockyBot,RandBot,78,7,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20839
+840,CockyBot beat RandBot,CockyBot,RandBot,58,54,2,True,CockyBot,12,0,0,True,"['Card.ACE_CLUBS', 'Card.TEN_CLUBS', 'Card.JACK_CLUBS']","['Card.KING_HEARTS', 'Card.TEN_HEARTS']",4,20840
+841,RandBot beat CockyBot,RandBot,CockyBot,45,61,2,True,CockyBot,12,0,0,False,"['Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.QUEEN_HEARTS', 'Card.KING_CLUBS', 'Card.ACE_SPADES']",3,20841
+842,CockyBot beat RandBot,CockyBot,RandBot,67,6,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20842
+843,CockyBot beat RandBot,CockyBot,RandBot,72,7,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20843
+844,RandBot beat CockyBot,RandBot,CockyBot,50,49,3,True,CockyBot,23,0,0,False,"['Card.TEN_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.ACE_HEARTS', 'Card.TEN_SPADES', 'Card.KING_HEARTS']",2,20844
+845,RandBot beat CockyBot,RandBot,CockyBot,72,7,3,True,RandBot,6,0,0,False,N/A,N/A,N/A,20845
+846,CockyBot beat RandBot,CockyBot,RandBot,67,15,3,True,CockyBot,21,1,1,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS', 'Card.KING_HEARTS']","['Card.ACE_CLUBS', 'Card.TEN_CLUBS']",1,20846
+847,CockyBot beat RandBot,CockyBot,RandBot,73,5,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20847
+848,CockyBot beat RandBot,CockyBot,RandBot,67,13,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20848
+849,CockyBot beat RandBot,CockyBot,RandBot,72,0,3,False,None,N/A,1,0,False,N/A,N/A,N/A,20849
+850,CockyBot beat RandBot,CockyBot,RandBot,68,18,2,True,CockyBot,28,0,0,True,"['Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.KING_SPADES', 'Card.ACE_CLUBS', 'Card.TEN_HEARTS']",3,20850
+851,CockyBot beat RandBot,CockyBot,RandBot,81,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20851
+852,CockyBot beat RandBot,CockyBot,RandBot,66,26,2,True,CockyBot,20,0,0,True,"['Card.KING_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.ACE_HEARTS', 'Card.ACE_CLUBS', 'Card.ACE_SPADES']",4,20852
+853,CockyBot beat RandBot,CockyBot,RandBot,72,0,3,True,CockyBot,33,0,0,True,"['Card.TEN_SPADES', 'Card.ACE_SPADES']","['Card.TEN_CLUBS', 'Card.KING_CLUBS', 'Card.ACE_DIAMONDS']",3,20853
+854,CockyBot beat RandBot,CockyBot,RandBot,76,26,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20854
+855,RandBot beat CockyBot,RandBot,CockyBot,79,21,3,True,RandBot,39,1,0,False,N/A,N/A,N/A,20855
+856,CockyBot beat RandBot,CockyBot,RandBot,83,29,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20856
+857,CockyBot beat RandBot,CockyBot,RandBot,73,13,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20857
+858,RandBot beat CockyBot,RandBot,CockyBot,39,55,2,True,CockyBot,14,0,0,False,"['Card.TEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.ACE_SPADES', 'Card.QUEEN_HEARTS', 'Card.JACK_SPADES']",3,20858
+859,RandBot beat CockyBot,RandBot,CockyBot,19,32,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20859
+860,CockyBot beat RandBot,CockyBot,RandBot,83,28,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20860
+861,CockyBot beat RandBot,CockyBot,RandBot,71,0,3,True,CockyBot,21,0,0,True,"['Card.TEN_SPADES', 'Card.JACK_SPADES']","['Card.TEN_DIAMONDS', 'Card.TEN_HEARTS', 'Card.QUEEN_DIAMONDS']",5,20861
+862,CockyBot beat RandBot,CockyBot,RandBot,69,4,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20862
+863,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,18,0,0,True,"['Card.QUEEN_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.ACE_SPADES', 'Card.QUEEN_SPADES', 'Card.TEN_HEARTS']",4,20863
+864,CockyBot beat RandBot,CockyBot,RandBot,70,0,3,True,CockyBot,20,0,1,True,"['Card.KING_CLUBS', 'Card.ACE_CLUBS']","['Card.TEN_SPADES', 'Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']",3,20864
+865,CockyBot beat RandBot,CockyBot,RandBot,75,27,2,True,RandBot,27,1,1,False,N/A,N/A,N/A,20865
+866,RandBot beat CockyBot,RandBot,CockyBot,73,47,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20866
+867,RandBot beat CockyBot,RandBot,CockyBot,60,25,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20867
+868,RandBot beat CockyBot,RandBot,CockyBot,39,42,3,True,CockyBot,14,0,0,False,"['Card.QUEEN_SPADES', 'Card.ACE_SPADES']","['Card.TEN_CLUBS', 'Card.KING_DIAMONDS', 'Card.JACK_DIAMONDS']",2,20868
+869,CockyBot beat RandBot,CockyBot,RandBot,98,15,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20869
+870,RandBot beat CockyBot,RandBot,CockyBot,59,19,2,True,CockyBot,15,0,0,False,"['Card.QUEEN_CLUBS', 'Card.JACK_CLUBS']","['Card.KING_HEARTS', 'Card.KING_SPADES', 'Card.JACK_DIAMONDS']",1,20870
+871,CockyBot beat RandBot,CockyBot,RandBot,34,31,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20871
+872,CockyBot beat RandBot,CockyBot,RandBot,69,15,2,False,None,N/A,2,0,False,N/A,N/A,N/A,20872
+873,CockyBot beat RandBot,CockyBot,RandBot,66,8,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20873
+874,RandBot beat CockyBot,RandBot,CockyBot,66,61,1,False,None,N/A,1,1,False,N/A,N/A,N/A,20874
+875,RandBot beat CockyBot,RandBot,CockyBot,43,39,3,True,RandBot,0,1,0,False,N/A,N/A,N/A,20875
+876,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,19,0,0,True,"['Card.ACE_HEARTS', 'Card.TEN_HEARTS']","['Card.KING_SPADES', 'Card.QUEEN_CLUBS', 'Card.TEN_DIAMONDS']",3,20876
+877,CockyBot beat RandBot,CockyBot,RandBot,66,48,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20877
+878,CockyBot beat RandBot,CockyBot,RandBot,72,27,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20878
+879,CockyBot beat RandBot,CockyBot,RandBot,59,14,3,True,RandBot,14,0,0,False,N/A,N/A,N/A,20879
+880,CockyBot beat RandBot,CockyBot,RandBot,75,19,2,True,CockyBot,27,0,1,True,"['Card.TEN_HEARTS', 'Card.ACE_HEARTS']","['Card.KING_DIAMONDS', 'Card.ACE_CLUBS', 'Card.QUEEN_CLUBS']",3,20880
+881,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,21,0,0,True,"['Card.QUEEN_SPADES', 'Card.TEN_SPADES']","['Card.ACE_CLUBS', 'Card.TEN_HEARTS', 'Card.QUEEN_DIAMONDS']",4,20881
+882,CockyBot beat RandBot,CockyBot,RandBot,75,0,3,True,CockyBot,33,1,0,True,"['Card.QUEEN_HEARTS', 'Card.TEN_HEARTS']","['Card.QUEEN_SPADES', 'Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']",3,20882
+883,CockyBot beat RandBot,CockyBot,RandBot,68,39,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20883
+884,CockyBot beat RandBot,CockyBot,RandBot,67,21,3,True,CockyBot,28,0,0,True,"['Card.TEN_HEARTS', 'Card.JACK_HEARTS']","['Card.TEN_SPADES', 'Card.ACE_DIAMONDS', 'Card.KING_SPADES']",3,20884
+885,CockyBot beat RandBot,CockyBot,RandBot,51,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20885
+886,CockyBot beat RandBot,CockyBot,RandBot,73,14,3,True,CockyBot,26,2,1,True,"['Card.ACE_CLUBS', 'Card.QUEEN_CLUBS', 'Card.KING_CLUBS']","['Card.QUEEN_SPADES', 'Card.ACE_SPADES']",1,20886
+887,CockyBot beat RandBot,CockyBot,RandBot,67,4,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20887
+888,RandBot beat CockyBot,RandBot,CockyBot,66,61,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20888
+889,CockyBot beat RandBot,CockyBot,RandBot,75,18,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20889
+890,RandBot beat CockyBot,RandBot,CockyBot,68,25,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20890
+891,RandBot beat CockyBot,RandBot,CockyBot,57,63,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20891
+892,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,47,1,1,True,"['Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']","['Card.KING_DIAMONDS', 'Card.ACE_HEARTS', 'Card.JACK_DIAMONDS']",2,20892
+893,RandBot beat CockyBot,RandBot,CockyBot,72,55,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20893
+894,CockyBot beat RandBot,CockyBot,RandBot,71,0,3,True,CockyBot,14,0,1,True,"['Card.TEN_SPADES', 'Card.ACE_SPADES']","['Card.TEN_HEARTS', 'Card.ACE_DIAMONDS', 'Card.JACK_CLUBS']",3,20894
+895,RandBot beat CockyBot,RandBot,CockyBot,66,54,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20895
+896,CockyBot beat RandBot,CockyBot,RandBot,74,14,2,True,CockyBot,21,0,0,True,"['Card.TEN_CLUBS', 'Card.ACE_CLUBS']","['Card.ACE_DIAMONDS', 'Card.TEN_SPADES', 'Card.KING_SPADES']",4,20896
+897,CockyBot beat RandBot,CockyBot,RandBot,81,20,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20897
+898,RandBot beat CockyBot,RandBot,CockyBot,53,21,3,True,RandBot,13,0,0,False,N/A,N/A,N/A,20898
+899,CockyBot beat RandBot,CockyBot,RandBot,85,26,2,True,RandBot,21,1,0,False,N/A,N/A,N/A,20899
+900,CockyBot beat RandBot,CockyBot,RandBot,67,12,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20900
+901,CockyBot beat RandBot,CockyBot,RandBot,70,12,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20901
+902,CockyBot beat RandBot,CockyBot,RandBot,72,21,3,True,CockyBot,54,1,1,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.QUEEN_HEARTS', 'Card.QUEEN_DIAMONDS', 'Card.TEN_HEARTS']",2,20902
+903,CockyBot beat RandBot,CockyBot,RandBot,69,5,2,True,RandBot,5,0,0,False,N/A,N/A,N/A,20903
+904,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,17,0,1,True,"['Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.ACE_HEARTS', 'Card.QUEEN_SPADES']",3,20904
+905,CockyBot beat RandBot,CockyBot,RandBot,67,11,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20905
+906,CockyBot beat RandBot,CockyBot,RandBot,65,55,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20906
+907,CockyBot beat RandBot,CockyBot,RandBot,67,12,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20907
+908,CockyBot beat RandBot,CockyBot,RandBot,67,13,3,True,CockyBot,20,0,1,True,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.ACE_SPADES', 'Card.TEN_SPADES', 'Card.KING_DIAMONDS']",4,20908
+909,RandBot beat CockyBot,RandBot,CockyBot,45,13,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20909
+910,RandBot beat CockyBot,RandBot,CockyBot,71,47,1,True,RandBot,17,2,0,False,N/A,N/A,N/A,20910
+911,CockyBot beat RandBot,CockyBot,RandBot,7,36,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20911
+912,CockyBot beat RandBot,CockyBot,RandBot,71,0,3,True,CockyBot,21,0,0,True,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.ACE_SPADES', 'Card.QUEEN_SPADES']",4,20912
+913,CockyBot beat RandBot,CockyBot,RandBot,79,8,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20913
+914,CockyBot beat RandBot,CockyBot,RandBot,76,29,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20914
+915,CockyBot beat RandBot,CockyBot,RandBot,82,20,2,True,CockyBot,21,1,0,True,"['Card.KING_CLUBS', 'Card.QUEEN_CLUBS']","['Card.QUEEN_DIAMONDS', 'Card.ACE_SPADES', 'Card.KING_DIAMONDS']",3,20915
+916,RandBot beat CockyBot,RandBot,CockyBot,27,53,3,True,CockyBot,12,0,0,False,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.TEN_SPADES', 'Card.ACE_HEARTS', 'Card.JACK_CLUBS']",3,20916
+917,RandBot beat CockyBot,RandBot,CockyBot,62,58,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20917
+918,CockyBot beat RandBot,CockyBot,RandBot,84,0,3,True,CockyBot,28,1,1,True,"['Card.ACE_SPADES', 'Card.KING_SPADES']","['Card.QUEEN_DIAMONDS', 'Card.QUEEN_HEARTS', 'Card.ACE_CLUBS']",3,20918
+919,CockyBot beat RandBot,CockyBot,RandBot,77,0,3,True,CockyBot,51,1,1,True,"['Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.KING_SPADES', 'Card.JACK_CLUBS', 'Card.QUEEN_HEARTS']",2,20919
+920,RandBot beat CockyBot,RandBot,CockyBot,73,47,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20920
+921,RandBot beat CockyBot,RandBot,CockyBot,63,52,2,True,RandBot,14,1,0,False,N/A,N/A,N/A,20921
+922,CockyBot beat RandBot,CockyBot,RandBot,67,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20922
+923,CockyBot beat RandBot,CockyBot,RandBot,52,14,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20923
+924,CockyBot beat RandBot,CockyBot,RandBot,80,13,2,True,CockyBot,13,1,1,True,"['Card.QUEEN_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']",2,20924
+925,CockyBot beat RandBot,CockyBot,RandBot,69,5,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20925
+926,CockyBot beat RandBot,CockyBot,RandBot,76,29,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20926
+927,RandBot beat CockyBot,RandBot,CockyBot,72,35,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20927
+928,CockyBot beat RandBot,CockyBot,RandBot,43,20,3,True,CockyBot,12,0,0,True,"['Card.QUEEN_CLUBS', 'Card.TEN_CLUBS']","['Card.QUEEN_HEARTS', 'Card.QUEEN_SPADES', 'Card.JACK_DIAMONDS']",3,20928
+929,RandBot beat CockyBot,RandBot,CockyBot,41,45,2,True,RandBot,5,0,1,False,N/A,N/A,N/A,20929
+930,RandBot beat CockyBot,RandBot,CockyBot,77,43,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20930
+931,CockyBot beat RandBot,CockyBot,RandBot,77,0,3,True,CockyBot,63,1,0,True,"['Card.QUEEN_SPADES', 'Card.ACE_SPADES']","['Card.QUEEN_HEARTS', 'Card.QUEEN_DIAMONDS', 'Card.ACE_HEARTS']",1,20931
+932,CockyBot beat RandBot,CockyBot,RandBot,73,19,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20932
+933,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,33,0,0,True,"['Card.KING_DIAMONDS', 'Card.ACE_DIAMONDS']","['Card.ACE_SPADES', 'Card.TEN_SPADES', 'Card.ACE_CLUBS']",3,20933
+934,RandBot beat CockyBot,RandBot,CockyBot,43,41,2,True,CockyBot,14,0,0,False,"['Card.TEN_SPADES', 'Card.KING_SPADES']","['Card.TEN_HEARTS', 'Card.JACK_CLUBS', 'Card.JACK_DIAMONDS']",2,20934
+935,CockyBot beat RandBot,CockyBot,RandBot,67,5,2,False,None,N/A,0,1,False,N/A,N/A,N/A,20935
+936,CockyBot beat RandBot,CockyBot,RandBot,74,14,2,True,CockyBot,33,0,1,True,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.KING_CLUBS']",3,20936
+937,RandBot beat CockyBot,RandBot,CockyBot,75,45,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20937
+938,RandBot beat CockyBot,RandBot,CockyBot,35,54,3,True,CockyBot,13,0,0,False,"['Card.KING_SPADES', 'Card.TEN_SPADES']","['Card.TEN_HEARTS', 'Card.TEN_DIAMONDS', 'Card.KING_HEARTS']",3,20938
+939,CockyBot beat RandBot,CockyBot,RandBot,66,5,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20939
+940,CockyBot beat RandBot,CockyBot,RandBot,79,0,3,True,CockyBot,58,1,1,True,"['Card.QUEEN_SPADES', 'Card.ACE_SPADES']","['Card.KING_HEARTS', 'Card.TEN_DIAMONDS', 'Card.ACE_HEARTS']",1,20940
+941,RandBot beat CockyBot,RandBot,CockyBot,69,0,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20941
+942,CockyBot beat RandBot,CockyBot,RandBot,67,0,3,True,CockyBot,13,0,1,True,"['Card.TEN_SPADES', 'Card.ACE_SPADES', 'Card.KING_SPADES']","['Card.TEN_HEARTS', 'Card.KING_CLUBS']",4,20942
+943,CockyBot beat RandBot,CockyBot,RandBot,72,5,2,True,RandBot,5,0,0,False,N/A,N/A,N/A,20943
+944,RandBot beat CockyBot,RandBot,CockyBot,55,42,2,True,CockyBot,21,0,0,False,"['Card.ACE_HEARTS', 'Card.KING_HEARTS']","['Card.KING_SPADES', 'Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']",2,20944
+945,RandBot beat CockyBot,RandBot,CockyBot,66,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20945
+946,CockyBot beat RandBot,CockyBot,RandBot,68,0,3,True,CockyBot,15,0,1,True,"['Card.ACE_HEARTS', 'Card.TEN_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_DIAMONDS', 'Card.ACE_DIAMONDS']",4,20946
+947,CockyBot beat RandBot,CockyBot,RandBot,49,26,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20947
+948,RandBot beat CockyBot,RandBot,CockyBot,65,55,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20948
+949,CockyBot beat RandBot,CockyBot,RandBot,67,25,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20949
+950,RandBot beat CockyBot,RandBot,CockyBot,67,53,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20950
+951,CockyBot beat RandBot,CockyBot,RandBot,68,12,2,True,CockyBot,25,0,0,True,"['Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']","['Card.KING_DIAMONDS', 'Card.ACE_HEARTS', 'Card.ACE_SPADES']",3,20951
+952,CockyBot beat RandBot,CockyBot,RandBot,68,12,2,True,CockyBot,18,0,0,True,"['Card.ACE_HEARTS', 'Card.KING_HEARTS']","['Card.ACE_CLUBS', 'Card.QUEEN_DIAMONDS', 'Card.KING_CLUBS']",4,20952
+953,RandBot beat CockyBot,RandBot,CockyBot,74,32,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20953
+954,CockyBot beat RandBot,CockyBot,RandBot,78,8,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20954
+955,CockyBot beat RandBot,CockyBot,RandBot,73,12,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20955
+956,CockyBot beat RandBot,CockyBot,RandBot,71,7,2,True,CockyBot,50,1,1,True,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.TEN_HEARTS', 'Card.QUEEN_CLUBS', 'Card.ACE_CLUBS']",1,20956
+957,CockyBot beat RandBot,CockyBot,RandBot,73,47,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20957
+958,RandBot beat CockyBot,RandBot,CockyBot,20,61,3,True,CockyBot,13,0,0,False,"['Card.QUEEN_SPADES', 'Card.ACE_SPADES']","['Card.QUEEN_CLUBS', 'Card.QUEEN_HEARTS', 'Card.TEN_DIAMONDS']",3,20958
+959,CockyBot beat RandBot,CockyBot,RandBot,81,6,2,True,CockyBot,27,1,0,True,"['Card.QUEEN_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.ACE_HEARTS', 'Card.ACE_CLUBS', 'Card.QUEEN_HEARTS']",1,20959
+960,CockyBot beat RandBot,CockyBot,RandBot,67,28,2,False,None,N/A,1,1,False,N/A,N/A,N/A,20960
+961,CockyBot beat RandBot,CockyBot,RandBot,74,6,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20961
+962,RandBot beat CockyBot,RandBot,CockyBot,71,44,3,True,CockyBot,44,1,1,False,"['Card.TEN_CLUBS', 'Card.QUEEN_CLUBS']","['Card.KING_SPADES', 'Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS']",0,20962
+963,CockyBot beat RandBot,CockyBot,RandBot,54,35,3,True,CockyBot,13,0,0,True,"['Card.JACK_DIAMONDS', 'Card.TEN_DIAMONDS']","['Card.KING_CLUBS', 'Card.TEN_CLUBS', 'Card.KING_HEARTS']",3,20963
+964,CockyBot beat RandBot,CockyBot,RandBot,72,0,3,True,CockyBot,10,0,1,True,"['Card.ACE_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS', 'Card.TEN_CLUBS']",4,20964
+965,RandBot beat CockyBot,RandBot,CockyBot,20,53,3,True,CockyBot,12,0,0,False,"['Card.ACE_CLUBS', 'Card.QUEEN_CLUBS']","['Card.JACK_HEARTS', 'Card.TEN_SPADES', 'Card.KING_DIAMONDS']",3,20965
+966,CockyBot beat RandBot,CockyBot,RandBot,69,30,2,True,CockyBot,14,0,0,True,"['Card.TEN_HEARTS', 'Card.KING_HEARTS']","['Card.ACE_CLUBS', 'Card.JACK_CLUBS', 'Card.QUEEN_CLUBS']",4,20966
+967,CockyBot beat RandBot,CockyBot,RandBot,68,52,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20967
+968,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,26,0,1,True,"['Card.TEN_HEARTS', 'Card.ACE_HEARTS']","['Card.KING_DIAMONDS', 'Card.TEN_CLUBS', 'Card.TEN_DIAMONDS']",3,20968
+969,CockyBot beat RandBot,CockyBot,RandBot,70,0,3,True,CockyBot,31,0,0,True,"['Card.ACE_SPADES', 'Card.JACK_SPADES']","['Card.KING_CLUBS', 'Card.TEN_CLUBS', 'Card.JACK_HEARTS']",3,20969
+970,RandBot beat CockyBot,RandBot,CockyBot,76,38,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20970
+971,RandBot beat CockyBot,RandBot,CockyBot,45,48,2,True,RandBot,18,0,0,False,N/A,N/A,N/A,20971
+972,RandBot beat CockyBot,RandBot,CockyBot,27,46,3,True,CockyBot,13,0,1,False,"['Card.KING_HEARTS', 'Card.TEN_HEARTS']","['Card.QUEEN_SPADES', 'Card.JACK_CLUBS', 'Card.ACE_CLUBS']",3,20972
+973,CockyBot beat RandBot,CockyBot,RandBot,66,19,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20973
+974,CockyBot beat RandBot,CockyBot,RandBot,69,0,3,True,CockyBot,35,1,0,True,"['Card.ACE_SPADES', 'Card.TEN_SPADES']","['Card.KING_CLUBS', 'Card.QUEEN_HEARTS', 'Card.JACK_CLUBS']",2,20974
+975,CockyBot beat RandBot,CockyBot,RandBot,67,13,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20975
+976,RandBot beat CockyBot,RandBot,CockyBot,55,27,3,True,RandBot,5,0,0,False,N/A,N/A,N/A,20976
+977,RandBot beat CockyBot,RandBot,CockyBot,69,51,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20977
+978,RandBot beat CockyBot,RandBot,CockyBot,31,54,2,True,CockyBot,13,0,1,False,"['Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS']","['Card.QUEEN_SPADES', 'Card.JACK_HEARTS']",3,20978
+979,CockyBot beat RandBot,CockyBot,RandBot,49,33,3,True,RandBot,4,0,0,False,N/A,N/A,N/A,20979
+980,CockyBot beat RandBot,CockyBot,RandBot,68,5,2,True,CockyBot,14,0,0,True,"['Card.KING_SPADES', 'Card.ACE_SPADES']","['Card.TEN_DIAMONDS', 'Card.KING_CLUBS', 'Card.QUEEN_DIAMONDS']",5,20980
+981,CockyBot beat RandBot,CockyBot,RandBot,68,11,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20981
+982,CockyBot beat RandBot,CockyBot,RandBot,66,0,3,True,CockyBot,13,0,0,True,"['Card.ACE_DIAMONDS', 'Card.KING_DIAMONDS']","['Card.KING_CLUBS', 'Card.TEN_CLUBS', 'Card.ACE_SPADES']",4,20982
+983,CockyBot beat RandBot,CockyBot,RandBot,66,27,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20983
+984,CockyBot beat RandBot,CockyBot,RandBot,74,14,2,True,CockyBot,19,0,0,True,"['Card.QUEEN_HEARTS', 'Card.JACK_HEARTS']","['Card.ACE_CLUBS', 'Card.ACE_DIAMONDS', 'Card.JACK_CLUBS']",4,20984
+985,CockyBot beat RandBot,CockyBot,RandBot,66,46,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20985
+986,CockyBot beat RandBot,CockyBot,RandBot,73,5,2,False,None,N/A,1,0,False,N/A,N/A,N/A,20986
+987,CockyBot beat RandBot,CockyBot,RandBot,74,0,3,True,CockyBot,52,1,0,True,"['Card.ACE_DIAMONDS', 'Card.JACK_DIAMONDS']","['Card.KING_HEARTS', 'Card.KING_CLUBS', 'Card.ACE_SPADES']",1,20987
+988,CockyBot beat RandBot,CockyBot,RandBot,74,13,2,True,CockyBot,25,0,1,True,"['Card.ACE_CLUBS', 'Card.KING_CLUBS']","['Card.ACE_DIAMONDS', 'Card.ACE_SPADES', 'Card.ACE_HEARTS']",4,20988
+989,CockyBot beat RandBot,CockyBot,RandBot,72,23,2,False,None,N/A,0,0,False,N/A,N/A,N/A,20989
+990,RandBot beat CockyBot,RandBot,CockyBot,67,40,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20990
+991,CockyBot beat RandBot,CockyBot,RandBot,30,14,3,True,RandBot,0,0,0,False,N/A,N/A,N/A,20991
+992,CockyBot beat RandBot,CockyBot,RandBot,75,14,2,True,CockyBot,41,1,0,True,"['Card.KING_CLUBS', 'Card.JACK_CLUBS']","['Card.QUEEN_DIAMONDS', 'Card.ACE_DIAMONDS', 'Card.TEN_DIAMONDS']",3,20992
+993,CockyBot beat RandBot,CockyBot,RandBot,80,20,2,True,RandBot,7,0,0,False,N/A,N/A,N/A,20993
+994,CockyBot beat RandBot,CockyBot,RandBot,66,27,2,True,CockyBot,25,0,1,True,"['Card.ACE_HEARTS', 'Card.QUEEN_HEARTS']","['Card.TEN_DIAMONDS', 'Card.QUEEN_DIAMONDS', 'Card.QUEEN_SPADES']",3,20994
+995,CockyBot beat RandBot,CockyBot,RandBot,27,41,3,True,RandBot,6,0,0,False,N/A,N/A,N/A,20995
+996,RandBot beat CockyBot,RandBot,CockyBot,78,41,1,False,None,N/A,1,0,False,N/A,N/A,N/A,20996
+997,CockyBot beat RandBot,CockyBot,RandBot,47,6,3,True,RandBot,6,0,0,False,N/A,N/A,N/A,20997
+998,RandBot beat CockyBot,RandBot,CockyBot,60,41,2,True,RandBot,5,1,0,False,N/A,N/A,N/A,20998
+999,RandBot beat CockyBot,RandBot,CockyBot,69,37,1,False,None,N/A,0,0,False,N/A,N/A,N/A,20999

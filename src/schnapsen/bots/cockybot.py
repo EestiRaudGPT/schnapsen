@@ -6,7 +6,7 @@ import random
 
 class CockyBot(Bot):
     """
-    CockyBot plays conservatively until it reaches 40 points and holds 2 trump cards.
+    CockyBot plays conservatively until it reaches the trigger conditions.
     Once these conditions are met, it switches to cocky mode.
     """
 
@@ -22,7 +22,7 @@ class CockyBot(Bot):
         """
         Get the move for the Bot.
 
-        1. Check if we should become cocky (40 pts, 2 trumps).
+        1. Check if we should become cocky (trigger conditions).
         2. If conditions are met and talon is open, Close Talon.
         3. If we are cocky (or talon is closed), play aggressively.
         4. Otherwise, play conservatively.
@@ -42,9 +42,7 @@ class CockyBot(Bot):
 
     def _should_become_cocky(self, perspective: PlayerPerspective) -> bool:
         """
-        Check if the cocky conditions are met:
-        - We have at least 40 points (direct + pending).
-        - We have at least 2 trump cards in hand.
+        Check if the trigger conditions are met.
         """
         my_score = perspective.get_my_score()
         total_score = my_score.direct_points #changed so that only closes talon when real points reach 40, not incl pending.
@@ -219,3 +217,26 @@ class CockyBot(Bot):
             Rank.JACK: 2
         }
         return map_points.get(card.rank, 0)
+
+class StrictCockyBot(CockyBot):
+    '''
+    StrictCockyBot plays like CockyBot, except that when it closes the talon, the trumps in its hand must be either an Ace or a Ten.
+    '''
+
+    def _should_become_cocky(self, perspective: PlayerPerspective) -> bool:
+        """
+        Check if the trigger conditions are met.
+        Only counts Aces and Tens as valid trumps for the requirement.
+        """
+        my_score = perspective.get_my_score()
+        total_score = my_score.direct_points 
+        trump_suit = perspective.get_trump_suit()
+        
+        # strict_trumps are only ACE or TEN of the trump suit
+        strict_trumps = [
+            c for c in perspective.get_hand().get_cards() 
+            if c.suit == trump_suit and c.rank in [Rank.ACE, Rank.TEN]
+        ]
+        
+        return total_score >= self.points_requirement and len(strict_trumps) >= self.trumps_requirement
+        
