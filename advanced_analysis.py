@@ -97,4 +97,20 @@ def mcnemar_test(bot_a: str, bot_b: str, file_a: str, file_b: str):
             print(f"Result: The difference is NOT statistically significant (p >= {alpha}).")
 
 
-mcnemar_test("CockyBot (40/2)", "CockyBot (30/3)", "cocky_experiment_results_40points2trumps.csv", "cocky_experiment_results_30points3trumps.csv")
+mcnemar_test("CockyBot (40/2)", "BullyBot", "cocky_experiment_results_40points2trumps.csv", "bully_proper_experiment_results.csv")
+mcnemar_test("CockyBot (40/2)", "RDeepBot", "cocky_experiment_results_40points2trumps.csv", "rdeep_proper_experiment_results.csv")
+
+mcnemar_test("CockyBot (30/3)", "BullyBot", "cocky_experiment_results_30points3trumps.csv", "bully_proper_experiment_results.csv")
+mcnemar_test("CockyBot (30/3)", "RDeepBot", "cocky_experiment_results_30points3trumps.csv", "rdeep_proper_experiment_results.csv")
+
+mcnemar_test("StrictCockyBot (40/2)", "BullyBot", "cocky_experiment_results_40points2stricttrumps.csv", "bully_proper_experiment_results.csv")
+mcnemar_test("StrictCockyBot (40/2)", "RDeepBot", "cocky_experiment_results_40points2stricttrumps.csv", "rdeep_proper_experiment_results.csv")
+
+mcnemar_test("CockyBot (100/2)", "BullyBot", "cocky_experiment_results_100points2trumps.csv", "bully_proper_experiment_results.csv")
+mcnemar_test("CockyBot (100/2)", "RDeepBot", "cocky_experiment_results_100points2trumps.csv", "rdeep_proper_experiment_results.csv")
+
+mcnemar_test("CockyBot (10/1)", "BullyBot", "cocky_experiment_results_10points1trumps.csv", "bully_proper_experiment_results.csv")
+mcnemar_test("CockyBot (10/1)", "RDeepBot", "cocky_experiment_results_10points1trumps.csv", "rdeep_proper_experiment_results.csv")
+
+mcnemar_test("CockyBot (10/2)", "BullyBot", "cocky_experiment_results_10points2trumps.csv", "bully_proper_experiment_results.csv")
+mcnemar_test("CockyBot (10/2)", "RDeepBot", "cocky_experiment_results_10points2trumps.csv", "rdeep_proper_experiment_results.csv")
